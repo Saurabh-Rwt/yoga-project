@@ -8,9 +8,6 @@
                 <div class="contact-detail">
                     <h2 class="title">location</h2>
                     <span class="detail">balaknath road, tapovan, Rishikesh, india</span>
-                    <span class="divider"></span>
-                    <span class="detail">unit 1, Cloughabrody business park, thomastown, kilkenny, ireland,
-                        R95C5TK</span>
                 </div>
             </div>
             <div class="contact-holder">
@@ -37,11 +34,13 @@
 
         <div class="footer-wrapper">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <img src="assets/images/logo/logo.png" class="img-fluid footer-logo" alt="">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid necessitatibus mollitia sit inventore cum exercitationem fugit ea veniam ab, molestiae sint rerum incidunt beatae, totam, non natus repudiandae odit vitae.</p>
+                    <div class="footer-content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid necessitatibus mollitia sit inventore cum exercitationem fugit ea veniam ab, molestiae sint rerum incidunt beatae, totam, non natus repudiandae.</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-3">
                     <span class="footer-title">quick links</span>
                     <ul class="footer-list">
                         <li><a href="">home</a></li>
@@ -51,7 +50,7 @@
                         <li><a href="">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-3">
                     <span class="footer-title">yoga courses</span>
                     <ul class="footer-list">
                         <li><a href="">100 hour yoga ttc</a></li>
@@ -59,6 +58,26 @@
                         <li><a href="">7 days yoga ttc</a></li>
                         <li><a href="">10 days yoga ttc</a></li>
                         <li><a href="">14 days yoga ttc</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <span class="footer-title">our reviews</span>
+                    <ul class="review-list">
+                        <li>
+                            <a href="">
+                                <img src="assets/images/icons/google-review.jpg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <img src="assets/images/icons/facebook-review.jpg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <img src="assets/images/icons/tripadvisor-review.jpg" alt="" class="img-fluid">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 /*----Variable-------*/
-$theme_color: #8250a0;
+$theme_color: #6b3b88;
 $theme_color_2: #300b48;
 $white_variant: #f7edf2;
 $gray: #929292;
@@ -14,8 +14,10 @@ $box_shadow:
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 
 body {
-    // font-family: "fontello";
     overflow-x: hidden;
+    font-family: $heading_font;
+    line-height: 1.75em;
+    font-weight: 500;
 }
 
 ul {
@@ -85,9 +87,10 @@ a {
         font-weight: 700;
         font-family: $heading_font;
         text-transform: uppercase;
+        margin: 0;
     }
     .sub-title {
-        font-size: 18px;
+        font-size: 19px;
     }
 }
 
@@ -114,11 +117,9 @@ a {
 p,
 span,
 ul li {
-    font-size: 16px;
+    font-size: 17px;
     color: $dark;
-    font-weight: 400;
     margin-bottom: 16px;
-    line-height: 1.4;
 }
 
 /*------- Header -------*/
@@ -434,10 +435,18 @@ header {
         display: flex;
         justify-content: center;
         border: 1px solid $gray !important;
+        transition: 0.3s ease-in;
         span {
             font-size: 30px;
             margin-bottom: 0;
             line-height: 15px;
+            transition: 0.3s ease-in;
+        }
+        &:hover{
+            background-color: $theme_color!important;
+            span{
+                color: $white;
+            }
         }
     }
 }
@@ -619,16 +628,23 @@ header {
 .student-reviews {
     .review-item {
         box-shadow: $box_shadow;
-        padding: 20px;
+        padding: 20px 35px;
         text-align: center;
         position: relative;
         margin: 10px;
+        border: 1px solid $theme_color;
+        border-radius: 5px;
         .source-icon {
             position: absolute;
             right: 30px;
-            top: 35px;
+            top: 20px;
             opacity: 0.3;
-            width: 60px;
+            width: 80px;
+            object-fit: contain;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.5;
         }
         .author-detail {
             margin-bottom: 20px;
@@ -667,7 +683,7 @@ header {
     justify-content: center;
     .content-holder {
         text-align: center;
-        width: 70%;
+        width: 90%;
         margin: auto;
         .banner-title {
             font-size: 38px;
@@ -722,13 +738,19 @@ header {
         border-radius: 7px;
         overflow: hidden;
     }
+    .primary-btn{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        margin: 20px auto 0;
+    }
 }
 /*------- end -------*/
 
 /*------- faq -------*/
 .faq {
     .faq-wrapper {
-        width: 65%;
+        width: 100%;
         margin: auto;
         .accordion {
             background-color: $white;
@@ -789,8 +811,11 @@ header {
             text-align: center;
             .title {
                 font-size: 18px;
-                font-weight: 500;
+                font-weight: 600;
                 text-transform: capitalize;
+                color: $theme_color;
+                padding-bottom: 20px;
+                border-bottom: 1px solid $gray;
             }
         }
     }
@@ -806,18 +831,27 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-bottom: 45px;
+        gap: 25px;
         .contact-holder {
             display: grid;
             grid-template-columns: 25% 75%;
+            background-color: $white;
+            padding: 20px;
+            border-radius: 5px;
             .icon-wrap {
                 height: 70px;
                 width: 70px;
+                background-color: $theme_color;
                 border: 2px solid $theme_color;
                 border-radius: 50%;
                 padding: 18px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                img{
+                    filter: invert(1) brightness(5.5);
+                }
             }
             .contact-detail {
                 padding-right: 50px;
@@ -827,7 +861,7 @@ footer {
                 }
                 a {
                     display: block;
-                    margin-bottom: 10px;
+                    margin-bottom: 0;
                     text-transform: lowercase !important;
                     transition: ease 0.5s;
                     &:hover {
@@ -839,13 +873,9 @@ footer {
                     font-weight: 400;
                     color: $dark;
                     text-transform: capitalize;
-                }
-                .divider {
-                    height: 1px;
-                    width: 100%;
-                    display: block;
-                    margin: 10px 0;
-                    background-color: $gray;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
@@ -858,6 +888,9 @@ footer {
         .footer-logo{
             width: 50%;
             margin-bottom: 22px;
+        }
+        .footer-content{
+            padding-right: 40px;
         }
 
         .footer-title{
@@ -899,6 +932,17 @@ footer {
                     transition: 0.3s ease-in;
                     &:hover{
                         color: $theme_color;
+                    }
+                }
+            }
+        }
+        .review-list{
+            li{
+                a{
+                    img{
+                        width: 70%;
+                        object-fit: contain;
+                        border: 1px solid $theme_color;
                     }
                 }
             }

@@ -2,6 +2,9 @@
 /*----Variable-------*/
 body {
   overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.75em;
+  font-weight: 500;
 }
 
 ul {
@@ -24,29 +27,29 @@ a {
   padding: 10px 25px;
   border: 1px solid #fff;
   color: #fff;
-  background-color: #8250a0;
+  background-color: #6b3b88;
   text-transform: capitalize;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .primary-btn:hover {
-  color: #8250a0;
+  color: #6b3b88;
   background-color: #fff;
-  border: 1px solid #8250a0;
+  border: 1px solid #6b3b88;
 }
 
 .secondary-btn {
   font-size: 16px;
   display: inline-block;
   padding: 10px 25px;
-  border: 1px solid #8250a0;
-  color: #8250a0;
+  border: 1px solid #6b3b88;
+  color: #6b3b88;
   background-color: #fff;
   text-transform: capitalize;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .secondary-btn:hover {
   color: #fff;
-  background-color: #8250a0;
+  background-color: #6b3b88;
   border: 1px solid #fff;
 }
 
@@ -69,13 +72,14 @@ a {
 }
 .heading-wrap .main-heading {
   font-size: 35px;
-  color: #8250a0;
+  color: #6b3b88;
   font-weight: 700;
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
+  margin: 0;
 }
 .heading-wrap .sub-title {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .sub-heading {
@@ -87,7 +91,7 @@ a {
 .sub-heading .highlight {
   font-size: inherit;
   font-weight: inherit;
-  color: #8250a0;
+  color: #6b3b88;
 }
 
 .space {
@@ -101,11 +105,9 @@ a {
 p,
 span,
 ul li {
-  font-size: 16px;
+  font-size: 17px;
   color: #000;
-  font-weight: 400;
   margin-bottom: 16px;
-  line-height: 1.4;
 }
 
 /*------- Header -------*/
@@ -124,7 +126,7 @@ header .top-header ul li {
   margin-bottom: 0;
 }
 header .top-header ul li a {
-  color: #8250a0;
+  color: #6b3b88;
 }
 header .top-header ul li a i {
   font-size: 18px;
@@ -140,12 +142,12 @@ header .top-header ul.social-contact li {
   align-items: center;
   justify-content: center;
   background-color: #f7edf2;
-  border: 1px solid #8250a0;
+  border: 1px solid #6b3b88;
   border-radius: 50%;
 }
 header nav {
   padding: 10px 0;
-  border-top: 1px solid #8250a0;
+  border-top: 1px solid #6b3b88;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.051);
 }
 header nav .navbar-holder {
@@ -182,11 +184,11 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link::after {
   margin: auto;
   height: 2px;
   width: 0%;
-  background-color: #8250a0;
+  background-color: #6b3b88;
   transition: 0.3s all ease-in-out;
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link:hover {
-  color: #8250a0;
+  color: #6b3b88;
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link:hover::after {
   width: 100%;
@@ -249,7 +251,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 }
 .welcome-section .icon-wrapper .icon-card {
   text-align: center;
-  border-right: 2px dotted #8250a0;
+  border-right: 2px dotted #6b3b88;
   padding: 0 60px;
 }
 .welcome-section .icon-wrapper .icon-card:last-child {
@@ -375,11 +377,19 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   display: flex;
   justify-content: center;
   border: 1px solid #929292 !important;
+  transition: 0.3s ease-in;
 }
 .owl-nav button span {
   font-size: 30px;
   margin-bottom: 0;
   line-height: 15px;
+  transition: 0.3s ease-in;
+}
+.owl-nav button:hover {
+  background-color: #6b3b88 !important;
+}
+.owl-nav button:hover span {
+  color: #fff;
 }
 
 /*------- end -------*/
@@ -424,7 +434,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   left: 0;
   height: 2px;
   width: 50px;
-  background-color: #8250a0;
+  background-color: #6b3b88;
 }
 .benifit-card .content p:last-child {
   margin: 0;
@@ -433,7 +443,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 /*------- end -------*/
 /*------- teacher -------*/
 #yoga-teacher .teacher-item {
-  border: 1px solid #8250a0;
+  border: 1px solid #6b3b88;
   position: relative;
   border-radius: 5px;
 }
@@ -448,7 +458,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 }
 #yoga-teacher .teacher-item .body .title {
   font-size: 22px;
-  color: #8250a0;
+  color: #6b3b88;
   display: block;
   margin: 0;
   text-transform: capitalize;
@@ -478,7 +488,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   text-transform: uppercase;
 }
 .retreat-card .content .text {
-  color: #8250a0;
+  color: #6b3b88;
 }
 .retreat-card .content .button-wrap {
   display: flex;
@@ -554,17 +564,25 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 /*------- student reviews -------*/
 .student-reviews .review-item {
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-  padding: 20px;
+  padding: 20px 35px;
   text-align: center;
   position: relative;
   margin: 10px;
+  border: 1px solid #6b3b88;
+  border-radius: 5px;
 }
 .student-reviews .review-item .source-icon {
   position: absolute;
   right: 30px;
-  top: 35px;
+  top: 20px;
   opacity: 0.3;
-  width: 60px;
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.student-reviews .review-item p {
+  font-size: 14px;
+  line-height: 1.5;
 }
 .student-reviews .review-item .author-detail {
   margin-bottom: 20px;
@@ -599,7 +617,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 }
 .yoga-alliance .content-holder {
   text-align: center;
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 .yoga-alliance .content-holder .banner-title {
@@ -650,23 +668,30 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   border-radius: 7px;
   overflow: hidden;
 }
+.gallery .primary-btn {
+  display: flex;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto 0;
+}
 
 /*------- end -------*/
 /*------- faq -------*/
 .faq .faq-wrapper {
-  width: 65%;
+  width: 100%;
   margin: auto;
 }
 .faq .faq-wrapper .accordion {
   background-color: #fff;
   margin-bottom: 22px;
-  border: 1px solid #8250a0;
+  border: 1px solid #6b3b88;
 }
 .faq .faq-wrapper .accordion .accordion-header {
   font-size: 18px;
   padding: 18px;
   line-height: 1.3;
-  color: #8250a0;
+  color: #6b3b88;
   position: relative;
   cursor: pointer;
 }
@@ -674,7 +699,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   content: "\f107";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: #8250a0;
+  color: #6b3b88;
   float: right;
   transition: ease 0.5s;
 }
@@ -712,8 +737,11 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 }
 .blogs .blog-card .card-body .title {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
+  color: #6b3b88;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #929292;
 }
 
 /*------- end -------*/
@@ -726,20 +754,28 @@ footer .contact-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-bottom: 45px;
+  gap: 25px;
 }
 footer .contact-wrapper .contact-holder {
   display: grid;
   grid-template-columns: 25% 75%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
 }
 footer .contact-wrapper .contact-holder .icon-wrap {
   height: 70px;
   width: 70px;
-  border: 2px solid #8250a0;
+  background-color: #6b3b88;
+  border: 2px solid #6b3b88;
   border-radius: 50%;
   padding: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+footer .contact-wrapper .contact-holder .icon-wrap img {
+  filter: invert(1) brightness(5.5);
 }
 footer .contact-wrapper .contact-holder .contact-detail {
   padding-right: 50px;
@@ -750,12 +786,12 @@ footer .contact-wrapper .contact-holder .contact-detail .title {
 }
 footer .contact-wrapper .contact-holder .contact-detail a {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   text-transform: lowercase !important;
   transition: ease 0.5s;
 }
 footer .contact-wrapper .contact-holder .contact-detail a:hover {
-  color: #8250a0;
+  color: #6b3b88;
 }
 footer .contact-wrapper .contact-holder .contact-detail .detail {
   font-size: 16px;
@@ -763,27 +799,26 @@ footer .contact-wrapper .contact-holder .contact-detail .detail {
   color: #000;
   text-transform: capitalize;
 }
-footer .contact-wrapper .contact-holder .contact-detail .divider {
-  height: 1px;
-  width: 100%;
-  display: block;
-  margin: 10px 0;
-  background-color: #929292;
+footer .contact-wrapper .contact-holder .contact-detail .detail:last-child {
+  margin-bottom: 0;
 }
 footer .footer-wrapper {
   padding: 40px 0;
-  border-bottom: 1px solid #8250a0;
-  border-top: 1px solid #8250a0;
+  border-bottom: 1px solid #6b3b88;
+  border-top: 1px solid #6b3b88;
 }
 footer .footer-wrapper .footer-logo {
   width: 50%;
   margin-bottom: 22px;
 }
+footer .footer-wrapper .footer-content {
+  padding-right: 40px;
+}
 footer .footer-wrapper .footer-title {
   font-size: 22px;
   font-weight: 500;
   text-transform: capitalize;
-  color: #8250a0;
+  color: #6b3b88;
   margin-bottom: 22px;
   display: block;
   position: relative;
@@ -794,7 +829,7 @@ footer .footer-wrapper .footer-title::before {
   bottom: -5px;
   height: 1px;
   width: 40px;
-  background-color: #8250a0;
+  background-color: #6b3b88;
 }
 footer .footer-wrapper .footer-list li {
   display: flex;
@@ -807,7 +842,7 @@ footer .footer-wrapper .footer-list li::before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   padding-right: 10px;
-  color: #8250a0;
+  color: #6b3b88;
 }
 footer .footer-wrapper .footer-list li a {
   font-size: 16px;
@@ -817,7 +852,13 @@ footer .footer-wrapper .footer-list li a {
   transition: 0.3s ease-in;
 }
 footer .footer-wrapper .footer-list li a:hover {
-  color: #8250a0;
+  color: #6b3b88;
+}
+footer .footer-wrapper .review-list li a img {
+  width: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 1px solid #6b3b88;
 }
 footer .copyright-wrapper {
   padding: 10px 0;
@@ -831,7 +872,7 @@ footer .copyright-wrapper .copyright-text {
   margin: 0;
 }
 footer .copyright-wrapper .copyright-text a {
-  color: #8250a0;
+  color: #6b3b88;
   font-weight: 600;
 }
 
