@@ -1,0 +1,838 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/*----Variable-------*/
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-btn {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #8250a0;
+  text-transform: capitalize;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.primary-btn:hover {
+  color: #8250a0;
+  background-color: #fff;
+  border: 1px solid #8250a0;
+}
+
+.secondary-btn {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid #8250a0;
+  color: #8250a0;
+  background-color: #fff;
+  text-transform: capitalize;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.secondary-btn:hover {
+  color: #fff;
+  background-color: #8250a0;
+  border: 1px solid #fff;
+}
+
+.heading-wrap {
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 75px;
+  position: relative;
+}
+.heading-wrap::after {
+  content: "";
+  position: absolute;
+  background: url(../images/heading-divider-line.png) no-repeat center;
+  bottom: -30px;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-size: contain;
+}
+.heading-wrap .main-heading {
+  font-size: 35px;
+  color: #8250a0;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+}
+.heading-wrap .sub-title {
+  font-size: 18px;
+}
+
+.sub-heading {
+  font-size: 35px;
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 28px;
+}
+.sub-heading .highlight {
+  font-size: inherit;
+  font-weight: inherit;
+  color: #8250a0;
+}
+
+.space {
+  padding: 80px 0;
+}
+
+.bg {
+  background-color: #f1f1f1;
+}
+
+p,
+span,
+ul li {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+/*------- Header -------*/
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+header .top-header ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .top-header ul li {
+  margin-bottom: 0;
+}
+header .top-header ul li a {
+  color: #8250a0;
+}
+header .top-header ul li a i {
+  font-size: 18px;
+  color: inherit;
+}
+header .top-header ul.contact-list li a i {
+  padding-right: 5px;
+}
+header .top-header ul.social-contact li {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7edf2;
+  border: 1px solid #8250a0;
+  border-radius: 50%;
+}
+header nav {
+  padding: 10px 0;
+  border-top: 1px solid #8250a0;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.051);
+}
+header nav .navbar-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .navbar-holder .logo img {
+  width: 140px;
+}
+header nav .navbar-holder .navbarnav .navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item {
+  position: relative;
+  margin-bottom: 0;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #300b48;
+  text-transform: capitalize;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 2px;
+  width: 0%;
+  background-color: #8250a0;
+  transition: 0.3s all ease-in-out;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link:hover {
+  color: #8250a0;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu {
+  position: absolute;
+  z-index: 99;
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.443), 0 0 1.5625rem 0 rgba(0, 0, 0, 0.1);
+  border: 0.25rem solid transparent;
+  left: -10%;
+  margin-top: 20px;
+  margin: 20px 0 0;
+  transform: scale(0.85);
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 650ms ease;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu .dropdown-item {
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.425);
+  margin: 0;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu .dropdown-item:hover {
+  background-color: rgba(201, 149, 232, 0.1882352941);
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link {
+  position: relative;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link::before {
+  content: "\f107";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  float: right;
+  padding-left: 10px;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+/*------- end -------*/
+/*------- Hero slider -------*/
+.hero-section .owl-carousel .owl-nav,
+.hero-section .owl-carousel .owl-dots {
+  display: none;
+}
+
+/*------- end -------*/
+/*------- welcome section -------*/
+.welcome-section .icon-wrapper {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.welcome-section .icon-wrapper .icon-card {
+  text-align: center;
+  border-right: 2px dotted #8250a0;
+  padding: 0 60px;
+}
+.welcome-section .icon-wrapper .icon-card:last-child {
+  border-right: 0;
+}
+.welcome-section .icon-wrapper .icon-card img {
+  width: 80px;
+  margin-bottom: 18px;
+}
+.welcome-section .icon-wrapper .icon-card .title {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+}
+
+/*------- end -------*/
+/*------- program section -------*/
+#program-scroller .program-card {
+  position: relative;
+  overflow: hidden;
+}
+#program-scroller .program-card::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+#program-scroller .program-card:hover img {
+  scale: 1.2;
+}
+#program-scroller .program-card:hover .description {
+  transform: translateY(0%);
+}
+#program-scroller .program-card:hover .description .head::before {
+  width: 100%;
+}
+#program-scroller .program-card img {
+  transition: all 350ms ease-in-out;
+}
+#program-scroller .program-card .course-type {
+  background-color: #929292;
+  padding: 7px 22px;
+  border: 1px solid #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 9;
+  right: 20px;
+  top: 20px;
+}
+#program-scroller .program-card .course-type span {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#program-scroller .program-card .description {
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  transform: translateY(35%);
+  transition: all 350ms ease-in-out;
+}
+#program-scroller .program-card .description .head {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+#program-scroller .program-card .description .head::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 25%;
+  background-color: #929292;
+  transition: all 350ms ease-in-out;
+}
+#program-scroller .program-card .description .head .title {
+  font-size: 35px;
+  color: #fff;
+  margin: 0;
+  text-transform: capitalize;
+}
+#program-scroller .program-card .description .head .sub-title {
+  font-size: 22px;
+  color: #fff;
+  text-transform: capitalize;
+}
+#program-scroller .program-card .description .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+#program-scroller .program-card .description .body span {
+  color: #fff;
+  display: block;
+  margin: 0;
+}
+#program-scroller .program-card .description .body .primary-btn {
+  padding: 8px 22px;
+}
+#program-scroller .owl-dots {
+  display: none;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.owl-nav button {
+  height: 25px;
+  width: 40px;
+  background-color: #fff !important;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #929292 !important;
+}
+.owl-nav button span {
+  font-size: 30px;
+  margin-bottom: 0;
+  line-height: 15px;
+}
+
+/*------- end -------*/
+/*------- Benifit -------*/
+.benifit-card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+.benifit-card .img-holder {
+  position: relative;
+  overflow: hidden;
+}
+.benifit-card .img-holder::after {
+  content: "";
+  position: absolute;
+  right: -45px;
+  top: 0;
+  height: calc(100% + 20px);
+  width: 40%;
+  z-index: 9;
+  background: #fff;
+  transform: rotate(7deg);
+}
+.benifit-card .img-holder img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+.benifit-card .content .title {
+  font-size: 22px;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 22px;
+}
+.benifit-card .content .title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 2px;
+  width: 50px;
+  background-color: #8250a0;
+}
+.benifit-card .content p:last-child {
+  margin: 0;
+}
+
+/*------- end -------*/
+/*------- teacher -------*/
+#yoga-teacher .teacher-item {
+  border: 1px solid #8250a0;
+  position: relative;
+  border-radius: 5px;
+}
+#yoga-teacher .teacher-item .body {
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  z-index: 9;
+  background: rgba(255, 255, 255, 0.6784313725);
+  bottom: 0;
+  width: 100%;
+}
+#yoga-teacher .teacher-item .body .title {
+  font-size: 22px;
+  color: #8250a0;
+  display: block;
+  margin: 0;
+  text-transform: capitalize;
+}
+#yoga-teacher .teacher-item .body .course {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+#yoga-teacher .owl-nav {
+  display: flex !important;
+}
+
+/*------- end -------*/
+/*------- Retreat programs  -------*/
+.retreat-card {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.retreat-card:last-child {
+  margin-bottom: 0;
+}
+.retreat-card .content {
+  padding: 35px 15% 35px 35px;
+}
+.retreat-card .content .sub-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.retreat-card .content .text {
+  color: #8250a0;
+}
+.retreat-card .content .button-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+.retreat-card .img-wrap {
+  position: relative;
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.retreat-card .img-wrap img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.retreat-card .img-wrap::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+.retreat-card .img-wrap .detail-wrap {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 0 10px;
+  width: 70%;
+}
+.retreat-card .img-wrap .detail-wrap .title {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.retreat-card .img-wrap .detail-wrap ul {
+  border-bottom: 2px solid #929292;
+  padding-bottom: 20px;
+}
+.retreat-card .img-wrap .detail-wrap ul li {
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.retreat-card .img-wrap .detail-wrap ul li::before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 7px;
+  width: 7px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.retreat-card .img-wrap .detail-wrap .price-holder {
+  padding-top: 20px;
+}
+.retreat-card .img-wrap .detail-wrap .price-holder span {
+  color: #fff;
+  text-transform: capitalize;
+}
+.retreat-card .img-wrap .detail-wrap .price-holder span .price {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+/*------- end -------*/
+/*------- student reviews -------*/
+.student-reviews .review-item {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+.student-reviews .review-item .source-icon {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  opacity: 0.3;
+  width: 60px;
+}
+.student-reviews .review-item .author-detail {
+  margin-bottom: 20px;
+}
+.student-reviews .review-item .author-detail .user-img {
+  width: 50px;
+  margin: 0 auto 10px;
+}
+.student-reviews .review-item .author-detail .name {
+  display: block;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.student-reviews .review-item .author-detail .rating i {
+  color: #dbd220;
+}
+.student-reviews .owl-nav {
+  display: flex !important;
+}
+
+/*------- end -------*/
+.yoga-alliance {
+  background: url(../images/yoga-alliance/bg.webp) no-repeat center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yoga-alliance .content-holder {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.yoga-alliance .content-holder .banner-title {
+  font-size: 38px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+}
+.yoga-alliance .content-holder .text {
+  color: #fff;
+  margin: 0;
+}
+
+/*------- join -------*/
+.join-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/gallery/12.jpg) no-repeat center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-banner .title-holder {
+  color: #fff;
+  text-align: center;
+}
+.join-banner .title-holder .banner-title {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 10px 0 22px;
+  text-transform: capitalize;
+}
+.join-banner .title-holder .sub-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  display: block;
+  text-transform: capitalize;
+}
+
+/*------- end -------*/
+/*------- gallery -------*/
+.gallery .gallery-card {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+/*------- end -------*/
+/*------- faq -------*/
+.faq .faq-wrapper {
+  width: 65%;
+  margin: auto;
+}
+.faq .faq-wrapper .accordion {
+  background-color: #fff;
+  margin-bottom: 22px;
+  border: 1px solid #8250a0;
+}
+.faq .faq-wrapper .accordion .accordion-header {
+  font-size: 18px;
+  padding: 18px;
+  line-height: 1.3;
+  color: #8250a0;
+  position: relative;
+  cursor: pointer;
+}
+.faq .faq-wrapper .accordion .accordion-header::after {
+  content: "\f107";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #8250a0;
+  float: right;
+  transition: ease 0.5s;
+}
+.faq .faq-wrapper .accordion .accordion-body {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height ease 0.5s;
+}
+.faq .faq-wrapper .accordion .accordion-body p {
+  padding: 20px 18px;
+  margin: 0;
+}
+.faq .faq-wrapper .accordion.active .accordion-header {
+  background-color: #f1f1f1;
+}
+.faq .faq-wrapper .accordion.active .accordion-header::after {
+  transform: rotate(180deg);
+}
+
+/*------- end -------*/
+/*------- blogs -------*/
+.blogs .blog-card {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.blogs .blog-card img {
+  height: 180px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blogs .blog-card .card-body {
+  padding: 20px 10px;
+  text-align: center;
+}
+.blogs .blog-card .card-body .title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/*------- end -------*/
+/*------- footer -------*/
+footer {
+  padding: 90px 0 0;
+  background-color: rgba(223, 170, 255, 0.2);
+}
+footer .contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 45px;
+}
+footer .contact-wrapper .contact-holder {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+footer .contact-wrapper .contact-holder .icon-wrap {
+  height: 70px;
+  width: 70px;
+  border: 2px solid #8250a0;
+  border-radius: 50%;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .contact-wrapper .contact-holder .contact-detail {
+  padding-right: 50px;
+}
+footer .contact-wrapper .contact-holder .contact-detail .title {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+footer .contact-wrapper .contact-holder .contact-detail a {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: lowercase !important;
+  transition: ease 0.5s;
+}
+footer .contact-wrapper .contact-holder .contact-detail a:hover {
+  color: #8250a0;
+}
+footer .contact-wrapper .contact-holder .contact-detail .detail {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+}
+footer .contact-wrapper .contact-holder .contact-detail .divider {
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  background-color: #929292;
+}
+footer .footer-wrapper {
+  padding: 40px 0;
+  border-bottom: 1px solid #8250a0;
+  border-top: 1px solid #8250a0;
+}
+footer .footer-wrapper .footer-logo {
+  width: 50%;
+  margin-bottom: 22px;
+}
+footer .footer-wrapper .footer-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #8250a0;
+  margin-bottom: 22px;
+  display: block;
+  position: relative;
+}
+footer .footer-wrapper .footer-title::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 1px;
+  width: 40px;
+  background-color: #8250a0;
+}
+footer .footer-wrapper .footer-list li {
+  display: flex;
+  position: relative;
+}
+footer .footer-wrapper .footer-list li::before {
+  content: "\f00c";
+  position: relative;
+  display: block;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  padding-right: 10px;
+  color: #8250a0;
+}
+footer .footer-wrapper .footer-list li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+}
+footer .footer-wrapper .footer-list li a:hover {
+  color: #8250a0;
+}
+footer .copyright-wrapper {
+  padding: 10px 0;
+}
+footer .copyright-wrapper .copyright-text {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+footer .copyright-wrapper .copyright-text a {
+  color: #8250a0;
+  font-weight: 600;
+}
+
+/*------- end -------*//*# sourceMappingURL=style.css.map */
