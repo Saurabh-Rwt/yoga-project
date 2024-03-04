@@ -474,6 +474,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   border: 1px solid #6b3b88;
   position: relative;
   border-radius: 5px;
+  overflow: hidden;
 }
 #yoga-teacher .teacher-item .body {
   padding: 10px;

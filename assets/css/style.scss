@@ -539,6 +539,7 @@ header {
         border: 1px solid $theme_color;
         position: relative;
         border-radius: 5px;
+        overflow: hidden;
         .body {
             padding: 10px;
             text-align: center;
