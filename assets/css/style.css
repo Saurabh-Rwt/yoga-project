@@ -16,6 +16,21 @@ ul li {
   margin: 0;
   list-style: none;
 }
+ul.list li {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+ul.list li::before {
+  content: "\f00c";
+  position: relative;
+  display: block;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  padding-right: 10px;
+  color: #6b3b88;
+}
 
 a {
   text-decoration: none;
@@ -83,15 +98,20 @@ a {
 }
 
 .sub-heading {
-  font-size: 35px;
+  font-size: 32px;
   color: #000;
   text-transform: capitalize;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
 }
 .sub-heading .highlight {
   font-size: inherit;
   font-weight: inherit;
   color: #6b3b88;
+}
+
+.mini-heading {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .space {
@@ -154,6 +174,9 @@ header nav .navbar-holder {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header nav .navbar-holder .hamburger {
+  display: none;
 }
 header nav .navbar-holder .logo img {
   width: 140px;
@@ -244,6 +267,11 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 
 /*------- end -------*/
 /*------- welcome section -------*/
+.welcome-section .wlcm-img {
+  padding-left: 20px;
+  float: right;
+  width: 50%;
+}
 .welcome-section .icon-wrapper {
   padding-top: 80px;
   display: grid;
@@ -382,7 +410,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 .owl-nav button span {
   font-size: 30px;
   margin-bottom: 0;
-  line-height: 15px;
+  line-height: 16px;
   transition: 0.3s ease-in;
 }
 .owl-nav button:hover {
@@ -481,7 +509,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   margin-bottom: 0;
 }
 .retreat-card .content {
-  padding: 35px 15% 35px 35px;
+  padding: 35px;
 }
 .retreat-card .content .sub-title {
   font-size: 18px;
@@ -490,11 +518,29 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 .retreat-card .content .text {
   color: #6b3b88;
 }
-.retreat-card .content .button-wrap {
+.retreat-card .content .bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid #929292;
+}
+.retreat-card .content .bottom-wrap .button-wrap {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-top: 25px;
+}
+.retreat-card .content .bottom-wrap .price-holder span {
+  font-size: 18px;
+  color: #6b3b88;
+  text-transform: capitalize;
+}
+.retreat-card .content .bottom-wrap .price-holder span .price {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
 }
 .retreat-card .img-wrap {
   position: relative;
@@ -513,51 +559,6 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-}
-.retreat-card .img-wrap .detail-wrap {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  padding: 0 10px;
-  width: 70%;
-}
-.retreat-card .img-wrap .detail-wrap .title {
-  font-size: 24px;
-  color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-}
-.retreat-card .img-wrap .detail-wrap ul {
-  border-bottom: 2px solid #929292;
-  padding-bottom: 20px;
-}
-.retreat-card .img-wrap .detail-wrap ul li {
-  color: #fff;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.retreat-card .img-wrap .detail-wrap ul li::before {
-  content: "";
-  position: relative;
-  display: block;
-  height: 7px;
-  width: 7px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background-color: #fff;
-}
-.retreat-card .img-wrap .detail-wrap .price-holder {
-  padding-top: 20px;
-}
-.retreat-card .img-wrap .detail-wrap .price-holder span {
-  color: #fff;
-  text-transform: capitalize;
-}
-.retreat-card .img-wrap .detail-wrap .price-holder span .price {
-  font-size: 35px;
-  text-transform: uppercase;
 }
 
 /*------- end -------*/
@@ -609,8 +610,9 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 .yoga-alliance {
   background: url(../images/yoga-alliance/bg.webp) no-repeat center;
   background-size: cover;
-  height: 50vh;
+  height: auto;
   width: 100%;
+  padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,7 +624,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 }
 .yoga-alliance .content-holder .banner-title {
   font-size: 38px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   text-transform: capitalize;
 }
@@ -635,8 +637,9 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
 .join-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/gallery/12.jpg) no-repeat center;
   background-size: cover;
-  height: 40vh;
+  height: auto;
   width: 100%;
+  padding: 70px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -646,8 +649,8 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   text-align: center;
 }
 .join-banner .title-holder .banner-title {
-  font-size: 38px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: 600;
   margin: 10px 0 22px;
   text-transform: capitalize;
 }
@@ -782,6 +785,8 @@ footer .contact-wrapper .contact-holder .contact-detail {
 }
 footer .contact-wrapper .contact-holder .contact-detail .title {
   font-size: 22px;
+  font-weight: 600;
+  color: #6b3b88;
   text-transform: capitalize;
 }
 footer .contact-wrapper .contact-holder .contact-detail a {
@@ -816,7 +821,7 @@ footer .footer-wrapper .footer-content {
 }
 footer .footer-wrapper .footer-title {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   color: #6b3b88;
   margin-bottom: 22px;
@@ -846,7 +851,7 @@ footer .footer-wrapper .footer-list li::before {
 }
 footer .footer-wrapper .footer-list li a {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #000;
   text-transform: capitalize;
   transition: 0.3s ease-in;
@@ -876,4 +881,241 @@ footer .copyright-wrapper .copyright-text a {
   font-weight: 600;
 }
 
+/*------- end -------*/
+/*------- Media Query -------*/
+@media screen and (max-width: 1024px) {
+  header nav .navbar-holder .navbarnav .navbar-list {
+    gap: 10px;
+  }
+  .welcome-section .icon-wrapper {
+    padding-top: 35px;
+  }
+  .welcome-section .icon-wrapper .icon-card {
+    padding: 0 10px;
+  }
+  .student-reviews .review-item {
+    padding: 20px 7px;
+  }
+  .student-reviews .review-item .author-detail {
+    margin-bottom: 7px;
+  }
+  .student-reviews .review-item .author-detail .name {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  header nav {
+    position: relative;
+  }
+  header nav .navbar-holder {
+    justify-content: flex-start;
+  }
+  header nav .navbar-holder .hamburger {
+    display: block;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    border: none;
+    background: transparent;
+  }
+  header nav .navbar-holder .hamburger .bar {
+    display: block;
+    width: 30px;
+    border-top: 3px solid #6b3b88;
+    margin-bottom: 10px;
+    transition: 0.3s all ease-in;
+  }
+  header nav .navbar-holder .hamburger .bar:last-child {
+    margin-bottom: 0;
+  }
+  header nav .navbar-holder .hamburger.active {
+    z-index: 10;
+    right: 22%;
+  }
+  header nav .navbar-holder .hamburger.active .bar:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  header nav .navbar-holder .hamburger.active .bar:nth-child(2) {
+    display: none;
+  }
+  header nav .navbar-holder .hamburger.active .bar:nth-child(3) {
+    transform: translate(0px, -12px) rotate(135deg);
+  }
+  header nav .navbar-holder .navbarnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: 9;
+    background: #fff;
+    padding: 50px;
+    height: 95vh;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+  }
+  header nav .navbar-holder .navbarnav.show {
+    transform: translateX(0%);
+  }
+  header nav .navbar-holder .navbarnav.show::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50%;
+    height: inherit;
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  header nav .navbar-holder .navbarnav .navbar-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .welcome-section .wlcm-img {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  footer .contact-wrapper {
+    gap: 10px;
+  }
+  footer .contact-wrapper .contact-holder {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  footer .contact-wrapper .contact-holder .icon-wrap {
+    height: 55px;
+    width: 55px;
+    padding: 15px;
+    margin: 0 auto 10px;
+  }
+  footer .contact-wrapper .contact-holder .contact-detail {
+    padding-right: 0;
+  }
+  footer .contact-wrapper .contact-holder .contact-detail .title {
+    margin-bottom: 10px;
+  }
+  footer .contact-wrapper .contact-holder .contact-detail .detail {
+    display: block;
+    line-height: 1.4;
+  }
+  footer .footer-wrapper .footer-content {
+    padding-right: 0;
+  }
+  footer .footer-wrapper .footer-list li {
+    margin-bottom: 10px;
+  }
+  footer .footer-wrapper .review-list li a img {
+    width: 115px;
+  }
+  .yoga-alliance .content-holder {
+    width: 100%;
+  }
+  .retreat-card .img-wrap {
+    width: 100%;
+  }
+  .retreat-card .img-wrap img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .space {
+    padding: 30px 0;
+  }
+  .heading-wrap {
+    margin: 0 auto 50px;
+  }
+  .heading-wrap::after {
+    bottom: -20px;
+  }
+  .heading-wrap .main-heading {
+    font-size: 22px;
+  }
+  .heading-wrap .sub-title {
+    font-size: 15px;
+  }
+  .sub-heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  header .top-header {
+    display: none;
+  }
+  .welcome-section .icon-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .contact-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .welcome-section .icon-wrapper .icon-card {
+    margin-bottom: 22px;
+  }
+  .welcome-section .icon-wrapper .icon-card:nth-last-child(1), .welcome-section .icon-wrapper .icon-card:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .welcome-section .icon-wrapper .icon-card:nth-child(2) {
+    border-right: 0;
+  }
+  .welcome-section .icon-wrapper .icon-card img {
+    width: 55px;
+    margin-bottom: 12px;
+  }
+  .welcome-section .icon-wrapper .icon-card .title {
+    font-size: 16px;
+  }
+  .yoga-alliance .content-holder .banner-title {
+    font-size: 28px;
+  }
+  .benifit-card {
+    display: block;
+  }
+  .benifit-card .img-holder {
+    margin-bottom: 20px;
+  }
+  .benifit-card .img-holder::after {
+    display: none;
+  }
+  .retreat-card .content {
+    padding: 15px;
+  }
+  .retreat-card .content .sub-title {
+    font-size: 16px;
+  }
+  .retreat-card .content .bottom-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+  .retreat-card .content .bottom-wrap .button-wrap {
+    order: 2;
+  }
+  .retreat-card .content .bottom-wrap .price-holder span .price {
+    font-size: 18px;
+  }
+  .retreat-card .content .bottom-wrap .price-holder {
+    order: 1;
+  }
+  .retreat-card .img-wrap {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  footer .footer-wrapper .footer-list li a {
+    font-size: 14px;
+  }
+  footer .footer-wrapper .review-list li a img {
+    width: 90px;
+  }
+}
 /*------- end -------*//*# sourceMappingURL=style.css.map */

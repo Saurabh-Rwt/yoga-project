@@ -33,14 +33,14 @@
         </div>
 
         <div class="footer-wrapper">
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6">
                     <img src="assets/images/logo/logo.png" class="img-fluid footer-logo" alt="">
                     <div class="footer-content">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid necessitatibus mollitia sit inventore cum exercitationem fugit ea veniam ab, molestiae sint rerum incidunt beatae, totam, non natus repudiandae.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <span class="footer-title">quick links</span>
                     <ul class="footer-list">
                         <li><a href="">home</a></li>
@@ -50,7 +50,7 @@
                         <li><a href="">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-6">
                     <span class="footer-title">yoga courses</span>
                     <ul class="footer-list">
                         <li><a href="">100 hour yoga ttc</a></li>
@@ -60,7 +60,7 @@
                         <li><a href="">14 days yoga ttc</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-6">
                     <span class="footer-title">our reviews</span>
                     <ul class="review-list">
                         <li>

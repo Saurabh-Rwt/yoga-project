@@ -3,8 +3,7 @@
         <div class="top-header">
             <ul class="contact-list">
                 <li><a href="tel:353873550405"><i class="fa-solid fa-phone"></i>+353-873550405</a></li>
-                <li><a href="mailto:info@niyayogastudios.com"><i
-                            class="fa-solid fa-envelope"></i>info@niyayogastudios.com</a></li>
+                <li><a href="mailto:info@niyayogastudios.com"><i class="fa-solid fa-envelope"></i>info@niyayogastudios.com</a></li>
             </ul>
             <ul class="social-contact">
                 <li>
@@ -26,7 +25,11 @@
     <nav>
         <div class="container">
             <div class="navbar-holder">
-
+                <button class="hamburger" type="button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
                 <a href="" class="logo">
                     <img src="<?php echo $link;?>assets/images/logo/logo.png" class="img-fluid" alt="">
                 </a>

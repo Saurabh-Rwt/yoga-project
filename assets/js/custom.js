@@ -1,35 +1,76 @@
 
 /*---------------- banner ---------------- */
 $("#hero-slider").owlCarousel({
-    loop:true,
-    items:1,
-    animateOut: "fadeOut",
-    animateIn: "fadeIn",
-    smartSpeed: 500,
-    autoplay: 3000,
-    autoplayTimeout: 7000,
-    nav:true
+  loop: true,
+  items: 1,
+  animateOut: "fadeOut",
+  animateIn: "fadeIn",
+  smartSpeed: 500,
+  autoplay: 3000,
+  autoplayTimeout: 7000,
+  nav: true
 });
 
 $("#program-scroller").owlCarousel({
-    loop:true,
-    margin:10,
-    items:3,
-    nav:true
+  loop: true,
+  margin: 10,
+  items: 3,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    991: {
+      items: 3,
+    }
+  }
 });
 
 $("#yoga-teacher").owlCarousel({
-    loop:true,
-    margin:20,
-    items:4,
-    nav:true,
+  loop: true,
+  margin: 20,
+  items: 4,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    991: {
+      items: 3,
+    }
+  }
 });
 
 $("#students-review").owlCarousel({
-    loop:true,
-    margin:20,
-    items:3,
-    nav:true,
+  loop: true,
+  margin: 20,
+  items: 3,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    991: {
+      items: 3,
+    }
+  }
+});
+
+/*----------- humburger Icon -------------*/
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navbarnav");
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+  hamburger.classList.toggle("active");
 });
 
 

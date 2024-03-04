@@ -33,14 +33,12 @@
                 <span class="sub-title">An International Retreat To Begin Your Journey to Inner Harmony</span>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
+                    <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid wlcm-img" alt="">
                     <p>Welcome to Niya Yoga Studio, a beautiful place to nourish your mind, body, and soul. We are located in the heart of the yoga capital, Rishikesh, and dedicated to providing a nurturing Yoga retreat in Rishikesh for various individuals from around the world to explore the power of yoga. At Niya, we believe that we can positively transform both body and mind through the profound benefits of yoga. We are aiming to make this ancient practice easily accessible to all through our Yoga classes in Rishikesh.</p>
                     <p>We offer a variety of yoga classes that are tailored to suit every individual's needs and preferences. We have a team of experienced yoga teachers to help you with guidance and classes throughout the journey. Whether you are a daily practitioner or a beginner, we have you covered. Our welcoming environment and supportive community will help guide you in cultivating inner peace, flexibility, and strength. </p>
                     <p>Come join us at Niya Yoga Studio and embark on a beautiful journey of self-discovery, wellness, and holistic transformation in the holy land of Rishikesh.</p>
                     <a href="" class="primary-btn">join now</a>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-12">
                     <div class="icon-wrapper">
@@ -270,7 +268,7 @@
     <section class="yoga-alliance">
         <div class="container">
             <div class="content-holder">
-                <img src="assets/images/yoga-alliance/yoga-alliance-ryt-200-ryt-300.webp" alt="">
+                <img src="assets/images/yoga-alliance/yoga-alliance-ryt-200-ryt-300.webp" class="img-fluid" alt="">
                 <h2 class="banner-title">Yoga Alliance Registered Yoga School</h2>
                 <p class="text">Niya Yoga Studio is a Yoga Alliance-registered yoga retreat in Rishikesh where we uphold the set standards of excellence in yoga training and sessions. In our retreat, you can trust us with the quality and integrity of programs like Yoga Teacher Training in Rishikesh that meet rigorous criteria set forth by the Yoga Alliance.</p>
             </div>
@@ -282,86 +280,70 @@
     <section class="space bg">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">yoga Retreat program in Rishikesh</h1>
-                <span class="sub-title">Lorem ipsum, dolor sit amet consectetur adipis</span>
+                <h1 class="main-heading">Learn from Our Passionate Yoga Gurus</h1>
+                <span class="sub-title">Practice and learn from Our Yoga Masters</span>
             </div>
             <div class="retreat-card">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-lg-7 col-md-12 order-2">
                         <div class="content">
                             <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in
-                                Rishikesh</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse non tenetur fugit
-                                mollitia praesentium voluptate ducimus minima vel sit. Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, ullam culpa quos ab incidunt
-                                aperiam sint in quam veritatis architecto perferendis</p>
-
-                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima sunt earum
-                                modi ipsum similique iure ea, natus voluptate, reiciendis quo quas ullam cumque officiis
-                                esse velit debitis voluptates vitae temporibus!</p>
-                            <div class="button-wrap">
-                                <a href="" class="primary-btn">know more</a>
-                                <a href="" class="secondary-btn">book your seat</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="img-wrap ms-auto">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" alt="">
-                            <div class="detail-wrap">
-                                <h2 class="title">retreat highlight :</h2>
-                                <ul>
-                                    <li>Airport tranfer available</li>
-                                    <li>instructed in english</li>
-                                    <li>all meals included</li>
-                                    <li>vegetarian friendly</li>
-                                </ul>
+                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in Rishikesh</h2>
+                            <p>Begin your yoga journey with our transformative 10-day yoga retreat in Rishikesh. Immerse yourself in ancient practices and refresh your mind and soul.</p>
+                            <h3 class="mini-heading">Reason to opt for this retreat:</h3>
+                            <ul class="list">
+                                <li>Regular yoga sessions led by skilled instructors</li>
+                                <li>Get to connect with various like-minded individuals.</li>
+                                <li>Learning opportunities for personal growth and self-reflection.</li>
+                                <li>Healthy vegetarian meals for the nourishment of the body.</li>
+                                <li>Exclusive meditation sessions for inner peace.</li>
+                                <li>Outing to different sites alone along the Ganges River</li>
+                                <li>Accommodations like comfortable and peaceful retreats.</li>
+                            </ul>
+                            <div class="bottom-wrap">
+                                <div class="button-wrap">
+                                    <a href="" class="primary-btn">know more</a>
+                                    <a href="" class="secondary-btn">book your seat</a>
+                                </div>
                                 <div class="price-holder">
                                     <span class="">start from <span class="price">us$349</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-5 col-md-12 order-1">
+                        <div class="img-wrap ms-auto">
+                            <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="retreat-card">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-lg-4 col-md-12">
                         <div class="img-wrap">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" alt="">
-                            <div class="detail-wrap">
-                                <h2 class="title">retreat highlight :</h2>
-                                <ul>
-                                    <li>Airport tranfer available</li>
-                                    <li>instructed in english</li>
-                                    <li>all meals included</li>
-                                    <li>vegetarian friendly</li>
-                                </ul>
+                            <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="content">
+                            <span class="sub-title">join our</span>
+                            <h2 class="sub-heading"><span class="highlight">7 days</span> yoga <br> retreat in Rishikesh</h2>
+                            <p>Begin your yogic journey with our 7-day yoga retreat in Rishikesh. Join us and explore the depth of your practice while learning the different aspects of yoga and meditation in the serene surroundings of the Holy Ganges.</p>
+                            <ul class="list">
+                                <li>Nutritious vegetarian meals to support your well-being</li>
+                                <li>Daily yoga sessions tailored for all levels</li>
+                                <li>Outing to ancient temples and natural wonders</li>
+                                <li>Guided meditation practices for inner peace and clarity</li>
+                            </ul>
+                            <div class="bottom-wrap">
+                                <div class="button-wrap">
+                                    <a href="" class="primary-btn">know more</a>
+                                    <a href="" class="secondary-btn">book your seat</a>
+                                </div>
                                 <div class="price-holder">
                                     <span class="">start from <span class="price">us$349</span></span>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="content">
-                            <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in
-                                Rishikesh</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse non tenetur fugit
-                                mollitia praesentium voluptate ducimus minima vel sit. Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, ullam culpa quos ab incidunt
-                                aperiam sint in quam veritatis architecto perferendis</p>
-
-                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima sunt earum
-                                modi ipsum similique iure ea, natus voluptate, reiciendis quo quas ullam cumque officiis
-                                esse velit debitis voluptates vitae temporibus!</p>
-                            <div class="button-wrap">
-                                <a href="" class="primary-btn">know more</a>
-                                <a href="" class="secondary-btn">book your seat</a>
                             </div>
                         </div>
                     </div>
@@ -369,41 +351,31 @@
             </div>
             <div class="retreat-card">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-lg-8 col-md-12 order-2">
                         <div class="content">
                             <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in
-                                Rishikesh</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse non tenetur fugit
-                                mollitia praesentium voluptate ducimus minima vel sit. Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, ullam culpa quos ab incidunt
-                                aperiam sint in quam veritatis architecto perferendis</p>
-
-                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima sunt earum
-                                modi ipsum similique iure ea, natus voluptate, reiciendis quo quas ullam cumque officiis
-                                esse velit debitis voluptates vitae temporibus!</p>
-                            <div class="button-wrap">
-                                <a href="" class="primary-btn">know more</a>
-                                <a href="" class="secondary-btn">book your seat</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="img-wrap ms-auto">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" alt="">
-                            <div class="detail-wrap">
-                                <h2 class="title">retreat highlight :</h2>
-                                <ul>
-                                    <li>Airport tranfer available</li>
-                                    <li>instructed in english</li>
-                                    <li>all meals included</li>
-                                    <li>vegetarian friendly</li>
-                                </ul>
+                            <h2 class="sub-heading"><span class="highlight">14 days</span> yoga <br> retreat in Rishikesh</h2>
+                            <p>Join us in the extended 14-day yoga retreat in Rishikesh, where each day brings new learning towards self-discovery and fills your routine with moments of serenity, growth, and connection with yourself.</p>
+                            <ul class="list">
+                                <li>Personalised guidance from experienced instructors</li>
+                                <li>Extended concentration in yoga and meditation practices</li>
+                                <li>Deeper learning for self-discovery and inner transformation.</li>
+                                <li>Advanced workshops and techniques.</li>
+                            </ul>
+                            <div class="bottom-wrap">
+                                <div class="button-wrap">
+                                    <a href="" class="primary-btn">know more</a>
+                                    <a href="" class="secondary-btn">book your seat</a>
+                                </div>
                                 <div class="price-holder">
                                     <span class="">start from <span class="price">us$349</span></span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 order-1">
+                        <div class="img-wrap ms-auto">
+                            <img src="assets/images/yoga-course-ttc-nrishikesh-02.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -530,7 +502,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">our gallery</h1>
-                <span class="sub-title">Lorem ipsum, dolor sit amet consectetur</span>
+                <span class="sub-title">Explore artistic wonders in our gallery.</span>
             </div>
 
             <div class="row gy-4">
