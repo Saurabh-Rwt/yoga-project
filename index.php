@@ -320,11 +320,6 @@
             </div>
             <div class="retreat-card">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="img-wrap">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
                     <div class="col-lg-8 col-md-12">
                         <div class="content">
                             <span class="sub-title">join our</span>
@@ -345,6 +340,11 @@
                                     <span class="">start from <span class="price">us$349</span></span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="img-wrap">
+                            <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
