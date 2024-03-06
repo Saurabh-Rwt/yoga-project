@@ -427,6 +427,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   grid-template-columns: 40% 60%;
   background-color: #fff;
   padding: 20px 10px;
+  height: 100%;
 }
 .benifit-card .img-holder {
   position: relative;
