@@ -21,6 +21,9 @@
             <div class="banner-item">
                 <img src="assets/images/banner/niya-banner02.png" alt="">
             </div>
+            <div class="banner-item">
+                <img src="assets/images/banner/niya-banner03.png" alt="">
+            </div>
         </div>
     </section>
     <!-- End -->
@@ -35,9 +38,19 @@
             <div class="row">
                 <div class="col-md-12">
                     <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid wlcm-img" alt="">
-                    <p>Welcome to Niya Yoga Studio, a beautiful place to nourish your mind, body, and soul. We are located in the heart of the yoga capital, Rishikesh, and dedicated to providing a nurturing Yoga retreat in Rishikesh for various individuals from around the world to explore the power of yoga. At Niya, we believe that we can positively transform both body and mind through the profound benefits of yoga. We are aiming to make this ancient practice easily accessible to all through our Yoga classes in Rishikesh.</p>
-                    <p>We offer a variety of yoga classes that are tailored to suit every individual's needs and preferences. We have a team of experienced yoga teachers to help you with guidance and classes throughout the journey. Whether you are a daily practitioner or a beginner, we have you covered. Our welcoming environment and supportive community will help guide you in cultivating inner peace, flexibility, and strength. </p>
-                    <p>Come join us at Niya Yoga Studio and embark on a beautiful journey of self-discovery, wellness, and holistic transformation in the holy land of Rishikesh.</p>
+                    <p>Welcome to Niya Yoga Studio, a beautiful place to nourish your mind, body, and soul. We are
+                        located in the heart of the yoga capital, Rishikesh, and dedicated to providing a nurturing Yoga
+                        retreat in Rishikesh for various individuals from around the world to explore the power of yoga.
+                        At Niya, we believe that we can positively transform both body and mind through the profound
+                        benefits of yoga. We are aiming to make this ancient practice easily accessible to all through
+                        our Yoga classes in Rishikesh.</p>
+                    <p>We offer a variety of yoga classes that are tailored to suit every individual's needs and
+                        preferences. We have a team of experienced yoga teachers to help you with guidance and classes
+                        throughout the journey. Whether you are a daily practitioner or a beginner, we have you covered.
+                        Our welcoming environment and supportive community will help guide you in cultivating inner
+                        peace, flexibility, and strength. </p>
+                    <p>Come join us at Niya Yoga Studio and embark on a beautiful journey of self-discovery, wellness,
+                        and holistic transformation in the holy land of Rishikesh.</p>
                     <a href="" class="primary-btn">join now</a>
                 </div>
                 <div class="col-md-12">
@@ -69,15 +82,16 @@
     <section class="space bg">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">YOGA TEACHER TRAINING COURSES</h1>
-                <span class="sub-title">We Provide 100, 200 and 300 Hours Yoga TTC in Rishikesh</span>
+                <h1 class="main-heading">Yoga TTC and Retreat Programs </h1>
+                <span class="sub-title">We Provide 100Hr, 200Hr Yoga TTC and Yoga Retreat Programs in Rishikesh,
+                    India</span>
             </div>
             <div class="owl-carousel" id="program-scroller">
                 <div class="program-card">
                     <div class="course-type">
                         <span>beginner</span>
                     </div>
-                    <img src="assets/images/yoga-ttc-01.png" class="img-fluid" alt="">
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-01.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
                             <h2 class="title">100 hour yoga</h2>
@@ -85,7 +99,7 @@
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 12 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 14 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -94,7 +108,7 @@
                     <div class="course-type">
                         <span>intermediate</span>
                     </div>
-                    <img src="assets/images/yoga-ttc-01.png" class="img-fluid" alt="">
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-02.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
                             <h2 class="title">200 hour yoga</h2>
@@ -102,41 +116,58 @@
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 12 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 25 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="program-card">
                     <div class="course-type">
-                        <span>pre-advanced</span>
+                        <span>Short Term Retreat</span>
                     </div>
-                    <img src="assets/images/yoga-ttc-01.png" class="img-fluid" alt="">
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">300 hour yoga</h2>
-                            <span class="sub-title">teacher Training course</span>
+                            <h2 class="title">7 Days Yoga</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 12 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 7 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="program-card">
                     <div class="course-type">
-                        <span>beginner</span>
+                        <span>Most Popular Retreat</span>
                     </div>
-                    <img src="assets/images/yoga-ttc-01.png" class="img-fluid" alt="">
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">300 hour yoga</h2>
-                            <span class="sub-title">teacher Training course</span>
+                            <h2 class="title">10 Days Yoga</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 12 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>Long Term Retreat</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-05.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">14 Days Yoga</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -155,11 +186,20 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Situated in the foothills of the Himalayan Ranges, Rishikesh stands out as the capital city for yogic wisdom and spiritual practices. This city is recognized as the Yoga Capital of the World, which has drawn the attention of yoga practitioners and seekers from every corner of the world for centuries. One thing that makes this place a perfect setting for a transformative yoga retreat experience is its stunning ambiance and profound spiritual energy.</p>
-                    <p>In Rishikesh, you can easily immerse yourself in the ancient yoga techniques on the calm banks of the holy Ganges River. Chants and meditation fill the air around you, making it perfect for deep thinking and inner calm. With sacred ashrams and busy yoga studios, Rishikesh provides many chances to grow your practice and understand yoga's core. Whether you're new to yoga or experienced, a Yoga retreat in Rishikesh will refresh, inspire, and change you for the better.</p>
+                    <p>Situated in the foothills of the Himalayan Ranges, Rishikesh stands out as the capital city for
+                        yogic wisdom and spiritual practices. This city is recognized as the Yoga Capital of the World,
+                        which has drawn the attention of yoga practitioners and seekers from every corner of the world
+                        for centuries. One thing that makes this place a perfect setting for a transformative yoga
+                        retreat experience is its stunning ambiance and profound spiritual energy.</p>
+                    <p>In Rishikesh, you can easily immerse yourself in the ancient yoga techniques on the calm banks of
+                        the holy Ganges River. Chants and meditation fill the air around you, making it perfect for deep
+                        thinking and inner calm. With sacred ashrams and busy yoga studios, Rishikesh provides many
+                        chances to grow your practice and understand yoga's core. Whether you're new to yoga or
+                        experienced, a Yoga retreat in Rishikesh will refresh, inspire, and change you for the better.
+                    </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/images/gallery/6.jpg" class="img-fluid" alt="">
+                    <img src="assets/images/Rishikesh-Yoga-Capital-World.jpg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -177,44 +217,56 @@
                 <div class="col-lg-6">
                     <div class="benifit-card">
                         <div class="img-holder">
-                            <img src="assets/images/gallery/4.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/yoga-retreat-offer.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h2 class="title">Yoga Retreat:</h2>
-                            <p>In our yoga retreat in Rishikesh, we offer meditation classes, daily yoga sessions, and wellness activities that are designed to nourish the soul, body, and mind. This place offers the perfect opportunity for you to deepen your yoga practice and reconnect with your true essence in the beauty of nature.</p>
+                            <p>In our yoga retreat in Rishikesh, we offer meditation classes, daily yoga sessions, and
+                                wellness activities that are designed to nourish the soul, body, and mind. This place
+                                offers the perfect opportunity for you to deepen your yoga practice and reconnect with
+                                your true essence in the beauty of nature.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="benifit-card">
                         <div class="img-holder">
-                            <img src="assets/images/gallery/4.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/food-retreat-offer.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h2 class="title">Food:</h2>
-                            <p>Here, we offer delicious and nutritious food to nourish your body while taking Yoga classes in Rishikesh. You can enjoy a variety of wholesome dishes prepared with love and care that are thoughtfully curated to support all our practitioners's well-being and provide sustenance to you throughout the journey.</p>
+                            <p>Here, we offer delicious and nutritious food to nourish your body while taking Yoga
+                                classes in Rishikesh. You can enjoy a variety of wholesome dishes prepared with love and
+                                care that are thoughtfully curated to support all our practitioners's well-being and
+                                provide sustenance to you throughout the journey.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="benifit-card">
                         <div class="img-holder">
-                            <img src="assets/images/gallery/4.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/accommation-retreat-offer.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h2 class="title">Accommodations:</h2>
-                            <p>We have also designed cozy retreat spaces to provide you with a restful sanctuary where you can rest and recharge yourself fully during the retreat experience. Our accommodations offer you a peaceful haven where you can calmly relax after a tiring day of yoga and exploration activities.</p>
+                            <p>We have also designed cozy retreat spaces to provide you with a restful sanctuary where
+                                you can rest and recharge yourself fully during the retreat experience. Our
+                                accommodations offer you a peaceful haven where you can calmly relax after a tiring day
+                                of yoga and exploration activities.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="benifit-card">
                         <div class="img-holder">
-                            <img src="assets/images/gallery/4.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/yoga-guru-offer.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h2 class="title">Yoga Gurus:</h2>
-                            <p>We have a team of skilled and experienced instructors and passionate yoga gurus who bring a wealth of knowledge and expertise to each session while offering personalized guidance to you. They are dedicated to supporting your growth and helping you deepen your yoga practice.</p>
+                            <p>We have a team of skilled and experienced instructors and passionate yoga gurus who bring
+                                a wealth of knowledge and expertise to each session while offering personalized guidance
+                                to you. They are dedicated to supporting your growth and helping you deepen your yoga
+                                practice.</p>
                         </div>
                     </div>
                 </div>
@@ -234,29 +286,29 @@
                 <div class="teacher-item">
                     <img src="assets/images/teachers/1.jpg" alt="">
                     <div class="body">
-                        <span class="title">deepa mandle</span>
-                        <span class="course">hatha yoga</span>
+                        <span class="title">Nayomi Mckenna</span>
+                        <span class="course">Founder</span>
                     </div>
                 </div>
                 <div class="teacher-item">
                     <img src="assets/images/teachers/2.jpg" alt="">
                     <div class="body">
-                        <span class="title">deepa mandle</span>
-                        <span class="course">hatha yoga</span>
+                        <span class="title">Rajesh Rawat</span>
+                        <span class="course">Vinyasa and Alignment</span>
                     </div>
                 </div>
                 <div class="teacher-item">
                     <img src="assets/images/teachers/3.jpg" alt="">
                     <div class="body">
-                        <span class="title">deepa mandle</span>
-                        <span class="course">hatha yoga</span>
+                        <span class="title">Deepa Mandle</span>
+                        <span class="course">Hatha yoga</span>
                     </div>
                 </div>
                 <div class="teacher-item">
                     <img src="assets/images/teachers/4.jpg" alt="">
                     <div class="body">
-                        <span class="title">deepa mandle</span>
-                        <span class="course">hatha yoga</span>
+                        <span class="title">Naveen Mingual</span>
+                        <span class="course">Ashtanga and Meditation</span>
                     </div>
                 </div>
             </div>
@@ -270,7 +322,10 @@
             <div class="content-holder">
                 <img src="assets/images/yoga-alliance/yoga-alliance-ryt-200-ryt-300.webp" class="img-fluid" alt="">
                 <h2 class="banner-title">Yoga Alliance Registered Yoga School</h2>
-                <p class="text">Niya Yoga Studio is a Yoga Alliance-registered yoga retreat in Rishikesh where we uphold the set standards of excellence in yoga training and sessions. In our retreat, you can trust us with the quality and integrity of programs like Yoga Teacher Training in Rishikesh that meet rigorous criteria set forth by the Yoga Alliance.</p>
+                <p class="text">Niya Yoga Studio is a Yoga Alliance-registered Yoga School in Rishikesh where we uphold
+                    the set standards of excellence in yoga ttc and retreats. In our retreat, you can trust us with the
+                    quality and integrity of programs like Yoga Teacher Training in Rishikesh that meet rigorous
+                    criteria set forth by the Yoga Alliance.</p>
             </div>
         </div>
     </section>
@@ -288,8 +343,10 @@
                     <div class="col-lg-7 col-md-12 order-2">
                         <div class="content">
                             <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in Rishikesh</h2>
-                            <p>Begin your yoga journey with our transformative 10-day yoga retreat in Rishikesh. Immerse yourself in ancient practices and refresh your mind and soul.</p>
+                            <h2 class="sub-heading"><span class="highlight">10 days</span> yoga <br> retreat in
+                                Rishikesh</h2>
+                            <p>Begin your yoga journey with our transformative 10-day yoga retreat in Rishikesh. Immerse
+                                yourself in ancient practices and refresh your mind and soul.</p>
                             <h3 class="mini-heading">Reason to opt for this retreat:</h3>
                             <ul class="list">
                                 <li>Regular yoga sessions led by skilled instructors</li>
@@ -313,7 +370,8 @@
                     </div>
                     <div class="col-lg-5 col-md-12 order-1">
                         <div class="img-wrap ms-auto">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/10-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg"
+                                class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -323,8 +381,11 @@
                     <div class="col-lg-8 col-md-12">
                         <div class="content">
                             <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">7 days</span> yoga <br> retreat in Rishikesh</h2>
-                            <p>Begin your yogic journey with our 7-day yoga retreat in Rishikesh. Join us and explore the depth of your practice while learning the different aspects of yoga and meditation in the serene surroundings of the Holy Ganges.</p>
+                            <h2 class="sub-heading"><span class="highlight">7 days</span> yoga <br> retreat in Rishikesh
+                            </h2>
+                            <p>Begin your yogic journey with our 7-day yoga retreat in Rishikesh. Join us and explore
+                                the depth of your practice while learning the different aspects of yoga and meditation
+                                in the serene surroundings of the Holy Ganges.</p>
                             <ul class="list">
                                 <li>Nutritious vegetarian meals to support your well-being</li>
                                 <li>Daily yoga sessions tailored for all levels</li>
@@ -344,7 +405,8 @@
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="img-wrap">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/7-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg"
+                                class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -354,8 +416,11 @@
                     <div class="col-lg-8 col-md-12 order-2">
                         <div class="content">
                             <span class="sub-title">join our</span>
-                            <h2 class="sub-heading"><span class="highlight">14 days</span> yoga <br> retreat in Rishikesh</h2>
-                            <p>Join us in the extended 14-day yoga retreat in Rishikesh, where each day brings new learning towards self-discovery and fills your routine with moments of serenity, growth, and connection with yourself.</p>
+                            <h2 class="sub-heading"><span class="highlight">14 days</span> yoga <br> retreat in
+                                Rishikesh</h2>
+                            <p>Join us in the extended 14-day yoga retreat in Rishikesh, where each day brings new
+                                learning towards self-discovery and fills your routine with moments of serenity, growth,
+                                and connection with yourself.</p>
                             <ul class="list">
                                 <li>Personalised guidance from experienced instructors</li>
                                 <li>Extended concentration in yoga and meditation practices</li>
@@ -375,7 +440,8 @@
                     </div>
                     <div class="col-lg-4 col-md-12 order-1">
                         <div class="img-wrap ms-auto">
-                            <img src="assets/images/yoga-course-ttc-nrishikesh-02.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/14-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg"
+                                class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -402,10 +468,14 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p>Attending classes at Niya Yoga Studio has been a life-changing experience for me. Not only have I improved my physical strength and flexibility, but I've also found a sense of inner peace and balance that I didn't know was possible.</p>
+                    <p>The January 2024 Niya Yoga Rishikesh Retreat was amazing. Our two week program was filled with
+                        four daily yoga classes, with shared meals, with small and large ceremonies, with temple and
+                        ashram explorations, with market shopping, and with so much more. There was great opportunity
+                        for cultural exchange between teachers and students and for individual observation of this
+                        wonderful small part of India. I would gratefully attend again.</p>
                 </div>
                 <div class="review-item">
                     <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
@@ -417,13 +487,27 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p>Niya Yoga Studio has helped me reconnect with myself on a deeper level. The mindfulness practices and breathwork techniques taught here have been invaluable in managing my stress and anxiety.</p>
+                    <p>Just returned from Niya Yoga retreat in Rishikesh India, what can I say, it superseeded all my
+                        expectations, it was an amazing experience! The Niya team based in Rishikesh were outstanding
+                        teachers with a wealth of experience and knowledge who gave specific daily classes in asana,
+                        meditation and pranayama. The classes progressed over the 2 weeks with all teachers giving
+                        individual attention to every student bringing them on a journey within their practice. These
+                        classes were interspersed with fantastic excursions and really enjoyable activities where
+                        teachers often joined in the fun letting us get to know each one of them on a personal basis. We
+                        were looked after so well, always having the support of the team who also added a whole lot of
+                        joy and fun to the entire experience. They were really amazing, so kind and helpful. Our
+                        accommodation was very nice, the hotel staff were so accommodating and always tried their best
+                        to make our stay enjoyable. The food was fabulous- we all enjoyed the Indian food (both in the
+                        hotel and outside in cafes and restaurants) and came home addicted to Indian chai 😂. I love
+                        yoga and this retreat has brought me to another of understanding as well as making new life long
+                        friends. So well done Nayomi and the Niya team for providing a first class retreat! And thank
+                        you for such a wonderful and truly memorable experience. ❤️</p>
                 </div>
                 <div class="review-item">
-                    <img src="assets/images/icons/tripadvisor-review.jpg" class="source-icon" alt="">
+                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
                     <div class="author-detail">
                         <img src="assets/images/reviews/jeevan-student-review.png" class="img-fluid user-img" alt="">
                         <span class="name">geneva gray</span>
@@ -432,13 +516,16 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p>Niya Yoga Studio has become my second home. The teachers are not only skilled and experienced but also incredibly kind-hearted and encouraging. I always leave feeling uplifted and inspired.</p>
+                    <p>Nayomi is amazing and absolutely top notch! Attending her classes regularly is truly a life
+                        changer. Very authentic, professional and focused on every Individuals needs and progress. Best
+                        Yoga classes I've ever attended. She provides a safe space and does everything to improve your
+                        ability. I'm literally blown away every time I go ♥️</p>
                 </div>
                 <div class="review-item">
-                    <img src="assets/images/reviews/google.png" class="source-icon" alt="">
+                    <img src="assets/images/icons/facebook-review.jpg" class="source-icon" alt="">
                     <div class="author-detail">
                         <img src="assets/images/reviews/user.png" class="img-fluid user-img" alt="">
                         <span class="name">David K.</span>
@@ -447,42 +534,72 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p> I've been a student at Niya Yoga Studio for over a year now, and I can honestly say it's been one of the best decisions I've ever made for my well-being.</p>
+                    <p> I had the pleasure and privilege of joining Nayomi and the Niya team in Rishikesh for their
+                        retreat in January.
+                        We enjoyed the warmest welcome on arrival and thereafter from all the beautiful people we met on
+                        our travels.
+                        We had a fantastic daily yoga, Pranayama and meditation programme catered for our level and
+                        learned so much from very accomplished and wonderful teachers to take with us into our daily
+                        practice.
+                        We were extremely well looked after in all aspects of the holiday by the team who were available
+                        to us at all times ensuring all our needs were met And that we were happy and comfortable . The
+                        hotel was very well located within walking distance of beautiful walks and near the local
+                        markets and all the lovely cafes and eateries we enjoyed. And the hotel food was delicious and
+                        the staff were extremely attentive .
+                        The team organised excursions and ceremonies , and they joined us to share their knowledge in
+                        the local culture and history ,with trips to temples ,the mountains and the famous Ganges . We
+                        had yoga on the beach and meditated amidst waterfalls . We enjoyed excellent cuisine and
+                        shopping out and about .
+                        All the extra touches such as the massage ,Henna tattoo session , Bollywood lessons, Kirtan and
+                        cooking lessons added an extra fun vibe to our holiday.
+                        I would highly recommend Niya’s yoga retreat where you meet the most wonderful team of people
+                        and enjoy the most beautiful Indian cultural and yoga experience.
+                        It far exceeded my expectations..
+                        I’ve come away with an added appreciation for life, health and happiness.
+                        And I will hopefully meet the Niya team again in the future.</p>
                 </div>
                 <div class="review-item">
-                    <img src="assets/images/reviews/google.png" class="source-icon" alt="">
+                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
                     <div class="author-detail">
-                        <img src="assets/images/reviews/user.png" class="img-fluid user-img" alt="">
-                        <span class="name">Laura T.</span>
+                        <img src="assets/images/reviews/lusin.png" class="img-fluid user-img" alt="">
+                        <span class="name">Lusin Hidiroglu</span>
                         <div class="rating">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p>The yoga retreat organized by Niya Yoga Studio was a transformative experience for me. Surrounded by nature and guided by knowledgeable instructors, I was able to learn different yoga styles with perfection.</p>
+                    <p>The yoga retreat organized by Niya Yoga Studio was a transformative experience for me. Surrounded
+                        by nature and guided by knowledgeable instructors, I was able to learn different yoga styles
+                        with perfection.</p>
                 </div>
                 <div class="review-item">
-                    <img src="assets/images/reviews/google.png" class="source-icon" alt="">
+                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
                     <div class="author-detail">
-                        <img src="assets/images/reviews/user.png" class="img-fluid user-img" alt="">
-                        <span class="name">Alex B.</span>
+                        <img src="assets/images/reviews/Sharon_Hughes.png" class="img-fluid user-img" alt="">
+                        <span class="name">Sharon Hughes</span>
                         <div class="rating">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p>I've tried many yoga studios in the past, but Niya Yoga Studio stands out for its authentic approach to yoga and wellness. It's clear that the teachers here are truly passionate about what they do.</p>
+                    <p>Beautiful studio and really amazing teachers. The staff are lovely and welcoming. There are a
+                        variety of different classes throughout the day, everyday. There's plenty of space for each
+                        student and it's well supplied with yoga mats, blocks, blankets, yoga straps, cushions and
+                        bolsters. Everything is cleaned throughly between each class.</p>
                 </div>
             </div>
+            <div class="d-flex justify-content-center">
+                    <a href="" class="primary-btn">Read All Reviews</a>
+                </div>
         </div>
     </section>
     <!-- end -->
@@ -490,13 +607,13 @@
     <!-- join banner -->
     <section class="join-banner">
         <div class="title-holder">
-            <span class="sub-title">your everyday retreat</span>
+            <span class="sub-title">Yoga TTC and Yoga Retreats in Rishikesh, India</span>
             <h2 class="banner-title">get your yoga certification today</h2>
             <a href="" class="primary-btn">click here to join</a>
         </div>
     </section>
     <!-- end -->
-    
+
     <!-- Gallery -->
     <section class="space gallery">
         <div class="container">
@@ -543,7 +660,7 @@
         </div>
     </section>
     <!-- end -->
-    
+
     <!-- FAQ -->
     <section class="faq space bg">
         <div class="container">
@@ -557,19 +674,28 @@
                         <div class="accordion">
                             <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
                             <div class="accordion-body">
-                               <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to
+                                    improve their practice, a yoga retreat like Niya Yoga Studio is the best place to
+                                    practice your yoga and to deep dive into this ancient practice. Here you can start
+                                    your journey from learning the basics to becoming an experienced doer.</p>
                             </div>
                         </div>
                         <div class="accordion">
                             <h3 class="accordion-header">How do I choose my yoga type?</h3>
                             <div class="accordion-body">
-                               <p>Choosing a yoga style for you might be challenging, but you can make it easy by knowing your motivation to practice yoga. Ask yourself the question: Why do you want to practice yoga, and what is the reason behind it? Is it to be a yoga instructor or to relax your mind? This will help you choose the best form as per your goal.</p>
+                                <p>Choosing a yoga style for you might be challenging, but you can make it easy by
+                                    knowing your motivation to practice yoga. Ask yourself the question: Why do you want
+                                    to practice yoga, and what is the reason behind it? Is it to be a yoga instructor or
+                                    to relax your mind? This will help you choose the best form as per your goal.</p>
                             </div>
                         </div>
                         <div class="accordion">
                             <h3 class="accordion-header">Do you provide WiFi facilities at your retreat?</h3>
                             <div class="accordion-body">
-                               <p>Yes, we do provide WiFi and some other common facilities at our studio in some common areas for communication needs. but we will highly recommend and encourage you to unplugg and disconnect yourself from the social world for the time you are in the retreat for a better experience.</p>
+                                <p>Yes, we do provide WiFi and some other common facilities at our studio in some common
+                                    areas for communication needs. but we will highly recommend and encourage you to
+                                    unplugg and disconnect yourself from the social world for the time you are in the
+                                    retreat for a better experience.</p>
                             </div>
                         </div>
                     </div>
@@ -579,19 +705,27 @@
                         <div class="accordion">
                             <h3 class="accordion-header">Do you provide WiFi facilities at your retreat?</h3>
                             <div class="accordion-body">
-                               <p>Yes, we do provide WiFi and some other common facilities at our studio in some common areas for communication needs. but we will highly recommend and encourage you to unplugg and disconnect yourself from the social world for the time you are in the retreat for a better experience.</p>
+                                <p>Yes, we do provide WiFi and some other common facilities at our studio in some common
+                                    areas for communication needs. but we will highly recommend and encourage you to
+                                    unplugg and disconnect yourself from the social world for the time you are in the
+                                    retreat for a better experience.</p>
                             </div>
                         </div>
                         <div class="accordion">
                             <h3 class="accordion-header">Is your retreat a suitable place for solo travellers?</h3>
                             <div class="accordion-body">
-                               <p>Absolutely, Many of our practitioners are solo travellers from different parts of the world seeking a refreshing and transformative experience here. In our retreat, we promote a supportive and inclusive environment and ensure that every individual feels safe, welcomed, and connected.</p>
+                                <p>Absolutely, Many of our practitioners are solo travellers from different parts of the
+                                    world seeking a refreshing and transformative experience here. In our retreat, we
+                                    promote a supportive and inclusive environment and ensure that every individual
+                                    feels safe, welcomed, and connected.</p>
                             </div>
                         </div>
                         <div class="accordion">
                             <h3 class="accordion-header">How do I book a yoga programme for the retreat?</h3>
                             <div class="accordion-body">
-                               <p>Booking for our yoga programs can be done through our website or by contacting our retreat coordinator directly. Simply select your desired programme dates and accommodation preferences, and follow the instructions to complete your booking.</p>
+                                <p>Booking for our yoga programs can be done through our website or by contacting our
+                                    retreat coordinator directly. Simply select your desired programme dates and
+                                    accommodation preferences, and follow the instructions to complete your booking.</p>
                             </div>
                         </div>
                     </div>
@@ -601,50 +735,85 @@
     </section>
     <!-- end -->
 
+    <!-- yoga studio ireland -->
+    <section class="bg-strip">
+        <div class="container text-center">
+            <span class="bg-strip_span">Join Us At Other Locations</span>
+            <h2 class="bg-strip_heading2">
+            Locations Of Niya Yoga Studio in Ireland
+            </h2>
+            <div class="d-flex justify-content-center mt-4">
+            <a href="" class="primary-btn">Know More</a>
+            </div>
+        </div>
+    </section>
+
     <!-- blogs -->
     <section class="blogs space">
         <div class="container">
             <div class="heading-wrap">
                 <h2 class="main-heading">yoga blogs</h2>
-                <span class="sub-title">Lorem ipsum dolor sit, amet consectetur</span>
+                <span class="sub-title">Latest Blogs on Yoga, Ayurveda and Meditation</span>
             </div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="blog-card">
-                        <img src="assets/images/yoga-ttc-01.png" class="img-fluid" alt="">
+                        <img src="assets/images/blog4.jpg" class="img-fluid" alt="">
                         <div class="card-body">
-                            <h2 class="title">benifit of yoga in daily lifestyle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident.</p>
+                            <h2 class="title">Exploring the Synergy of Ayurveda and Meditation : Balancing Body and Mind
+                            </h2>
+                            <p>Integrating Ayurveda with meditation brings a special blend of ancient wisdom to support
+                                our health and well-being. Ayurveda, an ancient Indian system of medicine, teaches us
+                                how to keep our bodies balanced and healthy using natural methods. When we combine
+                                Ayurvedic practices with meditation, we can find a personalized approach that suits our
+                                individual needs. For example, we might use certain herbs or oils during meditation to
+                                help calm our minds and bodies. Likewise, meditation can help us understand and use
+                                Ayurvedic principles better, such as eating foods that suit our body type or following
+                                daily routines that keep us in balance. Together, Ayurveda and meditation create a
+                                simple yet powerful way to feel healthier, happier, and more at peace in our lives.</p>
                             <a href="" class="primary-btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="blog-card">
-                        <img src="assets/images/yoga-ttc-02.png" class="img-fluid" alt="">
+                        <img src="assets/images/blog1.jpg" class="img-fluid" alt="">
                         <div class="card-body">
-                            <h2 class="title">benifit of yoga in daily lifestyle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident.</p>
+                            <h2 class="title">Inner Harmony: Nurturing Wellness through Meditation and Ayurvedic
+                                Practices</h2>
+                            <p>Through the synergy of meditation and Ayurveda, individuals embark on a transformative
+                                path towards holistic health, embracing balance, vitality, and serenity in their lives.
+                                By complementing meditation with Ayurvedic practices, such as personalized dietary
+                                choices and mindful living, individuals can nurture their overall wellness and inner
+                                harmony.</p>
                             <a href="" class="primary-btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="blog-card">
-                        <img src="assets/images/yoga-ttc-03.png" class="img-fluid" alt="">
+                        <img src="assets/images/blog3.jpg" class="img-fluid" alt="">
                         <div class="card-body">
-                            <h2 class="title">benifit of yoga in daily lifestyle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident.</p>
+                            <h2 class="title">Journey to Wellness: Discovering the Magic of Yoga Asanas</h2>
+                            <p>Yoga asanas, or postures, are like magical tools that help our bodies stretch,
+                                strengthen, and relax. By practicing yoga regularly, we can discover a whole new world
+                                of physical and mental well-being. Each yoga pose has its own unique benefits, from
+                                improving flexibility and balance to calming the mind and reducing stress. </p>
                             <a href="" class="primary-btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="blog-card">
-                        <img src="assets/images/yoga-ttc-04.png" class="img-fluid" alt="">
+                        <img src="assets/images/blog2.jpg" class="img-fluid" alt="">
                         <div class="card-body">
-                            <h2 class="title">benifit of yoga in daily lifestyle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident.</p>
+                            <h2 class="title">Escape and Rejuvenate: The Ultimate Guide to Yoga Retreats and Courses
+                            </h2>
+                            <p>Yoga retreats and courses provide a sanctuary away from the hustle and bustle of daily
+                                life, allowing participants to unwind, recharge, and connect with themselves on a deeper
+                                level. These retreats offer a variety of yoga classes, workshops, and activities
+                                tailored to different levels and interests, ensuring a fulfilling experience for
+                                everyone. </p>
                             <a href="" class="primary-btn">read more</a>
                         </div>
                     </div>

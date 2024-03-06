@@ -6,8 +6,8 @@ $("#hero-slider").owlCarousel({
   animateOut: "fadeOut",
   animateIn: "fadeIn",
   smartSpeed: 500,
-  autoplay: 3000,
-  autoplayTimeout: 7000,
+  autoplay: 2000,
+  autoplayTimeout: 3000,
   nav: true
 });
 
@@ -16,6 +16,8 @@ $("#program-scroller").owlCarousel({
   margin: 10,
   items: 3,
   nav: true,
+  autoplay: 2000,
+  autoplayTimeout: 3000,
   responsive: {
     0: {
       items: 1,
@@ -34,6 +36,8 @@ $("#yoga-teacher").owlCarousel({
   margin: 20,
   items: 4,
   nav: true,
+  autoplay: 2000,
+  autoplayTimeout: 3000,
   responsive: {
     0: {
       items: 1,
@@ -42,7 +46,7 @@ $("#yoga-teacher").owlCarousel({
       items: 2,
     },
     991: {
-      items: 3,
+      items: 4,
     }
   }
 });
@@ -52,6 +56,8 @@ $("#students-review").owlCarousel({
   margin: 20,
   items: 3,
   nav: true,
+  autoplay: 2000,
+  autoplayTimeout: 3000,
   responsive: {
     0: {
       items: 1,
