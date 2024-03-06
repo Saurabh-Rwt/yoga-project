@@ -23,7 +23,7 @@
             </div>
         </div>
     </section>
-    <!-- End -->
+    <!-- End -->  
 
     <!-- welcome section -->
     <section class="welcome-section space">
