@@ -27,7 +27,7 @@
                 <div class="contact-detail">
                     <h2 class="title">email</h2>
                     <a href="mailto:info@niyayogastudios.com" class="detail">info@niyayogastudios.com</a>
-                    <a href="mailto:info@niyayogastudios.com" class="detail">info@niyayogastudios.com</a>
+                    <a href="mailto:niyayogastudios@gmail.com" class="detail">niyayogastudios@gmail.com</a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,8 @@
                 <div class="col-lg-4 col-md-6">
                     <img src="assets/images/logo/logo.png" class="img-fluid footer-logo" alt="">
                     <div class="footer-content">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid necessitatibus mollitia sit inventore cum exercitationem fugit ea veniam ab, molestiae sint rerum incidunt beatae, totam, non natus repudiandae.</p>
+                        <p>At Niya, we embrace the essence of Niyama in our yoga retreat, making it’s the best yoga retreat in the world.Situated in the foothills of the Himalayan Ranges, Rishikesh stands out as the capital city for
+                        yogic wisdom and spiritual practices.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
