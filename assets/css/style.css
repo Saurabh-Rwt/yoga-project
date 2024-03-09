@@ -81,20 +81,21 @@ a {
   background: url(../images/heading-divider-line.png) no-repeat center;
   bottom: -30px;
   left: 0;
-  height: 20px;
+  height: 30px;
   width: 100%;
   background-size: contain;
 }
-.heading-wrap .main-heading {
+.heading-wrap .sub-title {
+  font-size: 19px;
+}
+
+.main-heading {
   font-size: 35px;
   color: #6b3b88;
   font-weight: 700;
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   margin: 0;
-}
-.heading-wrap .sub-title {
-  font-size: 19px;
 }
 
 .sub-heading {
@@ -119,7 +120,7 @@ a {
 }
 
 .bg {
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
 }
 
 p,
@@ -146,11 +147,18 @@ header .top-header ul li {
   margin-bottom: 0;
 }
 header .top-header ul li a {
+  font-size: 16px;
+  font-weight: 500;
   color: #6b3b88;
+  transition: 0.3s ease-in;
+}
+header .top-header ul li a:hover {
+  color: #000;
 }
 header .top-header ul li a i {
-  font-size: 18px;
-  color: inherit;
+  font-size: inherit;
+  color: #6b3b88;
+  transition: 0.3s ease-in;
 }
 header .top-header ul.contact-list li a i {
   padding-right: 5px;
@@ -158,17 +166,35 @@ header .top-header ul.contact-list li a i {
 header .top-header ul.social-contact li {
   height: 40px;
   width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f7edf2;
   border: 1px solid #6b3b88;
   border-radius: 50%;
 }
+header .top-header ul.social-contact li a {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .top-header ul.social-contact li a:hover {
+  background-color: #6b3b88;
+}
+header .top-header ul.social-contact li a:hover i {
+  color: #fff;
+}
 header nav {
-  padding: 10px 0;
   border-top: 1px solid #6b3b88;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.051);
+}
+header nav.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  width: 100%;
+  animation: 1s forwards smoothScroll;
 }
 header nav .navbar-holder {
   display: flex;
@@ -188,6 +214,7 @@ header nav .navbar-holder .navbarnav .navbar-list {
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item {
   position: relative;
+  padding: 15px 0;
   margin-bottom: 0;
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link {
@@ -196,6 +223,8 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link {
   color: #300b48;
   text-transform: capitalize;
   position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
   transition: 0.3s ease-in;
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .nav-link::after {
@@ -226,13 +255,17 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.443), 0 0 1.5625rem 0 rgba(0, 0, 0, 0.1);
   border: 0.25rem solid transparent;
   left: -10%;
-  margin-top: 20px;
-  margin: 20px 0 0;
+  margin-top: 10px;
   transform: scale(0.85);
   text-align: center;
   opacity: 0;
   visibility: hidden;
   transition: all 650ms ease;
+}
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu.show {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
 }
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu .dropdown-item {
   padding: 12px 10px;
@@ -252,12 +285,17 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link::befo
   float: right;
   padding-left: 10px;
 }
-header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu {
-  transform: scale(1);
-  opacity: 1;
-  visibility: visible;
-}
 
+@keyframes smoothScroll {
+  0% {
+    will-change: transform;
+    transform: translateY(-40px);
+  }
+  100% {
+    will-change: transform;
+    transform: translateY(0);
+  }
+}
 /*------- end -------*/
 /*------- Hero slider -------*/
 .hero-section .owl-carousel .owl-nav,
@@ -750,7 +788,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu 
   margin: 0;
 }
 .faq .faq-wrapper .accordion.active .accordion-header {
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
 }
 .faq .faq-wrapper .accordion.active .accordion-header::after {
   transform: rotate(180deg);
@@ -930,6 +968,401 @@ footer .copyright-wrapper .copyright-text a {
 }
 
 /*------- end -------*/
+/*------- breadcrumb -------*/
+.breadcrumb-wrapper {
+  background: linear-gradient(rgba(232, 232, 232, 0.19), rgba(232, 232, 232, 0.19)), url(../images/breadcrumb/pattern-bg.webp);
+  background-size: 15%;
+  padding: 90px 0;
+}
+.breadcrumb-wrapper .breadcrumb-title {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+.breadcrumb-wrapper .breadcrumb-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb-wrapper .breadcrumb-list .breadcrumb-item {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.breadcrumb-wrapper .breadcrumb-list .breadcrumb-item a {
+  color: #6b3b88;
+  transition: 0.3s ease-in;
+}
+.breadcrumb-wrapper .breadcrumb-list .breadcrumb-item a:hover {
+  color: #000;
+}
+.breadcrumb-wrapper .breadcrumb-list .breadcrumb-item + .breadcrumb-item::before {
+  padding: 0 10px;
+}
+
+/*------- end -------*/
+/*------- Course detail -------*/
+.course-detail-sec .sidebar {
+  position: sticky;
+  top: 90px;
+  background-color: #6b3b88;
+  padding: 20px;
+  color: #fff;
+  border-radius: 7px;
+}
+.course-detail-sec .sidebar .title {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 22px;
+  position: relative;
+}
+.course-detail-sec .sidebar .title::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  width: 25%;
+  background-color: #fff;
+}
+.course-detail-sec .sidebar .sidebar-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.course-detail-sec .sidebar .sidebar-list li:last-child {
+  margin-bottom: 0;
+}
+.course-detail-sec .sidebar .sidebar-list li .list-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.course-detail-sec .sidebar .sidebar-list li .detail {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.course-detail-sec .sidebar .prices-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 28px 0;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+.course-detail-sec .sidebar .prices-wrap .description .price {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.course-detail-sec .sidebar .prices-wrap .description .room {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+}
+.course-detail-sec .course-detail-wrapper {
+  padding: 25px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  margin-bottom: 22px;
+}
+.course-detail-sec .course-detail-wrapper:last-child {
+  margin-bottom: 0;
+}
+.course-detail-sec .course-detail-wrapper .main-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 28px;
+}
+.course-detail-sec .course-detail-wrapper .main-title::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  width: 15%;
+  background-color: #6b3b88;
+}
+.course-detail-sec .box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.course-detail-sec .box-wrapper .box-holder {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.course-detail-sec .box-wrapper .box-holder img {
+  background-color: #fff;
+  width: 80px;
+  padding: 10px;
+}
+.course-detail-sec .box-wrapper .box-holder .text {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.schedule-dates {
+  margin-bottom: 22px;
+}
+.schedule-dates .head {
+  background-color: #6b3b88;
+  margin-bottom: 0;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.schedule-dates .head .title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 15px;
+  position: relative;
+  text-align: center;
+  width: 25%;
+  margin: 0;
+}
+.schedule-dates .head .title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 80%;
+  width: 2px;
+  border-right: 1px dashed #fff;
+}
+.schedule-dates .head .title:last-child::after {
+  display: none;
+}
+.schedule-dates .dates-body .dates-box {
+  display: flex;
+}
+.schedule-dates .dates-body .dates-box .item {
+  width: 25%;
+  text-align: center;
+  padding: 10px 8px;
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.schedule-dates .dates-body .dates-box .item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 80%;
+  width: 2px;
+  border-right: 1px dashed #929292;
+}
+.schedule-dates .dates-body .dates-box .item::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 90%;
+  height: 2px;
+  border-bottom: 1px dashed #929292;
+}
+.schedule-dates .dates-body .dates-box .item > span {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.schedule-dates .dates-body .dates-box .item > span del {
+  color: #929292;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.schedule-dates .dates-body .dates-box .item .primary-btn {
+  font-size: 14px;
+  padding: 8px 10px;
+  width: 70%;
+}
+.schedule-dates.daily-schedule .head .title {
+  width: 50%;
+}
+.schedule-dates.daily-schedule .dates-body .dates-box {
+  display: flex;
+}
+.schedule-dates.daily-schedule .dates-body .dates-box .item {
+  width: 50%;
+}
+.schedule-dates.daily-schedule .dates-body .dates-box .item::before {
+  width: 95%;
+}
+
+/*------- end -------*/
+/*------- excursion -------*/
+.excursion-sec #excursion-carousel {
+  margin-top: 55px;
+}
+.excursion-sec #excursion-carousel .item .body {
+  background-color: #fff;
+  padding: 12px 0;
+  text-align: center;
+}
+.excursion-sec #excursion-carousel .item .body .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #6b3b88;
+  display: block;
+}
+
+/*------- end -------*/
+/*------- food & accomodation-------*/
+.food-accomodation .retreat-card .img-wrap {
+  width: 100%;
+}
+.food-accomodation .retreat-card .img-wrap img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*------- end -------*/
+/*------- yoga syllabus -------*/
+.yoga-syllabus .syllabus-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 20px;
+}
+.yoga-syllabus .syllabus-wrapper .syllabus-card {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  padding: 20px;
+}
+.yoga-syllabus .syllabus-wrapper .syllabus-card .count {
+  background-color: #6b3b88;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yoga-syllabus .syllabus-wrapper .syllabus-card .count span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+.yoga-syllabus .syllabus-wrapper .syllabus-card .content .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.yoga-syllabus .syllabus-wrapper .syllabus-card .content p {
+  margin-bottom: 0;
+}
+
+/*------- end -------*/
+/*------- Form -------*/
+form {
+  padding: 30px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+form .form-select {
+  height: 45px;
+  border: 1px solid #929292;
+  border-radius: 5px;
+}
+form .form-select:focus {
+  box-shadow: none;
+  border: 1px solid #6b3b88;
+}
+form .form-floating {
+  margin-bottom: 22px;
+}
+form .form-floating > .form-control {
+  height: 55px;
+  border: 1px solid #929292;
+  border-radius: 5px;
+}
+form .form-floating > .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #6b3b88;
+}
+form .form-floating > .form-control:focus ~ label {
+  opacity: 1;
+  transform: scale(0.85) translateY(-1.6rem) translateX(0.15rem);
+  background: #fff;
+}
+form .form-floating > .form-control :not(:-moz-placeholder-shown) {
+  padding: 10px;
+}
+form .form-floating > .form-control :not(:placeholder-shown) {
+  padding: 10px;
+}
+form .form-floating textarea {
+  height: 95px !important;
+  resize: none;
+}
+form .form-floating label {
+  font-size: 16px !important;
+  color: #000 !important;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-transform: capitalize;
+  padding: 10px 0 0 10px;
+}
+form .form-floating label sup {
+  top: -2px;
+  font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+
+.contact-us .main-heading {
+  margin-bottom: 55px;
+}
+.contact-us img {
+  height: 100%;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*------- end -------*/
 /*------- Media Query -------*/
 @media screen and (max-width: 1024px) {
   header nav .navbar-holder .navbarnav .navbar-list {
@@ -951,6 +1384,13 @@ footer .copyright-wrapper .copyright-text a {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 991px) {
+  header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
 @media screen and (max-width: 991px) {
   .order-1 {
     order: 1;
@@ -960,6 +1400,7 @@ footer .copyright-wrapper .copyright-text a {
   }
   header nav {
     position: relative;
+    padding: 15px 0;
   }
   header nav .navbar-holder {
     justify-content: flex-start;
@@ -1025,6 +1466,10 @@ footer .copyright-wrapper .copyright-text a {
   header nav .navbar-holder .navbarnav .navbar-list {
     flex-direction: column;
     align-items: flex-start;
+  }
+  header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu.show {
+    position: relative;
+    text-align: left;
   }
   .welcome-section .wlcm-img {
     float: none;
@@ -1156,6 +1601,32 @@ footer .copyright-wrapper .copyright-text a {
   }
   .retreat-card .img-wrap {
     display: none;
+  }
+  .course-detail-sec .box-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .yoga-syllabus .course-detail-wrapper .main-title {
+    font-size: 22px;
+  }
+  .yoga-syllabus .syllabus-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .schedule-dates {
+    overflow-x: scroll;
+  }
+  .schedule-dates .head {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .schedule-dates .head .title {
+    width: 100%;
+  }
+  .schedule-dates .dates-body .dates-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .schedule-dates .dates-body .dates-box .item {
+    width: 100%;
   }
 }
 @media screen and (max-width: 575px) {

@@ -1,5 +1,28 @@
+/*--------- Sticky Header --------- */
+$(window).scroll(function () {
+  var sticky = $('nav'),
+    scroll = $(window).scrollTop();
+  if (scroll >= 50) sticky.addClass('sticky');
+  else sticky.removeClass('sticky');
+});
 
-/*---------------- banner ---------------- */
+/*--------- dropdown toggle --------- */
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdownLinks = document.querySelectorAll('.drowdown-link');
+  dropdownLinks.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const dropdownMenu = this.nextElementSibling;
+      dropdownMenu.classList.add('show');
+      dropdownLinks.forEach(function (link) {
+        link.classList.remove('show');
+      })
+    });
+  });
+});
+
+
+/*---------- banner ---------- */
 $("#hero-slider").owlCarousel({
   loop: true,
   items: 1,
@@ -47,6 +70,26 @@ $("#yoga-teacher").owlCarousel({
     },
     991: {
       items: 4,
+    }
+  }
+});
+
+$("#excursion-carousel").owlCarousel({
+  loop: true,
+  margin: 20,
+  items: 3,
+  nav: true,
+  autoplay: 2000,
+  autoplayTimeout: 3000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    991: {
+      items: 3,
     }
   }
 });

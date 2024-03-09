@@ -25,6 +25,5 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="<?php echo $link;?>assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo $link;?>assets/b-icon/css/fontello.css" />
 <link rel="stylesheet" href="<?php echo $link;?>assets/css/style.css">
 <link rel="stylesheet" href="<?php echo $link;?>assets/css/owl.carousel.min.css">
