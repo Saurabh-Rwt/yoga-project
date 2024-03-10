@@ -923,12 +923,18 @@ footer .footer-wrapper .social-contact li {
   border-radius: 50%;
 }
 footer .footer-wrapper .social-contact li a {
+  color: #6b3b88;
   border-radius: 50%;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in;
+}
+footer .footer-wrapper .social-contact li a i {
+  color: inherit;
+  transition: 0.3s ease-in;
 }
 footer .footer-wrapper .social-contact li a:hover {
   background-color: #6b3b88;

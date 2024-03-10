@@ -1033,12 +1033,18 @@ footer {
                 border: 1px solid $theme_color;
                 border-radius: 50%;
                 a {
+                    color: $theme_color;
                     border-radius: 50%;
                     height: 100%;
                     width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    transition: 0.3s ease-in;
+                    i{
+                        color: inherit;
+                        transition: 0.3s ease-in;
+                    }
                     &:hover{
                         background-color: $theme_color;
                         i{
