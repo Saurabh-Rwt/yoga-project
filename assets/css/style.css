@@ -99,10 +99,11 @@ a {
 }
 
 .sub-heading {
-  font-size: 32px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
   color: #000;
   text-transform: capitalize;
-  margin-bottom: 22px;
 }
 .sub-heading .highlight {
   font-size: inherit;
@@ -121,6 +122,10 @@ a {
 
 .bg {
   background-color: #f9f9f9;
+}
+
+.bold-txt {
+  font-weight: 600;
 }
 
 p,
@@ -275,10 +280,10 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu .dropd
 header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu .dropdown-item:hover {
   background-color: rgba(201, 149, 232, 0.1882352941);
 }
-header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link {
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link {
   position: relative;
 }
-header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link::before {
+header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link::before {
   content: "\f107";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -818,8 +823,8 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link::befo
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 2; /* Limit to two lines */
-  line-clamp: 2; /* Limit to two lines */
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 .blogs .blog-card p {
   margin-top: 20px;
@@ -829,8 +834,8 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .drowdown-link::befo
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 5; /* Limit to two lines */
-  line-clamp: 5; /* Limit to two lines */
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
 }
 
 /*------- end -------*/
@@ -904,6 +909,32 @@ footer .footer-wrapper .footer-logo {
 }
 footer .footer-wrapper .footer-content {
   padding-right: 40px;
+}
+footer .footer-wrapper .social-contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer-wrapper .social-contact li {
+  height: 40px;
+  width: 40px;
+  background-color: #f7edf2;
+  border: 1px solid #6b3b88;
+  border-radius: 50%;
+}
+footer .footer-wrapper .social-contact li a {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-wrapper .social-contact li a:hover {
+  background-color: #6b3b88;
+}
+footer .footer-wrapper .social-contact li a:hover i {
+  color: #fff;
 }
 footer .footer-wrapper .footer-title {
   font-size: 22px;
@@ -1363,6 +1394,115 @@ input[type=number] {
 }
 
 /*------- end -------*/
+/*------- why choose us -------*/
+.why-choose-us .why-choose-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 22px;
+}
+.why-choose-us .why-choose-wrapper .why-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  gap: 20px;
+}
+.why-choose-us .why-choose-wrapper .why-box img {
+  width: 120px;
+}
+.why-choose-us .why-choose-wrapper .why-box .content .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b3b88;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.why-choose-us .why-choose-wrapper .why-box .content .text {
+  font-size: 16px;
+  margin: 0;
+}
+
+/*------- end -------*/
+/*------- Other -------*/
+.ireland-yoga-schedule .course-detail-wrapper {
+  background-color: #fff;
+  padding: 25px;
+}
+.ireland-yoga-schedule .course-detail-wrapper img {
+  display: block;
+  margin-left: auto;
+}
+
+.teacher-detail-wrap {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-bottom: 55px;
+  overflow: hidden;
+}
+.teacher-detail-wrap .img-holder {
+  position: relative;
+}
+.teacher-detail-wrap .img-holder::after {
+  content: "";
+  position: absolute;
+  right: -27px;
+  top: -10px;
+  height: calc(100% + 20px);
+  width: 17%;
+  z-index: 9;
+  background: #fff;
+  transform: rotate(7deg);
+}
+.teacher-detail-wrap .img-holder img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.teacher-detail-wrap .content-holder {
+  padding: 40px 40px 40px 70px;
+}
+.teacher-detail-wrap .content-holder .title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+.teacher-detail-wrap .content-holder .designation-wrap {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.teacher-detail-wrap .content-holder .designation-wrap .designation {
+  font-size: 14px;
+  color: #fff;
+  padding: 7px 22px;
+  border-radius: 3rem;
+  background-color: #6b3b88;
+  margin: 0;
+}
+.teacher-detail-wrap:last-child {
+  margin-bottom: 0;
+}
+.teacher-detail-wrap:nth-child(odd) {
+  grid-template-columns: 75% 25%;
+}
+.teacher-detail-wrap:nth-child(odd) .img-holder {
+  order: 2;
+}
+.teacher-detail-wrap:nth-child(odd) .img-holder::after {
+  left: -27px;
+  top: -10px;
+  width: 17%;
+  right: auto;
+}
+.teacher-detail-wrap:nth-child(odd) .content-holder {
+  order: 1;
+  padding: 40px 70px 40px 40px;
+}
+
+/*------- end -------*/
 /*------- Media Query -------*/
 @media screen and (max-width: 1024px) {
   header nav .navbar-holder .navbarnav .navbar-list {
@@ -1467,6 +1607,12 @@ input[type=number] {
     flex-direction: column;
     align-items: flex-start;
   }
+  header nav .navbar-holder .navbarnav .navbar-list .nav-item {
+    padding: 0;
+  }
+  header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu {
+    left: 0;
+  }
   header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdownmenu.show {
     position: relative;
     text-align: left;
@@ -1537,11 +1683,14 @@ input[type=number] {
     font-size: 18px;
   }
   .sub-heading {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
   header .top-header {
     display: none;
+  }
+  header nav .navbar-holder .logo img {
+    width: 90px;
   }
   .welcome-section .icon-wrapper {
     grid-template-columns: repeat(2, 1fr);

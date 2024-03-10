@@ -614,6 +614,10 @@
     </section>
     <!-- end -->
 
+    <!-- Gallery -->
+    <?php include('include/gallery.php') ?>
+    <!-- end -->
+
     <!-- footer -->
     <?php include('include/footer.php') ?>
     <!-- end -->

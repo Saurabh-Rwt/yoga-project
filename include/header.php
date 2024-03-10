@@ -39,13 +39,16 @@
                             <a class="nav-link active" href="<?php echo $link;?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void(0);" class="nav-link drowdown-link">About Us</a>
-                            <ul class="dropdownmenu">
+                            <a href="javascript:void(0);" data-drop-target="about-dropdown" class="nav-link dropdown-link">About Us</a>
+                            <ul class="dropdownmenu" id="about-dropdown">
                                 <li class="dropdown-item">
-                                    <a class="nav-link" href="<?php echo $link;?>about.php" title="About Our Ashram">About Niya Yoga Studio</a>
+                                    <a class="nav-link" href="<?php echo $link;?>about-us.php" title="About Our Ashram">About Niya Yoga Studio</a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a class="nav-link" href="<?php echo $link;?>our-teacher.php" title="">our teacher</a>
+                                    <a class="nav-link" href="<?php echo $link;?>niya-yoga-studio-in-ireland.php" title="Niya Yoga Studio in ireland">Niya Yoga Studio in ireland</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link" href="<?php echo $link;?>our-teachers.php" title="">our teacher's</a>
                                 </li>
                                 <li class="dropdown-item">
                                     <a class="nav-link" href="<?php echo $link;?>food-accomodaiton.php" title="">food and accommodation</a>
@@ -56,8 +59,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void(0);" class="nav-link drowdown-link">Yoga courses</a>
-                            <ul class="dropdownmenu">
+                            <a href="javascript:void(0);" data-drop-target="course-dropdown" class="nav-link dropdown-link">Yoga courses</a>
+                            <ul class="dropdownmenu" id="course-dropdown">
                                 <li class="dropdown-item">
                                     <a class="nav-link" href="<?php echo $link;?>100-hour-yoga-teacher-training.php" title="">100 Hour Yoga Teacher Training</a>
                                 </li>
@@ -70,8 +73,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void(0);" class="nav-link drowdown-link">Yoga retreats</a>
-                            <ul class="dropdownmenu">
+                            <a href="javascript:void(0);" data-drop-target="retreat-dropdown" class="nav-link dropdown-link">Yoga retreats</a>
+                            <ul class="dropdownmenu" id="retreat-dropdown">
                                 <li class="dropdown-item"><a href="<?php echo $link;?>7-days-yoga-retreat.php" class="nav-link">7 days yoga Retreat</a></li>
                                 <li class="dropdown-item"><a href="<?php echo $link;?>10-days-yoga-retreat.php" class="nav-link">10 days yoga Retreat</a></li>
                                 <li class="dropdown-item"><a href="<?php echo $link;?>14-days-yoga-retreat.php" class="nav-link">14 days yoga Retreat</a></li>

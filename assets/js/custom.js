@@ -8,18 +8,31 @@ $(window).scroll(function () {
 
 /*--------- dropdown toggle --------- */
 document.addEventListener("DOMContentLoaded", function () {
-  const dropdownLinks = document.querySelectorAll('.drowdown-link');
-  dropdownLinks.forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
-      const dropdownMenu = this.nextElementSibling;
-      dropdownMenu.classList.add('show');
-      dropdownLinks.forEach(function (link) {
-        link.classList.remove('show');
-      })
+  if (window.innerWidth <= 991) {
+    const dropdownLinks = document.querySelectorAll('.dropdown-link');
+
+    dropdownLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const dropTargetId = this.getAttribute('data-drop-target');
+        const dropdownMenu = document.getElementById(dropTargetId);
+
+        dropdownLinks.forEach(function (otherLink) {
+          if (otherLink !== link) {
+            const otherDropTargetId = otherLink.getAttribute('data-drop-target');
+            const otherDropdownMenu = document.getElementById(otherDropTargetId);
+            if (otherDropdownMenu.classList.contains('show')) {
+              otherDropdownMenu.classList.remove('show');
+            }
+          }
+        });
+
+        dropdownMenu.classList.toggle('show');
+      });
     });
-  });
+  }
 });
+
 
 
 /*---------- banner ---------- */

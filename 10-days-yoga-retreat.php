@@ -15,10 +15,10 @@
     <!-- Breadcrumb -->
     <section class="breadcrumb-wrapper">
         <div class="container">
-            <h2 class="breadcrumb-title">10 days yoga retreat in Rishikesh, India</h2>
+            <h2 class="breadcrumb-title">10 days Yoga reatreat in Rishikesh, India</h2>
             <ul class="breadcrumb-list">
                 <li class="breadcrumb-item"><a href="<?php echo $link;?>">home</a></li>
-                <li class="breadcrumb-item">10 days yoga retreat in Rishikesh, India</li>
+                <li class="breadcrumb-item">10 days yoga reatreat in Rishikesh, India</li>
             </ul>
         </div>
     </section>
@@ -83,6 +83,7 @@
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illum vitae? Officiis voluptatem voluptatibus deleniti in fugit ipsam illo, blanditiis tenetur odit, reiciendis quos ea reprehenderit inventore accusamus aliquid nisi.</p>
 
+                        <h3 class="sub-heading">Lorem ipsum dolor sit amet</h3>
                         <ul class="list">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
@@ -339,7 +340,7 @@
                         </div>
                         <p><strong>Note:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat laudantium debitis iusto vel dolorum similique facilis asperiores minima ratione</p>
 
-                        <iframe width="100%" height="405" src="https://www.youtube.com/embed/v7AYKMP6rOE?si=-Fu0djH0cSNva_ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="10 days%" height="405" src="https://www.youtube.com/embed/v7AYKMP6rOE?si=-Fu0djH0cSNva_ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     
                 </div>
@@ -631,7 +632,7 @@
      <!-- join banner -->
      <section class="join-banner">
         <div class="title-holder">
-            <span class="sub-title">Yoga TTC and Yoga Retreats in Rishikesh, India</span>
+            <span class="sub-title">yoga retreat and Yoga Retreats in Rishikesh, India</span>
             <h2 class="banner-title">get your yoga certification today</h2>
             <a href="" class="primary-btn">click here to join</a>
         </div>
@@ -639,10 +640,10 @@
     <!-- end -->
 
     <!-- yoga syllabus -->
-    <section class="yoga-syllabus space bg">
+    <section class="yoga-syllabus space">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">100HR course syllabus</h1>
+                <h1 class="main-heading">10 daysHR course syllabus</h1>
                 <span class="sub-title">Connect with the Stories Behind the Practice</span>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nobis quos eum maiores dolores consectetur sunt fugit asperiores at commodi, ab, quo voluptatibus veniam sequi non dolorem, blanditiis aut eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste repellendus sapiente eius dicta alias ipsum natus mollitia quas deleniti minus quam, praesentium, ipsa eos! Pariatur odit magnam qui numquam asperiores!</p>
@@ -760,6 +761,109 @@
             </div>
         </div>
     </section>
+    <!-- end -->
+
+    <!-- Related Yoga Course -->
+    <section class="space bg">
+        <div class="container">
+            <div class="heading-wrap">
+                <h1 class="main-heading">Related Yoga course</h1>
+                <span class="sub-title">We Provide 10 daysHr, 200Hr yoga retreat and Yoga Retreat Programs in Rishikesh,
+                    India</span>
+            </div>
+            <div class="owl-carousel" id="program-scroller">
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>beginner</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-01.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">10 days yoga</h2>
+                            <span class="sub-title">teacher Training course</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 14 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>intermediate</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-02.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">200 yoga</h2>
+                            <span class="sub-title">teacher Training course</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 25 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>Short Term Retreat</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">10 days Yoga retreat</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>Most Popular Retreat</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-04.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">10 Days Yoga</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="course-type">
+                        <span>Long Term Retreat</span>
+                    </div>
+                    <img src="assets/images/yoga-course-ttc-nrishikesh-05.jpg" class="img-fluid" alt="">
+                    <div class="description">
+                        <div class="head">
+                            <h2 class="title">14 Days Yoga</h2>
+                            <span class="sub-title">Retreat Program in Rishikesh</span>
+                        </div>
+
+                        <div class="body">
+                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
+                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+    
+    <!-- Gallery -->
+    <?php include('include/gallery.php') ?>
     <!-- end -->
 
     <!-- footer -->

@@ -1,50 +1,3 @@
-    <!-- Gallery -->
-    <section class="space gallery">
-        <div class="container">
-            <div class="heading-wrap">
-                <h1 class="main-heading">our gallery</h1>
-                <span class="sub-title">Explore artistic wonders in our gallery.</span>
-            </div>
-
-            <div class="row gy-4">
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/10.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/14.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/15.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/12.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/13.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/16.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <a href="" class="primary-btn">view all</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end -->
-
     <!-- FAQ -->
     <section class="faq space bg">
         <div class="container">
@@ -124,10 +77,10 @@
         <div class="container text-center">
             <span class="bg-strip_span">Join Us At Other Locations</span>
             <h2 class="bg-strip_heading2">
-            Locations Of Niya Yoga Studio in Ireland
+                Locations Of Niya Yoga Studio in Ireland
             </h2>
             <div class="d-flex justify-content-center mt-4">
-            <a href="" class="primary-btn">Know More</a>
+                <a href="" class="primary-btn">Know More</a>
             </div>
         </div>
     </section>
@@ -208,94 +161,117 @@
     <!-- end -->
 
 
-<footer>
-    <div class="container">
-        <div class="contact-wrapper">
-            <div class="contact-holder">
-                <div class="icon-wrap">
-                    <img src="<?php echo $link;?>assets/images/icons/location.png" class="img-fluid icon" alt="">
-                </div>
-                <div class="contact-detail">
-                    <h2 class="title">location</h2>
-                    <span class="detail">balaknath road, tapovan, Rishikesh, india</span>
-                </div>
-            </div>
-            <div class="contact-holder">
-                <div class="icon-wrap">
-                    <img src="<?php echo $link;?>assets/images/icons/phone.png" class="img-fluid icon" alt="">
-                </div>
-                <div class="contact-detail">
-                    <h2 class="title">phone</h2>
-                    <a href="tel:0873550405" class="detail">(087) 355 0405</a>
-                    <a href="tel:916397350787" class="detail">+91 6397 350 787</a>
-                </div>
-            </div>
-            <div class="contact-holder">
-                <div class="icon-wrap">
-                    <img src="<?php echo $link;?>assets/images/icons/mail.png" class="img-fluid icon" alt="">
-                </div>
-                <div class="contact-detail">
-                    <h2 class="title">email</h2>
-                    <a href="mailto:info@niyayogastudios.com" class="detail">info@niyayogastudios.com</a>
-                    <a href="mailto:niyayogastudios@gmail.com" class="detail">niyayogastudios@gmail.com</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-wrapper">
-            <div class="row gy-3">
-                <div class="col-lg-4 col-md-6">
-                    <img src="<?php echo $link;?>assets/images/logo/logo.png" class="img-fluid footer-logo" alt="">
-                    <div class="footer-content">
-                        <p>At Niya, we embrace the essence of Niyama in our yoga retreat, making it’s the best yoga retreat in the world.Situated in the foothills of the Himalayan Ranges, Rishikesh stands out as the capital city for
-                        yogic wisdom and spiritual practices.</p>
+    <footer>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-holder">
+                    <div class="icon-wrap">
+                        <img src="<?php echo $link;?>assets/images/icons/location.png" class="img-fluid icon" alt="">
+                    </div>
+                    <div class="contact-detail">
+                        <h2 class="title">location</h2>
+                        <span class="detail">balaknath road, tapovan, Rishikesh, india</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="footer-title">quick links</span>
-                    <ul class="footer-list">
-                        <li><a href="<?php echo $link;?>">home</a></li>
-                        <li><a href="<?php echo $link;?>about-us.php">about us</a></li>
-                        <li><a href="<?php echo $link;?>food-accomodaiton.php">food and accomodation</a></li>
-                        <li><a href="<?php echo $link;?>gallery.php">gallery</a></li>
-                        <li><a href="<?php echo $link;?>contact-us.php">Contact us</a></li>
-                    </ul>
+                <div class="contact-holder">
+                    <div class="icon-wrap">
+                        <img src="<?php echo $link;?>assets/images/icons/phone.png" class="img-fluid icon" alt="">
+                    </div>
+                    <div class="contact-detail">
+                        <h2 class="title">phone</h2>
+                        <a href="tel:0873550405" class="detail">(087) 355 0405</a>
+                        <a href="tel:916397350787" class="detail">+91 6397 350 787</a>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6">
-                    <span class="footer-title">yoga courses</span>
-                    <ul class="footer-list">
-                        <li><a href="<?php echo $link;?>100-hour-yoga-teacher-training.php">100 hour yoga ttc</a></li>
-                        <li><a href="<?php echo $link;?>200-hour-yoga-teacher-training.php">200 hour yoga ttc</a></li>
-                        <li><a href="<?php echo $link;?>300-hour-yoga-teacher-training.php">200 hour yoga ttc</a></li>
-                        <li><a href="<?php echo $link;?>7-days-yoga-retreat.php">7 days yoga Retreat</a></li>
-                        <li><a href="<?php echo $link;?>10-days-yoga-retreat.php">10 days yoga Retreat</a></li>
-                        <li><a href="<?php echo $link;?>14-days-yoga-retreat.php">14 days yoga Retreat</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6">
-                    <span class="footer-title">our reviews</span>
-                    <ul class="review-list">
-                        <li>
-                            <a href="">
-                                <img src="<?php echo $link;?>assets/images/icons/google-review.jpg" alt="" class="img-fluid">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                            <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt="" class="img-fluid">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                            <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg" alt="" class="img-fluid">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="contact-holder">
+                    <div class="icon-wrap">
+                        <img src="<?php echo $link;?>assets/images/icons/mail.png" class="img-fluid icon" alt="">
+                    </div>
+                    <div class="contact-detail">
+                        <h2 class="title">email</h2>
+                        <a href="mailto:info@niyayogastudios.com" class="detail">info@niyayogastudios.com</a>
+                        <a href="mailto:niyayogastudios@gmail.com" class="detail">niyayogastudios@gmail.com</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="footer-wrapper">
+                <div class="row gy-3">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="<?php echo $link;?>assets/images/logo/logo.png" class="img-fluid footer-logo" alt="">
+                        <div class="footer-content">
+                            <p>At Niya, we embrace the essence of Niyama in our yoga retreat, making it’s the best yoga
+                                retreat in the world.Situated in the foothills of the Himalayan Ranges, Rishikesh stands
+                                out as the capital city for
+                                yogic wisdom and spiritual practices.</p>
+                        </div>
+                        <ul class="social-contact">
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="footer-title">quick links</span>
+                        <ul class="footer-list">
+                            <li><a href="<?php echo $link;?>">home</a></li>
+                            <li><a href="<?php echo $link;?>about-us.php">about us</a></li>
+                            <li><a href="<?php echo $link;?>food-accomodaiton.php">food and accomodation</a></li>
+                            <li><a href="<?php echo $link;?>gallery.php">gallery</a></li>
+                            <li><a href="<?php echo $link;?>contact-us.php">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <span class="footer-title">yoga courses</span>
+                        <ul class="footer-list">
+                            <li><a href="<?php echo $link;?>100-hour-yoga-teacher-training.php">100 hour yoga ttc</a>
+                            </li>
+                            <li><a href="<?php echo $link;?>200-hour-yoga-teacher-training.php">200 hour yoga ttc</a>
+                            </li>
+                            <li><a href="<?php echo $link;?>300-hour-yoga-teacher-training.php">200 hour yoga ttc</a>
+                            </li>
+                            <li><a href="<?php echo $link;?>7-days-yoga-retreat.php">7 days yoga Retreat</a></li>
+                            <li><a href="<?php echo $link;?>10-days-yoga-retreat.php">10 days yoga Retreat</a></li>
+                            <li><a href="<?php echo $link;?>14-days-yoga-retreat.php">14 days yoga Retreat</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <span class="footer-title">our reviews</span>
+                        <ul class="review-list">
+                            <li>
+                                <a href="">
+                                    <img src="<?php echo $link;?>assets/images/icons/google-review.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrapper">
+                <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right
+                    reserved</span>
+            </div>
         </div>
-        <div class="copyright-wrapper">
-            <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right reserved</span>
-        </div>
-    </div>
-</footer>
+    </footer>
