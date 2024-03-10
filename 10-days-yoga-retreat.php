@@ -281,6 +281,29 @@
                     </div>
 
                     <div class="course-detail-wrapper">
+                        <h2 class="main-title">10 days Yoga Retreat - Itinerary</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit iure vel. Suscipit nesciunt perferendis praesentium, totam quasi ut culpa voluptate mollitia explicabo sint facilis, deleniti dolorum rem aut nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-detail-wrapper">
                         <h2 class="main-title">Daily schedule for 10 days yoga retreat</h2>
                         <div class="schedule-dates daily-schedule">
                             <div class="head">
@@ -339,8 +362,6 @@
                             </div>
                         </div>
                         <p><strong>Note:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat laudantium debitis iusto vel dolorum similique facilis asperiores minima ratione</p>
-
-                        <iframe width="10 days%" height="405" src="https://www.youtube.com/embed/v7AYKMP6rOE?si=-Fu0djH0cSNva_ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     
                 </div>

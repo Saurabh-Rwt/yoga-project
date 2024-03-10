@@ -29,7 +29,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">Welcome to Niya Yoga Studio</h1>
-                <span class="sub-title">An International Retreat To Begin Your Journey to Inner Harmony</span>
+                <span class="sub-title">An International Retreat To Begin Your Journey</span>
             </div>
             <div class="row gy-3">
                 <div class="col-lg-12">

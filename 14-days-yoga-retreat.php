@@ -15,10 +15,10 @@
     <!-- Breadcrumb -->
     <section class="breadcrumb-wrapper">
         <div class="container">
-            <h2 class="breadcrumb-title">7 days Yoga reatreat in Rishikesh, India</h2>
+            <h2 class="breadcrumb-title">14 days Yoga reatreat in Rishikesh, India</h2>
             <ul class="breadcrumb-list">
                 <li class="breadcrumb-item"><a href="<?php echo $link;?>">home</a></li>
-                <li class="breadcrumb-item">7 days yoga reatreat in Rishikesh, India</li>
+                <li class="breadcrumb-item">14 days yoga reatreat in Rishikesh, India</li>
             </ul>
         </div>
     </section>
@@ -34,7 +34,7 @@
                         <ul class="sidebar-list">
                             <li>
                                 <span class="list-title">duration:</span>
-                                <span class="detail">7 days</span>
+                                <span class="detail">14 days</span>
                             </li>
                             <li>
                                 <span class="list-title">language:</span>
@@ -78,7 +78,7 @@
                     <div class="course-detail-wrapper">
                         <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid mb-4" alt="">
 
-                        <h2 class="main-title">7 days yoga retreat in Rishikesh, india</h2>
+                        <h2 class="main-title">14 days yoga retreat in Rishikesh, india</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium recusandae ad, adipisci a quae, iure, saepe aliquam possimus laboriosam architecto nobis. Nulla, ducimus. Aut aliquid dolor consequatur. Dolorem, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, at? Ut reprehenderit neque numquam deserunt distinctio harum quaerat necessitatibus excepturi voluptate possimus ipsam dolorum, fuga praesentium adipisci odit maiores obcaecati?</p>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illum vitae? Officiis voluptatem voluptatibus deleniti in fugit ipsam illo, blanditiis tenetur odit, reiciendis quos ea reprehenderit inventore accusamus aliquid nisi.</p>
@@ -281,7 +281,30 @@
                     </div>
 
                     <div class="course-detail-wrapper">
-                        <h2 class="main-title">Daily schedule for 7 days yoga retreat</h2>
+                        <h2 class="main-title">14 days Yoga Retreat - Itinerary</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit iure vel. Suscipit nesciunt perferendis praesentium, totam quasi ut culpa voluptate mollitia explicabo sint facilis, deleniti dolorum rem aut nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <div class="accordion-body">
+                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-detail-wrapper">
+                        <h2 class="main-title">Daily schedule for 14 days yoga retreat</h2>
                         <div class="schedule-dates daily-schedule">
                             <div class="head">
                                 <span class="title">Time</span>
@@ -339,8 +362,6 @@
                             </div>
                         </div>
                         <p><strong>Note:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat laudantium debitis iusto vel dolorum similique facilis asperiores minima ratione</p>
-
-                        <iframe width="7 days%" height="405" src="https://www.youtube.com/embed/v7AYKMP6rOE?si=-Fu0djH0cSNva_ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     
                 </div>
@@ -643,7 +664,7 @@
     <section class="yoga-syllabus space">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">7 daysHR course syllabus</h1>
+                <h1 class="main-heading">14 daysHR course syllabus</h1>
                 <span class="sub-title">Connect with the Stories Behind the Practice</span>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nobis quos eum maiores dolores consectetur sunt fugit asperiores at commodi, ab, quo voluptatibus veniam sequi non dolorem, blanditiis aut eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste repellendus sapiente eius dicta alias ipsum natus mollitia quas deleniti minus quam, praesentium, ipsa eos! Pariatur odit magnam qui numquam asperiores!</p>
@@ -768,7 +789,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">Related Yoga course</h1>
-                <span class="sub-title">We Provide 7 daysHr, 200Hr yoga retreat and Yoga Retreat Programs in Rishikesh,
+                <span class="sub-title">We Provide 14 daysHr, 200Hr yoga retreat and Yoga Retreat Programs in Rishikesh,
                     India</span>
             </div>
             <div class="owl-carousel" id="program-scroller">
@@ -779,7 +800,7 @@
                     <img src="assets/images/yoga-course-ttc-nrishikesh-01.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">7 days yoga</h2>
+                            <h2 class="title">14 days yoga</h2>
                             <span class="sub-title">teacher Training course</span>
                         </div>
 
@@ -813,12 +834,12 @@
                     <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">7 Days Yoga retreat</h2>
+                            <h2 class="title">14 days Yoga retreat</h2>
                             <span class="sub-title">Retreat Program in Rishikesh</span>
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 7 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 14 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>

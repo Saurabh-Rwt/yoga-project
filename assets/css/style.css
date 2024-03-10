@@ -761,41 +761,45 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link::befo
   width: 100%;
   margin: auto;
 }
-.faq .faq-wrapper .accordion {
+
+.accordion {
   background-color: #fff;
   margin-bottom: 22px;
   border: 1px solid #6b3b88;
 }
-.faq .faq-wrapper .accordion .accordion-header {
+.accordion .accordion-header {
   font-size: 18px;
-  padding: 18px;
+  padding: 15px 25px;
   line-height: 1.3;
   color: #6b3b88;
   position: relative;
   cursor: pointer;
 }
-.faq .faq-wrapper .accordion .accordion-header::after {
+.accordion .accordion-header::after {
   content: "\f107";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   color: #6b3b88;
-  float: right;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   transition: ease 0.5s;
 }
-.faq .faq-wrapper .accordion .accordion-body {
+.accordion .accordion-body {
   padding: 0;
   max-height: 0;
   overflow: hidden;
   transition: max-height ease 0.5s;
 }
-.faq .faq-wrapper .accordion .accordion-body p {
+.accordion .accordion-body p {
   padding: 20px 18px;
   margin: 0;
 }
-.faq .faq-wrapper .accordion.active .accordion-header {
+.accordion.active .accordion-header {
   background-color: #f9f9f9;
 }
-.faq .faq-wrapper .accordion.active .accordion-header::after {
+.accordion.active .accordion-header::after {
   transform: rotate(180deg);
 }
 
@@ -1529,6 +1533,21 @@ input[type=number] {
   .student-reviews .review-item .author-detail .name {
     margin-bottom: 0;
   }
+  .teacher-detail-wrap {
+    grid-template-columns: 40% 60%;
+  }
+  .teacher-detail-wrap .img-holder::after {
+    display: none;
+  }
+  .teacher-detail-wrap .content-holder {
+    padding: 20px;
+  }
+  .teacher-detail-wrap:nth-child(odd) {
+    grid-template-columns: 60% 40%;
+  }
+  .teacher-detail-wrap:nth-child(odd) .content-holder {
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 991px) {
   header nav .navbar-holder .navbarnav .navbar-list .nav-item:hover .dropdownmenu {
@@ -1588,7 +1607,7 @@ input[type=number] {
     position: absolute;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 90%;
     z-index: 9;
     background: #fff;
     padding: 50px;
@@ -1671,6 +1690,30 @@ input[type=number] {
   .retreat-card .img-wrap img {
     width: 100%;
   }
+  .why-choose-us .why-choose-wrapper .why-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .teacher-detail-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teacher-detail-wrap:nth-child(odd) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teacher-detail-wrap:nth-child(odd) .content-holder {
+    padding: 20px;
+    order: 2;
+  }
+  .teacher-detail-wrap:nth-child(odd) .img-holder {
+    order: 1;
+  }
+  .teacher-detail-wrap .content-holder {
+    padding: 20px;
+  }
+  .teacher-detail-wrap .content-holder .title {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 767px) {
   .space {
@@ -1686,7 +1729,7 @@ input[type=number] {
     font-size: 24px;
   }
   .heading-wrap .sub-title {
-    font-size: 18px;
+    font-size: 16px;
   }
   .sub-heading {
     font-size: 20px;
@@ -1700,6 +1743,12 @@ input[type=number] {
   }
   .welcome-section .icon-wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .why-choose-us .why-choose-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .why-choose-us .why-choose-wrapper .why-box img {
+    width: 80px;
   }
   footer .contact-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -1782,6 +1831,39 @@ input[type=number] {
   }
   .schedule-dates .dates-body .dates-box .item {
     width: 100%;
+  }
+  .schedule-dates .dates-body .dates-box .item > span {
+    font-size: 14px;
+  }
+  .breadcrumb-wrapper {
+    padding: 40px 0;
+  }
+  .breadcrumb-wrapper .breadcrumb-title {
+    font-size: 22px;
+  }
+  .breadcrumb-wrapper .breadcrumb-list .breadcrumb-item {
+    font-size: 14px;
+  }
+  .ireland-yoga-schedule .course-detail-wrapper {
+    padding: 10px;
+  }
+  .ireland-yoga-schedule .course-detail-wrapper .schedule-dates.daily-schedule .head {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ireland-yoga-schedule .course-detail-wrapper .schedule-dates.daily-schedule .head .title {
+    width: 100%;
+  }
+  .course-detail-sec .sidebar .title {
+    font-size: 22px;
+  }
+  .course-detail-sec .sidebar .prices-wrap .description .price {
+    font-size: 18px;
+  }
+  .course-detail-sec .course-detail-wrapper {
+    padding: 10px;
+  }
+  .course-detail-sec .course-detail-wrapper .main-title {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 575px) {

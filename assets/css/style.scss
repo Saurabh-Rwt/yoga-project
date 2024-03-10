@@ -864,44 +864,47 @@ header {
     .faq-wrapper {
         width: 100%;
         margin: auto;
-        .accordion {
-            background-color: $white;
-            margin-bottom: 22px;
-            border: 1px solid $theme_color;
-            .accordion-header {
-                font-size: 18px;
-                padding: 18px;
-                line-height: 1.3;
-                color: $theme_color;
-                position: relative;
-                cursor: pointer;
-                &::after {
-                    content: "\f107";
-                    font-family: "Font Awesome 6 Free";
-                    font-weight: 900;
-                    color: $theme_color;
-                    float: right;
-                    transition: ease 0.5s;
-                }
-            }
-            .accordion-body {
-                padding: 0;
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height ease 0.5s;
-                p {
-                    padding: 20px 18px;
-                    margin: 0;
-                }
-            }
+    }
+}
+.accordion {
+    background-color: $white;
+    margin-bottom: 22px;
+    border: 1px solid $theme_color;
+    .accordion-header {
+        font-size: 18px;
+        padding: 15px 25px;
+        line-height: 1.3;
+        color: $theme_color;
+        position: relative;
+        cursor: pointer;
+        &::after {
+            content: "\f107";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: $theme_color;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: ease 0.5s;
+        }
+    }
+    .accordion-body {
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height ease 0.5s;
+        p {
+            padding: 20px 18px;
+            margin: 0;
+        }
+    }
 
-            &.active {
-                .accordion-header {
-                    background-color: $bg;
-                    &::after {
-                        transform: rotate(180deg);
-                    }
-                }
+    &.active {
+        .accordion-header {
+            background-color: $bg;
+            &::after {
+                transform: rotate(180deg);
             }
         }
     }
@@ -1709,6 +1712,23 @@ input[type="number"] {
             }
         }
     }
+    .teacher-detail-wrap{
+        grid-template-columns:40% 60%;
+        .img-holder{
+            &::after{
+                display: none;
+            }
+        }
+        .content-holder{
+            padding: 20px;
+        }
+        &:nth-child(odd){
+            grid-template-columns: 60% 40%;
+            .content-holder{
+                padding: 20px;
+            }
+        }
+    }
 }
 @media screen and (min-width: 991px) {
     header {
@@ -1784,7 +1804,7 @@ input[type="number"] {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    width: 80%;
+                    width: 90%;
                     z-index: 9;
                     background: $white;
                     padding: 50px;
@@ -1888,6 +1908,36 @@ input[type="number"] {
             }
         }
     }
+
+    .why-choose-us{
+        .why-choose-wrapper{
+            .why-box{
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
+
+    .teacher-detail-wrap{
+        grid-template-columns: repeat(1, 1fr);
+        &:nth-child(odd){
+            grid-template-columns: repeat(1, 1fr);
+            .content-holder{
+                padding: 20px;
+                order: 2;
+            }
+            .img-holder{
+                order: 1;
+            }
+        }
+        .content-holder{
+            padding: 20px;
+            .title{
+                font-size: 22px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1903,7 +1953,7 @@ input[type="number"] {
             font-size: 24px;
         }
         .sub-title {
-            font-size: 18px;
+            font-size: 16px;
         }
     }
     .sub-heading {
@@ -1927,6 +1977,16 @@ input[type="number"] {
     .welcome-section {
         .icon-wrapper {
             grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .why-choose-us{
+        .why-choose-wrapper{
+            grid-template-columns:repeat(1, 1fr);
+            .why-box{
+                img{
+                    width: 80px;
+                }
+            }
         }
     }
     footer {
@@ -2034,7 +2094,56 @@ input[type="number"] {
                 grid-template-columns: repeat(4, 1fr);
                 .item {
                     width: 100%;
+                    & >span{
+                        font-size: 14px;
+                    }
                 }
+            }
+        }
+    }
+    .breadcrumb-wrapper{
+        padding: 40px 0;
+        .breadcrumb-title{
+            font-size: 22px;
+        }
+        .breadcrumb-list{
+            .breadcrumb-item{
+                font-size: 14px;
+            }
+        }
+    }
+    .ireland-yoga-schedule{
+        .course-detail-wrapper{
+            padding: 10px;
+            .schedule-dates{
+                &.daily-schedule{
+                    .head{
+                        grid-template-columns:repeat(2, 1fr);
+                        .title{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .course-detail-sec{
+        .sidebar{
+            .title{
+                font-size: 22px;
+            }
+            .prices-wrap{
+                .description{
+                    .price{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .course-detail-wrapper{
+            padding: 10px;
+            .main-title{
+                font-size: 22px;
             }
         }
     }
