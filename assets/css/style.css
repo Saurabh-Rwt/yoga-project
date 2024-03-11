@@ -6,6 +6,9 @@ body {
   line-height: 1.75em;
   font-weight: 500;
 }
+body.overflowY-hidden {
+  overflow-y: hidden;
+}
 
 ul {
   padding: 0;
@@ -1371,11 +1374,29 @@ form .form-floating label {
   height: -moz-fit-content;
   height: fit-content;
   text-transform: capitalize;
-  padding: 10px 0 0 10px;
+  padding: 10px 10px 0 10px;
 }
 form .form-floating label sup {
   top: -2px;
   font-size: 16px;
+}
+
+.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+  transform: scale(0.85) translateY(-1.6rem) translateX(0.15rem);
+  background: #fff;
+}
+
+.form-floating > .form-control-plaintext ~ label, .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+  transform: scale(0.85) translateY(-1.6rem) translateX(0.15rem);
+  background: #fff;
+}
+
+.form-floating > .form-control-plaintext:not(:-moz-placeholder-shown), .form-floating > .form-control:not(:-moz-placeholder-shown) {
+  padding: 10px;
+}
+
+.form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+  padding: 10px;
 }
 
 input::-webkit-outer-spin-button,
@@ -1513,6 +1534,43 @@ input[type=number] {
 }
 
 /*------- end -------*/
+/*------- Modal -------*/
+#bookNow-modal .modal-dialog {
+  width: 55%;
+}
+#bookNow-modal .modal-dialog .modal-header {
+  background-color: #6b3b88;
+}
+#bookNow-modal .modal-dialog .modal-header .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  margin: auto;
+}
+#bookNow-modal .modal-dialog .modal-header .btn-close {
+  filter: invert(1) brightness(2.5);
+}
+#bookNow-modal .modal-dialog .modal-header .btn-close:focus {
+  box-shadow: none;
+}
+#bookNow-modal .modal-dialog .modal-body {
+  padding: 0;
+}
+#bookNow-modal .modal-dialog .modal-body form {
+  padding: 20px;
+}
+
+/*------- end -------*/
+.sticky-whatsapp {
+  position: fixed;
+  left: 15px;
+  bottom: 50px;
+}
+.sticky-whatsapp img {
+  height: 55px;
+}
+
 /*------- Media Query -------*/
 @media screen and (max-width: 1024px) {
   header nav .navbar-holder .navbarnav .navbar-list {
@@ -1547,6 +1605,15 @@ input[type=number] {
   }
   .teacher-detail-wrap:nth-child(odd) .content-holder {
     padding: 20px;
+  }
+  .schedule-dates .dates-body .dates-box .item {
+    padding: 10px 5px;
+  }
+  .schedule-dates .dates-body .dates-box .item > span {
+    font-size: 14px;
+  }
+  .schedule-dates .dates-body .dates-box .item .primary-btn {
+    width: 90%;
   }
 }
 @media screen and (min-width: 991px) {
@@ -1611,7 +1678,7 @@ input[type=number] {
     z-index: 9;
     background: #fff;
     padding: 50px;
-    height: 95vh;
+    height: 100vh;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     transform: translateX(-100%);
     transition: 0.3s ease-in;
@@ -1714,6 +1781,9 @@ input[type=number] {
   .teacher-detail-wrap .content-holder .title {
     font-size: 22px;
   }
+  .yoga-syllabus .syllabus-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 767px) {
   .space {
@@ -1815,9 +1885,6 @@ input[type=number] {
   .yoga-syllabus .syllabus-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .schedule-dates {
-    overflow-x: scroll;
-  }
   .schedule-dates .head {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1826,14 +1893,33 @@ input[type=number] {
     width: 100%;
   }
   .schedule-dates .dates-body .dates-box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
   }
   .schedule-dates .dates-body .dates-box .item {
+    width: 50%;
+  }
+  .schedule-dates .dates-body .dates-box .item:first-child, .schedule-dates .dates-body .dates-box .item:last-child {
     width: 100%;
   }
   .schedule-dates .dates-body .dates-box .item > span {
     font-size: 14px;
+  }
+  .schedule-dates .dates-body .dates-box .item .primary-btn {
+    width: 40%;
+    padding: 6px 7px;
+  }
+  .daily-schedule .head {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .daily-schedule .head .title {
+    width: 100% !important;
+  }
+  .daily-schedule .dates-body .dates-box {
+    flex-wrap: nowrap;
+  }
+  .daily-schedule .dates-body .dates-box .item {
+    width: 50%;
   }
   .breadcrumb-wrapper {
     padding: 40px 0;
@@ -1865,6 +1951,16 @@ input[type=number] {
   .course-detail-sec .course-detail-wrapper .main-title {
     font-size: 22px;
   }
+  .join-banner {
+    padding: 40px 0;
+  }
+  .join-banner .title-holder .sub-title {
+    font-size: 14px;
+  }
+  .join-banner .title-holder .banner-title {
+    font-size: 22px;
+    margin: 0 10px 10px;
+  }
 }
 @media screen and (max-width: 575px) {
   footer .footer-wrapper .footer-list li a {
@@ -1879,6 +1975,17 @@ input[type=number] {
     font-size: 14px;
     color: #000;
     margin-bottom: 16px;
+  }
+  #bookNow-modal .modal-dialog {
+    width: 95%;
+  }
+  #bookNow-modal .modal-dialog .modal-header .title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) {
+  #bookNow-modal .modal-dialog {
+    width: 55%;
   }
 }
 /*------- end -------*//*# sourceMappingURL=style.css.map */

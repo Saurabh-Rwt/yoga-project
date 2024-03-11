@@ -54,7 +54,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                                    <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
                                     <label for="email">Message<sup>*</sup></label>
                                 </div>
                             </div>

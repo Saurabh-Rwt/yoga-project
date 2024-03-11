@@ -133,6 +133,7 @@ const navMenu = document.querySelector(".navbarnav");
 hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("show");
   hamburger.classList.toggle("active");
+  document.body.classList.toggle("overflowY-hidden");
 });
 
 

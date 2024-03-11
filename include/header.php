@@ -87,7 +87,7 @@
                             <a class="nav-link" href="contact-us.php">contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="primary-btn">boook now</a>
+                            <a href="" class="primary-btn" data-bs-toggle="modal" data-bs-target="#bookNow-modal">boook now</a>
                         </li>
                     </ul>
                 </div>

@@ -160,7 +160,7 @@
     </section>
     <!-- end -->
 
-
+    <!-- footer -->
     <footer>
         <div class="container">
             <div class="contact-wrapper">
@@ -255,23 +255,85 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt=""
-                                        class="img-fluid">
+                                    <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt="" class="img-fluid">
                                 </a>
                             </li>
                             <li>
-                                <a href="">
-                                    <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg" alt=""
-                                        class="img-fluid">
-                                </a>
+                                <a href=""> <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg" alt="" class="img-fluid"></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright-wrapper">
-                <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right
-                    reserved</span>
+                <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right reserved</span>
             </div>
         </div>
     </footer>
+    <!-- end -->
+
+    <!-- sticky whatsapp -->
+    <a href="https://wa.me/916397350787" target="_blank" class="sticky-whatsapp">
+        <img src="<?php echo $link;?>assets/images/icons/whatsapp.png" class="img-fluid" alt="">
+    </a>
+    <!-- end -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="bookNow-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="title" id="staticBackdropLabel">Join Us To Get Yoga TTC Course</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                    <label for="name">Name<sup>*</sup></label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" name="phone_number" id="phone_number"
+                                        placeholder="Phone Number">
+                                    <label for="phone_number">contact number<sup>*</sup></label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="email">
+                                    <label for="email">Email<sup>*</sup></label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">Select Course</option>
+                                        <option value="100 Yoga TTC">100 Yoga TTC</option>
+                                        <option value="200 Yoga TTC">200 Yoga TTC</option>
+                                        <option value="300 Yoga TTC">300 Yoga TTC</option>
+                                        <option value="7 Days Yoga Retreat">7 Days Yoga Retreat</option>
+                                        <option value="10 Days Yoga Retreat">10 Days Yoga Retreat</option>
+                                        <option value="14 Days Yoga Retreat">14 Days Yoga Retreat</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <label for="email">Message<sup>*</sup></label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit" class="primary-btn">submit now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
