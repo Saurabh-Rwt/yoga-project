@@ -1733,6 +1733,19 @@ input[type="number"] {
 }
 
 /*------- Media Query -------*/
+@media screen and (max-width: 1280px) {
+    header{
+        nav{
+            .navbar-holder{
+                .navbarnav{
+                    .navbar-list{
+                        gap: 20px;
+                    }
+                }
+            }
+        } 
+    } 
+}
 @media screen and (max-width: 1024px) {
     header {
         nav {
@@ -1892,6 +1905,7 @@ input[type="number"] {
                         }
                     }
                     .navbar-list {
+                        gap: 20px;
                         flex-direction: column;
                         align-items: flex-start;
                         .nav-item {
