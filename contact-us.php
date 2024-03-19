@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Yoga</title>
+    <title>Contact us</title>
     <!-- css -->
     <?php include('include/css.php') ?>
 </head>
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <form action="">
-                        <span class="sub-title">Join Us To Get Yoga TTC Course</span>
+                        <span class="sub-title">Join Us To Get Yoga TTC Course, Yoga Retreat or Yoga Classes</span>
                         <h1 class="main-heading">CONTACT WITH US</h1>
                         <div class="row">
                             <div class="col-lg-12">
@@ -65,7 +65,7 @@
                     </form>
                 </div>
                 <div class="col-lg-5">
-                    <img src="assets/images/14-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg" alt="">
+                    <img src="assets/images/14-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

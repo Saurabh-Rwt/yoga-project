@@ -110,6 +110,7 @@ $("#excursion-carousel").owlCarousel({
 $("#students-review").owlCarousel({
   loop: true,
   margin: 20,
+  autoplayHoverPause:true,
   items: 3,
   nav: true,
   autoplay: 2000,

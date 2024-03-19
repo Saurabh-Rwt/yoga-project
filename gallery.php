@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Yoga</title>
+    <title>Gallery</title>
     <!-- css -->
     <?php include('include/css.php') ?>
 </head>
@@ -33,6 +33,37 @@
             </div>
 
             <div class="row gy-4">
+                
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/4.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/5.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/6.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/7.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/8.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/9.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
                 <div class="col-md-3">
                     <div class="gallery-card">
                         <img src="assets/images/gallery/10.jpg" class="img-fluid" alt="">
@@ -40,12 +71,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="gallery-card">
-                        <img src="assets/images/gallery/14.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/15.jpg" class="img-fluid" alt="">
+                        <img src="assets/images/gallery/11.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -60,26 +86,6 @@
                 </div>
                 <div class="col-md-3">
                     <div class="gallery-card">
-                        <img src="assets/images/gallery/16.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/10.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/14.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-card">
-                        <img src="assets/images/gallery/10.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-card">
                         <img src="assets/images/gallery/14.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -90,7 +96,82 @@
                 </div>
                 <div class="col-md-3">
                     <div class="gallery-card">
-                        <img src="assets/images/gallery/12.jpg" class="img-fluid" alt="">
+                        <img src="assets/images/gallery/17.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/18.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/19.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/20.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/21.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/22.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/23.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/24.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/25.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/26.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/27.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/28.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/29.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/30.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/31.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/gallery/34.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

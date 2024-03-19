@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Yoga</title>
+    <title>Niya Yoga Studio in Rishikesh, India</title>
     <!-- css -->
     <?php include('include/css.php') ?>
 </head>
@@ -33,14 +33,17 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">Welcome to Niya Yoga Studio</h1>
-                <span class="sub-title">An International Retreat To Begin Your Journey to Inner Harmony</span>
+                <span class="sub-title">Providing Yoga Teacher Training Courses and Yoga Retreats in Rishikesh,
+                    India</span>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid wlcm-img" alt="">
+                    <img src="assets/images/200-hours-yoga-ttc-rishikesh/200-hour-yoga-ttc-01.jpg"
+                        class="img-fluid wlcm-img" alt="">
                     <p>Welcome to Niya Yoga Studio, a beautiful place to nourish your mind, body, and soul. We are
                         located in the heart of the yoga capital, Rishikesh, and dedicated to providing a nurturing Yoga
-                        retreat in Rishikesh for various individuals from around the world to explore the power of yoga.
+                        TTC and Yoga Retreat in Rishikesh for various individuals from around the world to explore the
+                        power of yoga.
                         At Niya, we believe that we can positively transform both body and mind through the profound
                         benefits of yoga. We are aiming to make this ancient practice easily accessible to all through
                         our Yoga classes in Rishikesh.</p>
@@ -49,27 +52,33 @@
                         throughout the journey. Whether you are a daily practitioner or a beginner, we have you covered.
                         Our welcoming environment and supportive community will help guide you in cultivating inner
                         peace, flexibility, and strength. </p>
+                    <p>
+                        At Niya Yoga Studio, we have two popular programs. One is a <b>10-day yoga retreat</b> where you
+                        can relax and feel good in the beautiful surroundings of Rishikesh. The other is a <b> 200-hour
+                            Yoga Teacher Training Course (TTC)</b>, which many people love. It's known for being real
+                        and helpful, and it's not expensive, so anyone who wants to learn yoga can join.
+                    </p>
                     <p>Come join us at Niya Yoga Studio and embark on a beautiful journey of self-discovery, wellness,
                         and holistic transformation in the holy land of Rishikesh.</p>
-                    <a href="" class="primary-btn">join now</a>
+                    <a href="about-us.php" class="primary-btn">About Us</a>
                 </div>
                 <div class="col-md-12">
                     <div class="icon-wrapper">
                         <div class="icon-card">
                             <img src="assets/images/icons/rating.png" class="img-fluid" alt="">
-                            <span class="title">10+ years of experience</span>
+                            <span class="title">10+ Years of Experience</span>
                         </div>
                         <div class="icon-card">
                             <img src="assets/images/icons/yoga.png" class="img-fluid" alt="">
-                            <span class="title">teacher's who deliver quality</span>
+                            <span class="title">Teacher's who deliver quality</span>
                         </div>
                         <div class="icon-card">
                             <img src="assets/images/icons/natural-resources.png" class="img-fluid" alt="">
-                            <span class="title">surrounded by nature</span>
+                            <span class="title">Surrounded by nature</span>
                         </div>
                         <div class="icon-card">
                             <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                            <span class="title">yoga alliance certified</span>
+                            <span class="title">Yoga alliance certified</span>
                         </div>
                     </div>
                 </div>
@@ -99,8 +108,9 @@
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 14 days</span>
-                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                            <span><i class="fa-regular fa-clock"></i> 12 days</span>
+                            <a href="100-hour-yoga-teacher-training.php" class="primary-btn">know more <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +127,8 @@
 
                         <div class="body">
                             <span><i class="fa-regular fa-clock"></i> 25 days</span>
-                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="200-hour-yoga-teacher-training.php" class="primary-btn">know more <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +145,8 @@
 
                         <div class="body">
                             <span><i class="fa-regular fa-clock"></i> 7 days</span>
-                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="7-days-yoga-retreat.php" class="primary-btn">know more <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +163,8 @@
 
                         <div class="body">
                             <span><i class="fa-regular fa-clock"></i> 10 days</span>
-                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="10-days-yoga-retreat.php" class="primary-btn">know more <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -167,8 +180,9 @@
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
-                            <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+                            <span><i class="fa-regular fa-clock"></i> 14 days</span>
+                            <a href="14-days-yoga-retreat.php" class="primary-btn">know more <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +196,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">A Place Where Yoga Became A Way Of Life</h1>
-                <span class="sub-title">A Brief History of the Yoga Capital</span>
+                <span class="sub-title">A Brief History of the Yoga Capital : Rishikesh</span>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -211,7 +225,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">Experience Our Exclusive Offerings</h1>
-                <span class="sub-title">Explore the Accomodations Catered to Your Needs</span>
+                <span class="sub-title">Provide You the Best and Most Affordable Facilities </span>
             </div>
             <div class="row gy-4">
                 <div class="col-lg-6">
@@ -271,6 +285,9 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="about-us.php" class="primary-btn">More About Food and Accommodation</a>
+            </div>
         </div>
     </section>
     <!-- end -->
@@ -279,8 +296,8 @@
     <section class="space">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">yoga teachers in our yoga school</h1>
-                <span class="sub-title">connect and study with expert teacher</span>
+                <h1 class="main-heading">Our Yoga Teachers</h1>
+                <span class="sub-title">Connect and Study with Expert Yoga Gurus in Rishikesh, India</span>
             </div>
             <div class="owl-carousel" id="yoga-teacher">
                 <div class="teacher-item">
@@ -312,6 +329,9 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="our-teachers.php" class="primary-btn">Know More</a>
+            </div>
         </div>
     </section>
     <!-- end -->
@@ -323,8 +343,10 @@
                 <img src="assets/images/yoga-alliance/yoga-alliance-ryt-200-ryt-300.webp" class="img-fluid" alt="">
                 <h2 class="banner-title">Yoga Alliance Registered Yoga School</h2>
                 <p class="text">Niya Yoga Studio is a Yoga Alliance-registered Yoga School in Rishikesh where we uphold
-                    the set standards of excellence in yoga ttc and retreats. In our retreat, you can trust us with the
-                    quality and integrity of programs like Yoga Teacher Training in Rishikesh that meet rigorous
+                    the set standards of excellence in yoga ttc and retreats. In our Yoga Studio, you can trust us with
+                    the
+                    quality and integrity of programs like Yoga Teacher Training and Yoga Retreats Programs in Rishikesh
+                    that meet rigorous
                     criteria set forth by the Yoga Alliance.</p>
             </div>
         </div>
@@ -335,8 +357,8 @@
     <section class="space bg">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">Learn from Our Passionate Yoga Gurus</h1>
-                <span class="sub-title">Practice and learn from Our Yoga Masters</span>
+                <h1 class="main-heading">Yoga Retreat Programs in Rishikesh</h1>
+                <span class="sub-title">Short and Long Yoga Retreat Programs in Rishikesh, India</span>
             </div>
             <div class="retreat-card">
                 <div class="row">
@@ -347,9 +369,9 @@
                                 Rishikesh</h2>
                             <p>Begin your yoga journey with our transformative 10-day yoga retreat in Rishikesh. Immerse
                                 yourself in ancient practices and refresh your mind and soul.</p>
-                            <h3 class="mini-heading">Reason to opt for this retreat:</h3>
+                            <h3 class="mini-heading">Reason to choose for this retreat:</h3>
                             <ul class="list">
-                                <li>Regular yoga sessions led by skilled instructors</li>
+                                <li>Regular Yoga sessions led by skilled instructors.</li>
                                 <li>Get to connect with various like-minded individuals.</li>
                                 <li>Learning opportunities for personal growth and self-reflection.</li>
                                 <li>Healthy vegetarian meals for the nourishment of the body.</li>
@@ -363,15 +385,15 @@
                                     <a href="" class="secondary-btn">book your seat</a>
                                 </div>
                                 <div class="price-holder">
-                                    <span class="">start from <span class="price">us$349</span></span>
+                                    <span class="">start from <span class="price">€800</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12 order-1">
                         <div class="img-wrap ms-auto">
-                            <img src="assets/images/10-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg"
-                                class="img-fluid" alt="">
+                            <img src="assets/images/10-days-yoga-retreat-rishikesh copy/22.jpg" class="img-fluid"
+                                alt="">
                         </div>
                     </div>
                 </div>
@@ -398,7 +420,7 @@
                                     <a href="" class="secondary-btn">book your seat</a>
                                 </div>
                                 <div class="price-holder">
-                                    <span class="">start from <span class="price">us$349</span></span>
+                                    <span class="">start from <span class="price">€500</span></span>
                                 </div>
                             </div>
                         </div>
@@ -433,7 +455,7 @@
                                     <a href="" class="secondary-btn">book your seat</a>
                                 </div>
                                 <div class="price-holder">
-                                    <span class="">start from <span class="price">us$349</span></span>
+                                    <span class="">start from <span class="price">€900</span></span>
                                 </div>
                             </div>
                         </div>
@@ -450,166 +472,15 @@
     </section>
     <!-- end -->
 
-    <!-- studen review -->
-    <section class="space student-reviews">
-        <div class="container">
-            <div class="heading-wrap">
-                <h1 class="main-heading">Hear What Our Students Say</h1>
-                <span class="sub-title">Connect with the Stories Behind the Practice</span>
-            </div>
-            <div class="owl-carousel" id="students-review">
-                <div class="review-item">
-                    <img src="assets/images/icons/facebook-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/vyakhya-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">elena v.</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>The January 2024 Niya Yoga Rishikesh Retreat was amazing. Our two week program was filled with
-                        four daily yoga classes, with shared meals, with small and large ceremonies, with temple and
-                        ashram explorations, with market shopping, and with so much more. There was great opportunity
-                        for cultural exchange between teachers and students and for individual observation of this
-                        wonderful small part of India. I would gratefully attend again.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/supriya-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">arunima shrivastav</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Just returned from Niya Yoga retreat in Rishikesh India, what can I say, it superseeded all my
-                        expectations, it was an amazing experience! The Niya team based in Rishikesh were outstanding
-                        teachers with a wealth of experience and knowledge who gave specific daily classes in asana,
-                        meditation and pranayama. The classes progressed over the 2 weeks with all teachers giving
-                        individual attention to every student bringing them on a journey within their practice. These
-                        classes were interspersed with fantastic excursions and really enjoyable activities where
-                        teachers often joined in the fun letting us get to know each one of them on a personal basis. We
-                        were looked after so well, always having the support of the team who also added a whole lot of
-                        joy and fun to the entire experience. They were really amazing, so kind and helpful. Our
-                        accommodation was very nice, the hotel staff were so accommodating and always tried their best
-                        to make our stay enjoyable. The food was fabulous- we all enjoyed the Indian food (both in the
-                        hotel and outside in cafes and restaurants) and came home addicted to Indian chai 😂. I love
-                        yoga and this retreat has brought me to another of understanding as well as making new life long
-                        friends. So well done Nayomi and the Niya team for providing a first class retreat! And thank
-                        you for such a wonderful and truly memorable experience. ❤️</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/jeevan-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">geneva gray</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Nayomi is amazing and absolutely top notch! Attending her classes regularly is truly a life
-                        changer. Very authentic, professional and focused on every Individuals needs and progress. Best
-                        Yoga classes I've ever attended. She provides a safe space and does everything to improve your
-                        ability. I'm literally blown away every time I go ♥️</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/facebook-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/user.png" class="img-fluid user-img" alt="">
-                        <span class="name">David K.</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p> I had the pleasure and privilege of joining Nayomi and the Niya team in Rishikesh for their
-                        retreat in January.
-                        We enjoyed the warmest welcome on arrival and thereafter from all the beautiful people we met on
-                        our travels.
-                        We had a fantastic daily yoga, Pranayama and meditation programme catered for our level and
-                        learned so much from very accomplished and wonderful teachers to take with us into our daily
-                        practice.
-                        We were extremely well looked after in all aspects of the holiday by the team who were available
-                        to us at all times ensuring all our needs were met And that we were happy and comfortable . The
-                        hotel was very well located within walking distance of beautiful walks and near the local
-                        markets and all the lovely cafes and eateries we enjoyed. And the hotel food was delicious and
-                        the staff were extremely attentive .
-                        The team organised excursions and ceremonies , and they joined us to share their knowledge in
-                        the local culture and history ,with trips to temples ,the mountains and the famous Ganges . We
-                        had yoga on the beach and meditated amidst waterfalls . We enjoyed excellent cuisine and
-                        shopping out and about .
-                        All the extra touches such as the massage ,Henna tattoo session , Bollywood lessons, Kirtan and
-                        cooking lessons added an extra fun vibe to our holiday.
-                        I would highly recommend Niya’s yoga retreat where you meet the most wonderful team of people
-                        and enjoy the most beautiful Indian cultural and yoga experience.
-                        It far exceeded my expectations..
-                        I’ve come away with an added appreciation for life, health and happiness.
-                        And I will hopefully meet the Niya team again in the future.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/lusin.png" class="img-fluid user-img" alt="">
-                        <span class="name">Lusin Hidiroglu</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>The yoga retreat organized by Niya Yoga Studio was a transformative experience for me. Surrounded
-                        by nature and guided by knowledgeable instructors, I was able to learn different yoga styles
-                        with perfection.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/Sharon_Hughes.png" class="img-fluid user-img" alt="">
-                        <span class="name">Sharon Hughes</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Beautiful studio and really amazing teachers. The staff are lovely and welcoming. There are a
-                        variety of different classes throughout the day, everyday. There's plenty of space for each
-                        student and it's well supplied with yoga mats, blocks, blankets, yoga straps, cushions and
-                        bolsters. Everything is cleaned throughly between each class.</p>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                    <a href="" class="primary-btn">Read All Reviews</a>
-                </div>
-        </div>
-    </section>
-    <!-- end -->
+   <!-- Students reviews -->
+   <?php include('include/student-review.php') ?>
 
     <!-- join banner -->
     <section class="join-banner">
         <div class="title-holder">
             <span class="sub-title">Yoga TTC and Yoga Retreats in Rishikesh, India</span>
-            <h2 class="banner-title">get your yoga certification today</h2>
-            <a href="" class="primary-btn">click here to join</a>
+            <h2 class="banner-title">Get your yoga certification today</h2>
+            <a href="contact-us.php" class="primary-btn">click here to join</a>
         </div>
     </section>
     <!-- end -->

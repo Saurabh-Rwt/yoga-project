@@ -9,25 +9,31 @@
                 <div class="col-lg-6">
                     <div class="faq-wrapper">
                         <div class="accordion">
-                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
+                            <h3 class="accordion-header">How is the weather in Rishikesh?</h3>
                             <div class="accordion-body">
-                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to
-                                    improve their practice, a yoga retreat like Niya Yoga Studio is the best place to
-                                    practice your yoga and to deep dive into this ancient practice. Here you can start
-                                    your journey from learning the basics to becoming an experienced doer.</p>
+                                <p>India is a country offering you the mesmerizing weather. The city of Rishikesh, where
+                                    our yoga school is located, offers you extremely good weather. Throughout the year,
+                                    the weather will definitely overwhelm you, except for some months. June is extremely
+                                    hot here with temperature up to 40°C, July-August observed heavy rainfall and
+                                    late-December to early-January offers cold weather with temperature ranges up to 5°
+                                    C.</p>
                             </div>
                         </div>
                         <div class="accordion">
-                            <h3 class="accordion-header">How do I choose my yoga type?</h3>
+                            <h3 class="accordion-header">How to get Niya Yoga Studio in Rishikesh, India?</h3>
                             <div class="accordion-body">
-                                <p>Choosing a yoga style for you might be challenging, but you can make it easy by
-                                    knowing your motivation to practice yoga. Ask yourself the question: Why do you want
-                                    to practice yoga, and what is the reason behind it? Is it to be a yoga instructor or
-                                    to relax your mind? This will help you choose the best form as per your goal.</p>
+                                <p>You can take the flight to Delhi, from where you will get lots of options to reach
+                                    the beautiful city of Rishikesh, like: <br>
+                                    • <span class="fw-bold">By Air:</span> You can take a flight from Delhi to Dehradun Airport (around 24km away
+                                    from our school), from there, you can take a cab to our school or contact us for
+                                    arranging a cab. <br>
+                                    • <span class="fw-bold">By Train:</span> Train is available from Delhi to Haridwar or Dehradun and from there you
+                                    will get a lot of options to reach our school. <br>
+                                    • <span class="fw-bold">By Road:</span> Bus or Cab is available from Delhi to Rishikesh.</p>
                             </div>
                         </div>
                         <div class="accordion">
-                            <h3 class="accordion-header">Do you provide WiFi facilities at your retreat?</h3>
+                            <h3 class="accordion-header">Do you provide WiFi facilities at your yoga studio</h3>
                             <div class="accordion-body">
                                 <p>Yes, we do provide WiFi and some other common facilities at our studio in some common
                                     areas for communication needs. but we will highly recommend and encourage you to
@@ -40,12 +46,9 @@
                 <div class="col-lg-6">
                     <div class="faq-wrapper">
                         <div class="accordion">
-                            <h3 class="accordion-header">Do you provide WiFi facilities at your retreat?</h3>
+                            <h3 class="accordion-header">I am new to this field. Can I still learn it?</h3>
                             <div class="accordion-body">
-                                <p>Yes, we do provide WiFi and some other common facilities at our studio in some common
-                                    areas for communication needs. but we will highly recommend and encourage you to
-                                    unplugg and disconnect yourself from the social world for the time you are in the
-                                    retreat for a better experience.</p>
+                                <p>Yes, of course! Even it will be interesting to learn something apart from your regular field. Don't worry, people with every level of yoga knowledge can join yoga course of 100 Hours or 200 Hours. Also, yoga programs can be joined by you with having zero knowledge of it.</p>
                             </div>
                         </div>
                         <div class="accordion">
@@ -60,8 +63,8 @@
                         <div class="accordion">
                             <h3 class="accordion-header">How do I book a yoga programme for the retreat?</h3>
                             <div class="accordion-body">
-                                <p>Booking for our yoga programs can be done through our website or by contacting our
-                                    retreat coordinator directly. Simply select your desired programme dates and
+                                <p>Booking for our yoga programs can be done through our website <a href="contact-us.php">( Apply Now )</a>  or by contacting our
+                                    retreat coordinator directly <a href="https://wa.me/353833763958" target="_blank">Whatsapp</a>. Simply select your desired programme dates and
                                     accommodation preferences, and follow the instructions to complete your booking.</p>
                             </div>
                         </div>
@@ -80,7 +83,8 @@
                 Locations Of Niya Yoga Studio in Ireland
             </h2>
             <div class="d-flex justify-content-center mt-4">
-                <a href="" class="primary-btn">Know More</a>
+                <a href="niya-yoga-studio-in-ireland.php" class="primary-btn">Know More</a> 
+                <a href="https://www.momoyoga.com/niya-yoga/schedule" class="primary-btn ms-3" target=_blank>Book Class</a>
             </div>
         </div>
     </section>
@@ -207,16 +211,16 @@
                         </div>
                         <ul class="social-contact">
                             <li>
-                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/niyayogastudio/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/p/niyayoga-100083373751148/?paipv=0&eav=Afb8-0zF1ckIFIxXfWlqdJcVyPGh5vHIFHii7ytXIJ0_GgPzg0VkDrOAiIp8u1ihznY&_rdr" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/@niyayogastudio" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                <a href="https://in.pinterest.com/niyayogastudio/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -228,6 +232,7 @@
                             <li><a href="<?php echo $link;?>food-accomodaiton.php">food and accomodation</a></li>
                             <li><a href="<?php echo $link;?>gallery.php">gallery</a></li>
                             <li><a href="<?php echo $link;?>contact-us.php">Contact us</a></li>
+                            <li><a href="<?php echo $link;?>niya-yoga-studio-in-ireland.php">Yoga Studio in Ireland</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-6">
@@ -237,7 +242,7 @@
                             </li>
                             <li><a href="<?php echo $link;?>200-hour-yoga-teacher-training.php">200 hour yoga ttc</a>
                             </li>
-                            <li><a href="<?php echo $link;?>300-hour-yoga-teacher-training.php">200 hour yoga ttc</a>
+                            <li><a href="<?php echo $link;?>300-hour-yoga-teacher-training.php">300 hour yoga ttc</a>
                             </li>
                             <li><a href="<?php echo $link;?>7-days-yoga-retreat.php">7 days yoga Retreat</a></li>
                             <li><a href="<?php echo $link;?>10-days-yoga-retreat.php">10 days yoga Retreat</a></li>
@@ -255,25 +260,42 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt="" class="img-fluid">
+                                    <img src="<?php echo $link;?>assets/images/icons/facebook-review.jpg" alt=""
+                                        class="img-fluid">
                                 </a>
                             </li>
                             <li>
-                                <a href=""> <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg" alt="" class="img-fluid"></a>
+                                <a href=""> <img src="<?php echo $link;?>assets/images/icons/tripadvisor-review.jpg"
+                                        alt="" class="img-fluid"></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright-wrapper">
-                <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right reserved</span>
+                <span class="copyright-text">copyright ©2023-2024 <a href="">niya yoga studio</a> - all right
+                    reserved</span>
             </div>
         </div>
     </footer>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/65f87706a0c6737bd1222f67/1hp991t4v';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <!-- end -->
 
     <!-- sticky whatsapp -->
-    <a href="https://wa.me/916397350787" target="_blank" class="sticky-whatsapp">
+    <a href="https://wa.me/353833763958" target="_blank" class="sticky-whatsapp">
         <img src="<?php echo $link;?>assets/images/icons/whatsapp.png" class="img-fluid" alt="">
     </a>
     <!-- end -->
@@ -284,7 +306,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="title" id="staticBackdropLabel">Join Us To Get Yoga TTC Course</h1>
+                    <h1 class="title" id="staticBackdropLabel">Apply Now Form</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -305,7 +327,8 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="email">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="email">
                                     <label for="email">Email<sup>*</sup></label>
                                 </div>
                             </div>
@@ -324,7 +347,8 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea name="" id="" class="form-control" cols="30" rows="10"
+                                        placeholder="Message"></textarea>
                                     <label for="email">Message<sup>*</sup></label>
                                 </div>
                             </div>

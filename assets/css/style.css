@@ -693,8 +693,8 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link::befo
   width: 100%;
   padding: 40px 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 .yoga-alliance .content-holder {
   text-align: center;
@@ -714,7 +714,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link::befo
 
 /*------- join -------*/
 .join-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/gallery/12.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/gallery/14.jpg) no-repeat center;
   background-size: cover;
   height: auto;
   width: 100%;
@@ -804,6 +804,7 @@ header nav .navbar-holder .navbarnav .navbar-list .nav-item .dropdown-link::befo
 }
 .accordion.active .accordion-header::after {
   transform: rotate(180deg);
+  top: 26%;
 }
 
 /*------- end -------*/
@@ -1648,7 +1649,7 @@ input[type=number] {
     z-index: 99;
     top: 50%;
     transform: translateY(-50%);
-    right: 30px;
+    right: 10px;
     border: none;
     background: transparent;
   }
@@ -1799,7 +1800,7 @@ input[type=number] {
     margin: 0 auto 50px;
   }
   .heading-wrap::after {
-    bottom: -20px;
+    bottom: -30px;
   }
   .heading-wrap .main-heading {
     font-size: 24px;

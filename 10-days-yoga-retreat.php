@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Yoga</title>
+    <title>10 Days Yoga Reatreat In Rishikesh, India</title>
     <!-- css -->
     <?php include('include/css.php') ?>
 </head>
@@ -15,10 +15,10 @@
     <!-- Breadcrumb -->
     <section class="breadcrumb-wrapper">
         <div class="container">
-            <h2 class="breadcrumb-title">10 days Yoga reatreat in Rishikesh, India</h2>
+            <h2 class="breadcrumb-title">10 Days Yoga Reatreat In Rishikesh, India</h2>
             <ul class="breadcrumb-list">
                 <li class="breadcrumb-item"><a href="<?php echo $link;?>">home</a></li>
-                <li class="breadcrumb-item">10 days yoga reatreat in Rishikesh, India</li>
+                <li class="breadcrumb-item">10 Days Yoga Reatreat Program</li>
             </ul>
         </div>
     </section>
@@ -46,7 +46,7 @@
                             </li>
                             <li>
                                 <span class="list-title">level:</span>
-                                <span class="detail">beginner to intermediate</span>
+                                <span class="detail">Beginner</span>
                             </li>
                             <li>
                                 <span class="list-title">certification:</span>
@@ -54,198 +54,97 @@
                             </li>
                             <li>
                                 <span class="list-title">date:</span>
-                                <span class="detail">2nd - 28th of every month</span>
+                                <span class="detail">Flexible Dates</span>
                             </li>
                         </ul>
                         <div class="prices-wrap">
                             <div class="description">
-                                <h3 class="price">usd 1400</h3>
+                                <h3 class="price">usd 650</h3>
                                 <span class="room">shared room</span>
                             </div>
                             <div class="description">
-                                <h3 class="price">usd 1800</h3>
+                                <h3 class="price">usd 750</h3>
                                 <span class="room">private room</span>
                             </div>
                         </div>
                         <div class="btn-wrap">
                             <a href="" class="secondary-btn">enroll now</a>
-                            <a href="" class="primary-btn">know more</a>
+                            <a href="" class="primary-btn">Quick Enquiry</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-8">
                     <div class="course-detail-wrapper">
-                        <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid mb-4" alt="">
+                        <img src="assets/images/10-days-yoga-retreat-rishikesh copy/22.jpg" class="img-fluid mb-4" alt="">
 
-                        <h2 class="main-title">10 days yoga retreat in Rishikesh, india</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium recusandae ad, adipisci a quae, iure, saepe aliquam possimus laboriosam architecto nobis. Nulla, ducimus. Aut aliquid dolor consequatur. Dolorem, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, at? Ut reprehenderit neque numquam deserunt distinctio harum quaerat necessitatibus excepturi voluptate possimus ipsam dolorum, fuga praesentium adipisci odit maiores obcaecati?</p>
+                        <h2 class="main-title">10 Days Yoga Meditation Retreat in Rishikesh, India</h2>
+                        <p> Are you looking for something to give you relaxation amidst this hectic working life and the stress of daily activities? Then, we would like to welcome you to our exclusive 10-day yoga retreat in Rishikesh, where every breath you take will step you closer to the inner peace and harmony that you will be looking for.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illum vitae? Officiis voluptatem voluptatibus deleniti in fugit ipsam illo, blanditiis tenetur odit, reiciendis quos ea reprehenderit inventore accusamus aliquid nisi.</p>
+                        <p>Located in the heart of the majestic Himalayan ranges and surrounded by natural beauty, Rishikesh stands out due to its serene riverbanks and all-spiritual ambiance, which makes it a perfect location for all your yoga adventures. Whether you are a normal working person, a seasoned yogi, or just a beginner who is dipping their toes into the yogic world, our ten-day retreat promises a unique and happening experience, all filled with wisdom, growth, laughter, and soulful connections. Now, let's see what sets us apart from others, which makes our retreat a one-of-a-kind experience:
+                        </p>
 
-                        <h3 class="sub-heading">Lorem ipsum dolor sit amet</h3>
+                        <h3 class="sub-heading"> A week-long yoga retreat allows for consistent practice, ultimately
+                            leading you to physical improvements. Below we’ve mentioned a few benefits of our 10 days
+                            yoga retreat program in Rishikesh.</h3>
                         <ul class="list">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>
+                            Comprehensive Curriculum: Our retreat offers a well-rounded programme for all individuals, which includes meditation, pranayama, asana, philosophy, and much more.
+                            </li>
+                            <li>
+                            Authentic Setting: Our retreat is located in a beautiful spiritual place, which helps you dive deep into the practice and learn without any distraction.
+                            </li>
+                            <li>
+                            Community Connection: Our retreat gives you the opportunity to connect with like-minded individuals from around the world and build a lifelong friendship while sharing your passion.
+                            </li>
+                            <li>
+                            Relaxation and Rejuvenation: You can also rejuvenate your inner and outer bodies through ayurvedic therapies such as massages and treatments.
+                            </li>
+                            <li>
+                            Lasting Transformation: We are sure to make you feel refreshed, empowered, and inspired to continue the yoga journey when you leave.
+                            </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam provident corporis? Et nesciunt voluptate quibusdam, ab sapiente consequatur laborum sed. Amet debitis magni id saepe, reiciendis voluptates nobis ab.</p>
+                        <p>
+                        Don't wait; it's your time to take the first step towards inner peace and join our yoga retreat while leaving the rest to us.
+                        </p>
                     </div>
 
-                    <div class="course-detail-wrapper">
-                        <h2 class="main-title">course fee & dates</h2>
-                        <div class="schedule-dates">
-                            <div class="head">
-                                <span class="title">Date</span>
-                                <span class="title">Shared</span>
-                                <span class="title">Private</span>
-                                <span class="title">Booking</span>
-                            </div>
-                            <div class="dates-body">
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Jan - 24 Jan 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">Fully Booked</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Feb - 24 Feb 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">Fully Booked</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Mar - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Apr - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 May - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Jun - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Jul - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Aug - 24 Mar 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$999<del>$1399</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <span class="price">$1399<del>$1899</del></span>
-                                    </div>
-                                    <div class="item">
-                                        <a href="" class="primary-btn">apply now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p><strong>Note:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat laudantium debitis iusto vel dolorum similique facilis asperiores minima ratione</p>
-                        <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid" alt="">
-                    </div>
+
 
                     <div class="course-detail-wrapper">
                         <h2 class="main-title">what does the course fee include?</h2>
                         <div class="box-wrapper">
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/sports-car.png" class="img-fluid" alt="">
+                                <p class="text">FREE taxi pick-up (from Dehradun (DED) Airport)</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/dinner.png" class="img-fluid" alt="">
+                                <p class="text">Yogic Food (100% Vegetarian Meals)</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/accommodation.png" class="img-fluid" alt="">
+                                <p class="text">Accommodation with attached washroom</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/vegetable.png" class="img-fluid" alt="">
+                                <p class="text">Special Dietary (Raw, Vegan, Gluten-free)</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/wifi.png" class="img-fluid" alt="">
+                                <p class="text">24*7 Free Wi-Fi</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/cup-of-drink.png" class="img-fluid" alt="">
+                                <p class="text">2 times Tea a day (Indian/Ayurvedic/Herbal).</p>
+                            </div>
+                            <div class="box-holder">
+                                <img src="assets/images/icons/certificate.png" class="img-fluid" alt="">
+                                <p class="text">Certificate: 100 Hour Yoga TTC by School</p>
+                            </div>
+                            <div class="box-holder">
+                                <img src="assets/images/icons/open-book.png" class="img-fluid" alt="">
+                                <p class="text">Teaching Materials and Modules</p>
                             </div>
                         </div>
                     </div>
@@ -254,116 +153,140 @@
                         <h2 class="main-title">what is not included in the course fee?</h2>
                         <div class="box-wrapper">
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/ayurvedic.png" class="img-fluid" alt="">
+                                <p class="text">Ayurvedic Panchakarma & Treatment</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/air-conditioning.png" class="img-fluid" alt="">
+                                <p class="text">Air-conditioner (On Additional Charges)</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/airplane-ticket.png" class="img-fluid" alt="">
+                                <p class="text">Visa fee/ Air fare</p>
                             </div>
                             <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
-                            </div>
-                            <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
-                            </div>
-                            <div class="box-holder">
-                                <img src="assets/images/icons/quality.png" class="img-fluid" alt="">
-                                <p class="text">Free taxi pick-up (from dehradun (DED) Airport)</p>
+                                <img src="assets/images/icons/sports-car.png" class="img-fluid" alt="">
+                                <p class="text">Taxi pick-up from Delhi and Haridwar</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="course-detail-wrapper">
-                        <h2 class="main-title">10 days Yoga Retreat - Itinerary</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit iure vel. Suscipit nesciunt perferendis praesentium, totam quasi ut culpa voluptate mollitia explicabo sint facilis, deleniti dolorum rem aut nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="accordion">
-                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
-                            <div class="accordion-body">
-                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
-                            </div>
-                        </div>
-                        <div class="accordion">
-                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
-                            <div class="accordion-body">
-                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
-                            </div>
-                        </div>
-                        <div class="accordion">
-                            <h3 class="accordion-header">Can a beginner go on a yoga retreat?</h3>
-                            <div class="accordion-body">
-                                <p>Whether you are a beginner or an experienced yoga practitioner who is looking to improve their practice, a yoga retreat like Niya Yoga Studio is the best place to practice your yoga and to deep dive into this ancient practice. Here you can start your journey from learning the basics to becoming an experienced doer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="course-detail-wrapper">
-                        <h2 class="main-title">Daily schedule for 10 days yoga retreat</h2>
+                        <h2 class="main-title">Daily schedule for 10 Days Yoga Retreat in Rishikesh</h2>
                         <div class="schedule-dates daily-schedule">
                             <div class="head">
                                 <span class="title">Time</span>
-                                <span class="title">activity</span>
+                                <span class="title">Activity</span>
                             </div>
                             <div class="dates-body">
                                 <div class="dates-box">
                                     <div class="item">
-                                        <span class="course-date">1 Jan - 24 Jan 2024</span>
+                                        <span class="course-date">6:00</span>
                                     </div>
                                     <div class="item">
-                                        <span>Hatha Yoga</span>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Feb - 24 Jan 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span>Hatha Yoga</span>
+                                        <span>Wakeup</span>
                                     </div>
                                 </div>
                                 <div class="dates-box">
                                     <div class="item">
-                                        <span class="course-date">1 Mar - 24 Jan 2024</span>
+                                        <span class="course-date">7:00 to 8:00</span>
                                     </div>
                                     <div class="item">
-                                        <span>Hatha Yoga</span>
-                                    </div>
-                                </div>
-                                <div class="dates-box">
-                                    <div class="item">
-                                        <span class="course-date">1 Apr - 24 Jan 2024</span>
-                                    </div>
-                                    <div class="item">
-                                        <span>Hatha Yoga</span>
+                                        <span>Pranayama/Meditation</span>
                                     </div>
                                 </div>
                                 <div class="dates-box">
                                     <div class="item">
-                                        <span class="course-date">1 May - 24 Jan 2024</span>
+                                        <span class="course-date">8:30 to 10:00</span>
                                     </div>
                                     <div class="item">
-                                        <span>Hatha Yoga</span>
+                                        <span>Asana</span>
                                     </div>
                                 </div>
                                 <div class="dates-box">
                                     <div class="item">
-                                        <span class="course-date">1 June - 24 Jan 2024</span>
+                                        <span class="course-date">10:00 to 11:00</span>
                                     </div>
                                     <div class="item">
-                                        <span>Hatha Yoga</span>
+                                        <span>Breakfast</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">11:00 to 12:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Alignment</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">12:00 to 13:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Teaching Methodology</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">13:00 to 14:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Lunch</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">14:00 to 15:30</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Break or Self-study</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">15:30 to 17:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Asana</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">17:00 to 18:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Anatomy</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">18:00 to 19:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Philosophy</span>
+                                    </div>
+                                </div>
+                                <div class="dates-box">
+                                    <div class="item">
+                                        <span class="course-date">19:00</span>
+                                    </div>
+                                    <div class="item">
+                                        <span>Dinner</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p><strong>Note:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat laudantium debitis iusto vel dolorum similique facilis asperiores minima ratione</p>
+                        <p><strong>Note:</strong> Depending on the season, weather the timetable and timings can be
+                            subject to change.</p>
+
+                        <iframe width="100%" height="405"
+                            src="https://www.youtube.com/embed/v7AYKMP6rOE?si=-Fu0djH0cSNva_ok"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -374,35 +297,64 @@
     <section class="excursion-sec space bg">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">excursion / activity included</h1>
-                <span class="sub-title">every is an opportunity to grow, do not let it pass you by</span>
+                <h1 class="main-heading">Excursion / activity included</h1>
+                <span class="sub-title">Enjoy the course activities and excursions</span>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore modi porro temporibus blanditiis soluta quis repudiandae quia, aspernatur reprehenderit, nemo quas est omnis totam officia eius velit cum officiis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, numquam. Aspernatur, tempora. Unde itaque nesciunt vel sint eum vero deleniti excepturi similique. Impedit harum quam soluta a perferendis officiis dolor?</p>
             <div class="owl-carousel" id="excursion-carousel">
                 <div class="item">
-                    <img src="assets/images/blog1.jpg" alt="">
+                    <img src="assets/images/excursion-activity/pooja-ceremony.jpg" alt="">
                     <div class="body">
-                        <span class="title">Nayomi Mckenna</span>
+                        <span class="title">Pooja Ceremony
+                        </span>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="assets/images/blog1.jpg" alt="">
+                    <img src="assets/images/excursion-activity/kunjapuri.jpg" alt="">
                     <div class="body">
-                        <span class="title">Nayomi Mckenna</span>
+                        <span class="title">Kunjapuri Sunrise Trip
+                        </span>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="assets/images/blog1.jpg" alt="">
+                    <img src="assets/images/excursion-activity/ganga-arti.jpg" alt="">
                     <div class="body">
-                        <span class="title">Nayomi Mckenna</span>
+                        <span class="title">Paramarth Ganga Aarti
+                        </span>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="assets/images/blog1.jpg" alt="">
+                    <img src="assets/images/excursion-activity/vashishtha.jpg" alt="">
                     <div class="body">
-                        <span class="title">Nayomi Mckenna</span>
+                        <span class="title">Vashishtha Meditation Cave
+
+                        </span>
                     </div>
                 </div>
+                <div class="item">
+                    <img src="assets/images/excursion-activity/music-dance.jpg" alt="">
+                    <div class="body">
+                        <span class="title">Live Music Concert and Dance
+
+                        </span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/excursion-activity/cooking-class.jpg
+                    " alt="">
+                    <div class="body">
+                        <span class="title">
+                            Cooking Class
+                        </span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/excursion-activity/sound-healing.jpg" alt="">
+                    <div class="body">
+                        <span class="title">Sound Healing
+                        </span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -412,23 +364,20 @@
     <section class="welcome-section space">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">Yoga certification</h1>
-                <span class="sub-title">An International Retreat To Begin Your Journey to Inner Harmony</span>
+                <h1 class="main-heading">What is Yoga Retreat in Rishikesh?
+</h1>
+                <span class="sub-title">Best Place for Yoga Retreat Program in Rishikesh, India</span>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="assets/images/niya-yoga-retreat.jpg" class="img-fluid wlcm-img" alt="">
-                    <p>Welcome to Niya Yoga Studio, a beautiful place to nourish your mind, body, and soul. We are
-                        located in the heart of the yoga capital, Rishikesh, and dedicated to providing a nurturing Yoga
-                        retreat in Rishikesh for various individuals from around the world to explore the power of yoga.
-                        At Niya, we believe that we can positively transform both body and mind through the profound
-                        benefits of yoga. We are aiming to make this ancient practice easily accessible to all through
-                        our Yoga classes in Rishikesh.</p>
-                    <p>We offer a variety of yoga classes that are tailored to suit every individual's needs and
-                        preferences. We have a team of experienced yoga teachers to help you with guidance and classes
-                        throughout the journey. Whether you are a daily practitioner or a beginner, we have you covered.
-                        Our welcoming environment and supportive community will help guide you in cultivating inner
-                        peace. </p>
+                    <img src="assets/images/gallery/22.jpg" class="img-fluid wlcm-img" alt="">
+                    <p>In our daily grind, we constantly strive for a better lifestyle. We prioritize nourishing our bodies and making the best choices for ourselves, yet we often overlook the need to nurture our souls. This is where a yoga retreat comes in – offering a vital opportunity to rejuvenate, stepping away from the stress and chaos of our busy lives.
+
+                    </p>
+                    <p>It's truly remarkable that a yogic tradition dating back more than five thousand years has recently surged in popularity, becoming a way of life for many. Currently, many view yoga as crucial for a healthy and positive lifestyle but struggle to prioritize it due to busy schedules. This reflects a common issue of our time: people often prioritize tasks over self-care, neglecting to allocate sufficient time for personal well-being.</p>
+                    <p class="">
+                    But now, it's time for you to choose yourself over the pending assignments and begin your journey to Rishikesh for an ever astounding 14 days yoga retreat in Rishikesh! Attain the peace that you've been searching for and meditate in our heavenly ashram surrounded by mother nature in the laps of Rishikesh.
+                    </p>
                 </div>
             </div>
         </div>
@@ -439,29 +388,41 @@
     <section class="space food-accomodation bg">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">Learn from Our Passionate Yoga Gurus</h1>
-                <span class="sub-title">Practice and learn from Our Yoga Masters</span>
+                <h1 class="main-heading">Yogic food and clean accommodation</h1>
+                <span class="sub-title">Food for the Spirit, Shelter for the Soul</span>
             </div>
             <div class="retreat-card">
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
                         <div class="img-wrap">
-                            <img src="assets/images/10-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/food-yogic.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="content">
                             <h2 class="sub-heading"><span class="highlight">yogic</span> food</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea dolore nemo culpa cum veritatis eos, optio sint nihil dolores molestiae deleniti sequi ullam fugit explicabo sunt! Earum, iste corrupti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente officia optio eligendi, placeat ipsa assumenda neque voluptatem repellat est? Id cumque itaque veniam aliquam deleniti, unde nulla quisquam magni quos.</p>
-                            <h3 class="mini-heading">Reason to opt for this retreat:</h3>
+                            <p>The yoga way of life is complemented by yogic food, which is characterised by plainness,
+                                cleanliness, and harmony. For the most part, we offer a diet consisting mainly of fresh
+                                fruit and vegetables, whole grains, legumes, nuts, and seeds, along with limited dairy
+                                products. The foods that comprise it are very light on digestion and have no such things
+                                as processed or spicy flavours.</p>
+                            <p>
+                                This sort of diet promotes physical strength, mental lucidity, and spiritual recognition
+                                based on the yogic rules of ahimsa (non-violence), satya (truthfulness), and sattva
+                                (purity). Yogic food we offer also acts as a means of supporting yoga practice by
+                                nurturing the body while pacifying the mind, thus bringing about self-integration as
+                                well as global peace.
+                            </p>
                             <ul class="list">
-                                <li>Regular yoga sessions led by skilled instructors</li>
-                                <li>Get to connect with various like-minded individuals.</li>
-                                <li>Learning opportunities for personal growth and self-reflection.</li>
+                                <li>Fruit and vegetable-based: they are made up primarily of fruits, vegetables, grains,
+                                    legumes, as well as nuts and seeds.</li>
+                                <li>GLight and Digestible: The meals are easily broken down when taken and do not have
+                                    oily or heavy foods.</li>
+                                <li>Nutrient-rich: contains essential nutrients for physical energy and clear thinking.
+                                </li>
                                 <li>Healthy vegetarian meals for the nourishment of the body.</li>
-                                <li>Exclusive meditation sessions for inner peace.</li>
-                                <li>Outing to different sites alone along the Ganges River</li>
-                                <li>Accommodations like comfortable and peaceful retreats.</li>
+                                <li>EPromotes balance: supports the overall well-being of a person by promoting holistic
+                                    health that is governed by yogic principles of balance and purity.</li>
                             </ul>
                         </div>
                     </div>
@@ -472,21 +433,35 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
                         <div class="img-wrap">
-                            <img src="assets/images/10-days-yoga-retreats-rishikesh-niya-yoga-studio.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/accommation-retreat-offer.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="content">
                             <h2 class="sub-heading"><span class="highlight">neet and clean</span> accomodation</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea dolore nemo culpa cum veritatis eos, optio sint nihil dolores molestiae deleniti sequi ullam fugit explicabo sunt! Earum, iste corrupti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente officia optio eligendi, placeat ipsa assumenda neque voluptatem repellat est? Id cumque itaque veniam aliquam deleniti, unde nulla quisquam magni quos.</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus amet nobis pariatur? Totam vero, sint quisquam possimus minima earum assumenda doloremque fugiat nihil deserunt ratione sed neque dicta. Omnis!</p>
+                            <p>Experiencing Peace with Clean and Tidy Lodging for Your Yoga TTC in Rishikesh.
+                                We offer a comfortable and clean accommodation place for all the practitioners to make
+                                their stay and getting to and from the centre super easy, letting you really dive deep
+                                into the course.</p>
+                            <p>Niya Yoga Studio offers a variety of accommodations like cozy rooms and suites, which are
+                                fully furnished in a way that ensures comfort and relaxation. Depending on an
+                                individual’s preferences and needs, there are single, double or shared occupancy rooms.
+                            </p>
+                            <p>
+                                There is free Wi-Fi within the compound so that visitors can be able to connect with
+                                their loved ones or even attend to some official duties if necessary; nevertheless, the
+                                tranquil surroundings encourage people to switch off from everything else around them
+                                thus saturating themselves wholly in their yoga practices and retreats.
+                            </p>
                             <ul class="list">
-                                <li>Nutritious vegetarian meals to support your well-being</li>
-                                <li>Daily yoga sessions tailored for all levels</li>
-                                <li>Outing to ancient temples and natural wonders</li>
-                                <li>Guided meditation practices for inner peace and clarity</li>
-                                <li>Guided meditation practices for inner peace and clarity</li>
-                                <li>Guided meditation practices for inner peace and clarity</li>
+                                <li>Serene Location: Find calm surroundings that are perfect for going deeper into your
+                                    yoga practice and chilling out.</li>
+                                <li>Comfy quarters: Spend time in comfortable rooms that are kept in good condition and
+                                    style. It's made to comfort you after a day filled with learning.</li>
+                                <li>Neat Services: Use sparkling clean bathrooms and facilities with all you need. It's
+                                    made to take the stress of your stay away and help keep you vibrant</li>
+                                <li>Secure Place: Don't worry, you're in a safe place, which helps you focus on your
+                                    yoga path only.</li>
                             </ul>
                         </div>
                     </div>
@@ -496,166 +471,16 @@
     </section>
     <!-- end -->
 
-     <!-- studen review -->
-     <section class="space student-reviews">
-        <div class="container">
-            <div class="heading-wrap">
-                <h1 class="main-heading">Hear What Our Students Say</h1>
-                <span class="sub-title">Connect with the Stories Behind the Practice</span>
-            </div>
-            <div class="owl-carousel" id="students-review">
-                <div class="review-item">
-                    <img src="assets/images/icons/facebook-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/vyakhya-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">elena v.</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>The January 2024 Niya Yoga Rishikesh Retreat was amazing. Our two week program was filled with
-                        four daily yoga classes, with shared meals, with small and large ceremonies, with temple and
-                        ashram explorations, with market shopping, and with so much more. There was great opportunity
-                        for cultural exchange between teachers and students and for individual observation of this
-                        wonderful small part of India. I would gratefully attend again.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/supriya-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">arunima shrivastav</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Just returned from Niya Yoga retreat in Rishikesh India, what can I say, it superseeded all my
-                        expectations, it was an amazing experience! The Niya team based in Rishikesh were outstanding
-                        teachers with a wealth of experience and knowledge who gave specific daily classes in asana,
-                        meditation and pranayama. The classes progressed over the 2 weeks with all teachers giving
-                        individual attention to every student bringing them on a journey within their practice. These
-                        classes were interspersed with fantastic excursions and really enjoyable activities where
-                        teachers often joined in the fun letting us get to know each one of them on a personal basis. We
-                        were looked after so well, always having the support of the team who also added a whole lot of
-                        joy and fun to the entire experience. They were really amazing, so kind and helpful. Our
-                        accommodation was very nice, the hotel staff were so accommodating and always tried their best
-                        to make our stay enjoyable. The food was fabulous- we all enjoyed the Indian food (both in the
-                        hotel and outside in cafes and restaurants) and came home addicted to Indian chai 😂. I love
-                        yoga and this retreat has brought me to another of understanding as well as making new life long
-                        friends. So well done Nayomi and the Niya team for providing a first class retreat! And thank
-                        you for such a wonderful and truly memorable experience. ❤️</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/jeevan-student-review.png" class="img-fluid user-img" alt="">
-                        <span class="name">geneva gray</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Nayomi is amazing and absolutely top notch! Attending her classes regularly is truly a life
-                        changer. Very authentic, professional and focused on every Individuals needs and progress. Best
-                        Yoga classes I've ever attended. She provides a safe space and does everything to improve your
-                        ability. I'm literally blown away every time I go ♥️</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/facebook-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/user.png" class="img-fluid user-img" alt="">
-                        <span class="name">David K.</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p> I had the pleasure and privilege of joining Nayomi and the Niya team in Rishikesh for their
-                        retreat in January.
-                        We enjoyed the warmest welcome on arrival and thereafter from all the beautiful people we met on
-                        our travels.
-                        We had a fantastic daily yoga, Pranayama and meditation programme catered for our level and
-                        learned so much from very accomplished and wonderful teachers to take with us into our daily
-                        practice.
-                        We were extremely well looked after in all aspects of the holiday by the team who were available
-                        to us at all times ensuring all our needs were met And that we were happy and comfortable . The
-                        hotel was very well located within walking distance of beautiful walks and near the local
-                        markets and all the lovely cafes and eateries we enjoyed. And the hotel food was delicious and
-                        the staff were extremely attentive .
-                        The team organised excursions and ceremonies , and they joined us to share their knowledge in
-                        the local culture and history ,with trips to temples ,the mountains and the famous Ganges . We
-                        had yoga on the beach and meditated amidst waterfalls . We enjoyed excellent cuisine and
-                        shopping out and about .
-                        All the extra touches such as the massage ,Henna tattoo session , Bollywood lessons, Kirtan and
-                        cooking lessons added an extra fun vibe to our holiday.
-                        I would highly recommend Niya’s yoga retreat where you meet the most wonderful team of people
-                        and enjoy the most beautiful Indian cultural and yoga experience.
-                        It far exceeded my expectations..
-                        I’ve come away with an added appreciation for life, health and happiness.
-                        And I will hopefully meet the Niya team again in the future.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/lusin.png" class="img-fluid user-img" alt="">
-                        <span class="name">Lusin Hidiroglu</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>The yoga retreat organized by Niya Yoga Studio was a transformative experience for me. Surrounded
-                        by nature and guided by knowledgeable instructors, I was able to learn different yoga styles
-                        with perfection.</p>
-                </div>
-                <div class="review-item">
-                    <img src="assets/images/icons/google-review.jpg" class="source-icon" alt="">
-                    <div class="author-detail">
-                        <img src="assets/images/reviews/Sharon_Hughes.png" class="img-fluid user-img" alt="">
-                        <span class="name">Sharon Hughes</span>
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <p>Beautiful studio and really amazing teachers. The staff are lovely and welcoming. There are a
-                        variety of different classes throughout the day, everyday. There's plenty of space for each
-                        student and it's well supplied with yoga mats, blocks, blankets, yoga straps, cushions and
-                        bolsters. Everything is cleaned throughly between each class.</p>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <a href="" class="primary-btn">Read All Reviews</a>
-            </div>
-        </div>
-    </section>
+    <!-- studen review -->
+    <?php include('include/student-review.php') ?>
     <!-- end -->
 
-     <!-- join banner -->
-     <section class="join-banner">
+    <!-- Join banner -->
+    <section class="join-banner">
         <div class="title-holder">
-            <span class="sub-title">yoga retreat and Yoga Retreats in Rishikesh, India</span>
-            <h2 class="banner-title">get your yoga certification today</h2>
-            <a href="" class="primary-btn">click here to join</a>
+            <span class="sub-title">Yoga TTC and Yoga Retreats in Rishikesh, India</span>
+            <h2 class="banner-title">Get your yoga certification today</h2>
+            <a href="contact-us.php" class="primary-btn">click here to join</a>
         </div>
     </section>
     <!-- end -->
@@ -664,12 +489,14 @@
     <section class="yoga-syllabus space">
         <div class="container">
             <div class="heading-wrap">
-                <h1 class="main-heading">10 daysHR course syllabus</h1>
-                <span class="sub-title">Connect with the Stories Behind the Practice</span>
+                <h1 class="main-heading">10 days yoga retreat in Rishikesh syllabus</h1>
+                <span class="sub-title">Course Syllabus - 10 days yoga retreat in Rishikesh In Rishikesh India</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nobis quos eum maiores dolores consectetur sunt fugit asperiores at commodi, ab, quo voluptatibus veniam sequi non dolorem, blanditiis aut eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste repellendus sapiente eius dicta alias ipsum natus mollitia quas deleniti minus quam, praesentium, ipsa eos! Pariatur odit magnam qui numquam asperiores!</p>
-            <p>The Following subjects are Lorem ipsum dolor sit amet consectetur adipisicing elit-:</p>
-
+            <p>Our 10-day yoga retreat in Rishikesh offers a greatly transformative experience for all individuals. Each day will begin with a morning practice and ritual to help you set a mindful tone for the day. Throughout the retreat, you will be given the chance to engage in numerous yoga asana practices, such as restorative sessions, Vinayasa flows, and Hatha yoga, which will directly help you improve your overall flexibility, physical strength, and relaxation. Additionally, you will also get to experience workshops on Ayurveda and paranayama for better understanding and learning. 
+</p>
+<p>
+The following are the subjects included in our exclusive 10-day syllabus; have a look at them:
+</p>
             <div class="syllabus-wrapper">
                 <div class="syllabus-card">
                     <div class="count">
@@ -677,7 +504,7 @@
                     </div>
                     <div class="content">
                         <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Deep insights into the inner workings of the human body.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -685,8 +512,8 @@
                         <span>02</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Sanskrit</span>
+                        <p>Learn Sanskrit names of postures and how to pronounce them.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -694,8 +521,8 @@
                         <span>03</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Asana Practice</span>
+                        <p>Art of adjustment.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -703,8 +530,8 @@
                         <span>04</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Meditation</span>
+                        <p>How meditation is an integral part of Yoga and the way it can be practiced.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -712,8 +539,8 @@
                         <span>05</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Restorative Yoga</span>
+                        <p>Practicing and Teaching Restorative Yoga.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -721,8 +548,8 @@
                         <span>06</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Chants/Mantras</span>
+                        <p>There are right ways to chant or recite mantras.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -730,8 +557,8 @@
                         <span>07</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Philosophy</span>
+                        <p>A wider set of Vedic ideas that have influenced modern Yoga’s development.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -739,8 +566,9 @@
                         <span>08</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Asana & Prop usage</span>
+                        <p>Using physical props to support postural understanding, enhance the benefits of the pose and
+                            facilitate healing.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -748,8 +576,9 @@
                         <span>09</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Pranayama</span>
+                        <p>Learn to interpret breathing patterns and provide practices to correct and improve physical
+                            condition.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -757,8 +586,8 @@
                         <span>10</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Yoga Sutras</span>
+                        <p>The spiritual framework of all Yogic practice.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
@@ -766,17 +595,17 @@
                         <span>11</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Yoga Alignment and adjustment</span>
+                        <p>How Yoga Asanas are align and how to adjust them correctly.</p>
                     </div>
                 </div>
                 <div class="syllabus-card">
                     <div class="count">
-                        <span>12</span>
+                        <span>10</span>
                     </div>
                     <div class="content">
-                        <span class="title">Anatomy & Physiology</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="title">Ayurveda</span>
+                        <p>You will learn modern and ancient botth ayurveda for better yogic life.</p>
                     </div>
                 </div>
             </div>
@@ -789,7 +618,7 @@
         <div class="container">
             <div class="heading-wrap">
                 <h1 class="main-heading">Related Yoga course</h1>
-                <span class="sub-title">We Provide 10 daysHr, 200Hr yoga retreat and Yoga Retreat Programs in Rishikesh,
+                <span class="sub-title">We Provide 100Hr, 200Hr Yoga TTC and Yoga Retreat Programs in Rishikesh,
                     India</span>
             </div>
             <div class="owl-carousel" id="program-scroller">
@@ -800,7 +629,7 @@
                     <img src="assets/images/yoga-course-ttc-nrishikesh-01.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">10 days yoga</h2>
+                            <h2 class="title">100 hour yoga</h2>
                             <span class="sub-title">teacher Training course</span>
                         </div>
 
@@ -817,7 +646,7 @@
                     <img src="assets/images/yoga-course-ttc-nrishikesh-02.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">200 yoga</h2>
+                            <h2 class="title">200 hour yoga</h2>
                             <span class="sub-title">teacher Training course</span>
                         </div>
 
@@ -834,12 +663,12 @@
                     <img src="assets/images/yoga-course-ttc-nrishikesh-03.jpg" class="img-fluid" alt="">
                     <div class="description">
                         <div class="head">
-                            <h2 class="title">10 days Yoga retreat</h2>
+                            <h2 class="title">7 Days Yoga</h2>
                             <span class="sub-title">Retreat Program in Rishikesh</span>
                         </div>
 
                         <div class="body">
-                            <span><i class="fa-regular fa-clock"></i> 10 days</span>
+                            <span><i class="fa-regular fa-clock"></i> 7 days</span>
                             <a href="" class="primary-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -882,7 +711,7 @@
         </div>
     </section>
     <!-- End -->
-    
+
     <!-- Gallery -->
     <?php include('include/gallery.php') ?>
     <!-- end -->
