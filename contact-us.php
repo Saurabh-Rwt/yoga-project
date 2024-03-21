@@ -29,32 +29,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <form action="">
+                    <form id="contact-form">
                         <span class="sub-title">Join Us To Get Yoga TTC Course, Yoga Retreat or Yoga Classes</span>
                         <h1 class="main-heading">CONTACT WITH US</h1>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
                                     <label for="name">Name<sup>*</sup></label>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
                                     <input type="number" class="form-control" name="phone_number" id="phone_number"
-                                        placeholder="Phone Number">
+                                        placeholder="Phone Number" required>
                                     <label for="phone_number">contact number<sup>*</sup></label>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="email">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
                                     <label for="email">Email<sup>*</sup></label>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-floating">
-                                    <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea name="message" id="" class="form-control" cols="30" rows="10" placeholder="Message" required></textarea>
                                     <label for="email">Message<sup>*</sup></label>
                                 </div>
                             </div>

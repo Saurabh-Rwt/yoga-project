@@ -33,7 +33,48 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+/*------------ mail --------------*/
+$("#contact-form, #apply-form").submit(function (e) {
+  e.preventDefault();
+  if (this.id === 'contact-form') {
+    action_url = 'vendor/mail.php';
+  }
+  if (this.id === 'apply-form') {
+    action_url = 'vendor/apply-mail.php';
+  }
+  const form = $(this);
+  const submit_button = form.find("button[type='submit']");
+  const button_text = submit_button.html();
+  submit_button.prop('disabled', true);
+  submit_button.html("Please wait...");
+  let data = form.serialize();
 
+  $.ajax({
+    url: action_url,
+    method: 'POST',
+    data: data,
+    dataType: 'json',
+    success: function (data) {
+      if (data.status) {
+        form.trigger('reset');
+      }
+      // const responseMessage = '<h3 class="res-msg">' + data.message + '</h3>';
+      // $(responseMessage).insertBefore(submit_button);
+      const resModal = document.getElementById("bookNow-modal");
+      const closeBtn = document.getElementById("success-close");
+      resModal.classList.add("modal");
+      resModal.classList.add("show");
+      resModal.style.display = "block";
+      submit_button.prop('disabled', false);
+      submit_button.html(button_text);
+
+      closeBtn.addEventListener('click', ()=>{
+        resModal.classList.remove("show");
+        resModal.style.display = "none";
+      })
+    }
+  });
+});
 
 /*---------- banner ---------- */
 $("#hero-slider").owlCarousel({
